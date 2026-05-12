@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Anker PowerCore 20000mAh PD",
+    "price": "Ksh 6,500",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/qBFCmp26/Anker-Power-Core-20000m-Ah-PD.webp",
+    "inStock": true,
+    "description": "High-capacity Anker powerbank with Power Delivery support, capable of fast charging phones and even tablets efficiently.",
+    "features": ["20000mAh Capacity", "Power Delivery (PD)", "Fast Charging", "Premium Build"],
+    "specs": {
+      "capacity": "20000mAh",
+      "output": "18W PD",
+      "ports": "USB-C, USB-A",
+      "compatibility": "iPhone, Samsung, Tablets",
+      "safety": "MultiProtect Safety System"
+    },
+    "warning": "Use a compatible fast-charging cable for best performance.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Oraimo Traveler 20000mAh Powerbank",
+    "price": "Ksh 2,500",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/Jn5Cs7mX/Oraimo-Traveler-20000m-Ah-Powerbank.webp",
+    "inStock": true,
+    "description": "Affordable and widely used powerbank in Kenya with large capacity and reliable performance.",
+    "features": ["20000mAh Capacity", "Dual USB Output", "LED Indicator", "Affordable"],
+    "specs": {
+      "capacity": "20000mAh",
+      "output": "10W",
+      "ports": "USB-A x2",
+      "compatibility": "Android, iPhone",
+      "safety": "Overcharge Protection"
+    },
+    "warning": "Charging speed is standard, not fast charging.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi Mi 10000mAh Fast Charge Powerbank",
+    "price": "Ksh 2,800",
+    "tag": "Best Value",
+    "image": "https://i.postimg.cc/DwprK1Xw/Xiaomi-Mi-10000m-Ah-Fast-Charge-Powerbank.jpg",
+    "inStock": true,
+    "description": "Slim and portable Xiaomi powerbank with fast charging support and premium build quality.",
+    "features": ["10000mAh", "Fast Charging", "Slim Design", "Metal Body"],
+    "specs": {
+      "capacity": "10000mAh",
+      "output": "18W",
+      "ports": "USB-C, USB-A",
+      "compatibility": "iPhone, Android",
+      "safety": "Temperature Control"
+    },
+    "warning": "Lower capacity compared to 20000mAh models.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Samsung 10000mAh Wireless Powerbank",
+    "price": "Ksh 5,500",
+    "tag": "Premium",
+    "image": "https://i.postimg.cc/7L1WVBcy/Samsung-10000m-Ah-Wireless-Powerbank.jpg",
+    "inStock": true,
+    "description": "Premium Samsung powerbank with wireless charging capability and sleek design.",
+    "features": ["Wireless Charging", "Fast Charging", "Slim Design", "Samsung Quality"],
+    "specs": {
+      "capacity": "10000mAh",
+      "output": "25W",
+      "ports": "USB-C",
+      "compatibility": "Samsung, iPhone (wireless)",
+      "safety": "Overheat Protection"
+    },
+    "warning": "Wireless charging is slower than wired charging.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Baseus 30000mAh Amblight Powerbank",
+    "price": "Ksh 6,000",
+    "tag": "Heavy Duty",
+    "image": "https://i.postimg.cc/3JPfH5QR/Baseus-30000m-Ah-Amblight-Powerbank.jpg",
+    "inStock": true,
+    "description": "Ultra high-capacity powerbank ideal for heavy users and travel. Can charge multiple devices multiple times.",
+    "features": ["30000mAh Capacity", "Fast Charging", "Digital Display", "Multi-device"],
+    "specs": {
+      "capacity": "30000mAh",
+      "output": "22.5W",
+      "ports": "USB-A x2, USB-C",
+      "compatibility": "All smartphones, tablets",
+      "safety": "Advanced Protection"
+    },
+    "warning": "Bulky compared to smaller powerbanks.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Infinix 20000mAh Fast Charge Powerbank",
+    "price": "Ksh 2,200",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/Dyb56j4f/Infinix-20000m-Ah-Fast-Charge-Powerbank.jpg",
+    "inStock": true,
+    "description": "Reliable Infinix powerbank with fast charging support and good battery backup for daily use.",
+    "features": ["20000mAh", "Fast Charging", "Dual Output"],
+    "specs": {
+      "capacity": "20000mAh",
+      "output": "18W",
+      "ports": "USB-A x2, USB-C",
+      "compatibility": "Infinix, Android, iPhone",
+      "safety": "Overcharge Protection"
+    },
+    "warning": "Fast charging depends on device support.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Tecno 10000mAh Powerbank",
+    "price": "Ksh 1,800",
+    "tag": "Budget",
+    "image": "https://i.postimg.cc/T3Jsj7FN/Tecno-10000m-Ah-Powerbank.jpg",
+    "inStock": true,
+    "description": "Budget-friendly powerbank suitable for light users and daily charging needs.",
+    "features": ["10000mAh", "Affordable", "Portable"],
+    "specs": {
+      "capacity": "10000mAh",
+      "output": "10W",
+      "ports": "USB-A x2",
+      "compatibility": "Android, iPhone",
+      "safety": "Basic Protection"
+    },
+    "warning": "Not suitable for heavy users or multiple charges.",
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Oraimo PowerBox 40000mAh Powerbank",
+    "price": "Ksh 5,500",
+    "tag": "Extreme",
+    "image": "https://i.postimg.cc/PqF2KB4F/Oraimo-Power-Box-40000m-Ah-Powerbank.jpg",
+    "inStock": true,
+    "description": "Massive capacity powerbank designed for long trips and heavy usage. Can charge multiple devices many times.",
+    "features": ["40000mAh Capacity", "Multi-device Charging", "LED Display", "Long Backup"],
+    "specs": {
+      "capacity": "40000mAh",
+      "output": "15W",
+      "ports": "USB-A x3",
+      "compatibility": "All smartphones",
+      "safety": "Overcharge Protection"
+    },
+    "warning": "Large and heavy; not ideal for everyday carry.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  }
+]

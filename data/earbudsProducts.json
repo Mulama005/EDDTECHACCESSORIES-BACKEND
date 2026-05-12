@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "name": "AirPods Pro (2nd Gen USB-C)",
+    "price": "Ksh 38,000",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/2y1kjSzD/Air-Pods-Pro-(2nd-Gen-USB-C).jpg",
+    "inStock": true,
+    "description": "Apple’s most advanced earbuds featuring Active Noise Cancellation, Adaptive Audio, and seamless integration with iPhone. Offers excellent sound clarity, spatial audio, and improved battery life with USB-C charging.",
+    "features": [
+      "Active Noise Cancellation",
+      "Adaptive Audio",
+      "Spatial Audio",
+      "USB-C Charging",
+      "MagSafe Case"
+    ],
+    "colorOptions": ["White"],
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy Buds 3 Pro",
+    "price": "Ksh 28,000",
+    "tag": "New",
+    "image": "https://i.postimg.cc/26Vyywwb/Samsung-Galaxy-Buds-3-Pro.webp",
+    "inStock": true,
+    "description": "Samsung’s latest premium earbuds with powerful ANC, AI-powered sound optimization, and 360 Audio. Perfect for Galaxy users with seamless connectivity and high-quality calls.",
+    "features": [
+      "ANC",
+      "360 Audio",
+      "AI Sound Optimization",
+      "Wireless Charging",
+      "IPX7 Water Resistance"
+    ],
+    "colorOptions": ["Black", "White"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Sony WF-1000XM5",
+    "price": "Ksh 40,000",
+    "tag": "Premium",
+    "image": "https://i.postimg.cc/524xjg9Q/Sony-WF-1000XM5.jpg",
+    "inStock": true,
+    "description": "Top-tier Sony earbuds with industry-leading noise cancellation, rich sound quality, and compact design. Ideal for audiophiles looking for premium listening experience.",
+    "features": [
+      "Best ANC",
+      "Hi-Res Audio",
+      "8hr Battery",
+      "Wireless Charging",
+      "Multipoint"
+    ],
+    "colorOptions": ["Black", "Silver"],
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "JBL Live Pro 2 TWS",
+    "price": "Ksh 22,000",
+    "tag": null,
+    "image": "https://i.postimg.cc/QNgG57yY/JBL-Live-Pro-2-TWS.webp",
+    "inStock": true,
+    "description": "Well-balanced earbuds with adaptive noise cancelling, strong bass, and long battery life. Great for everyday use with JBL signature sound.",
+    "features": [
+      "Adaptive ANC",
+      "40hr Battery",
+      "JBL Signature Sound",
+      "Dual Connect",
+      "Fast Pair"
+    ],
+    "colorOptions": ["Black", "Blue", "Silver"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Oraimo FreePods 4",
+    "price": "Ksh 6,500",
+    "tag": "Best Value",
+    "image": "https://i.postimg.cc/P59F0fR0/Oraimo-Free-Pods-4.avif",
+    "inStock": true,
+    "description": "Affordable true wireless earbuds with decent sound, good battery life, and stylish design. Ideal for budget-conscious users.",
+    "features": [
+      "Deep Bass",
+      "Bluetooth 5.3",
+      "Long Battery Life",
+      "Touch Controls"
+    ],
+    "colorOptions": ["Black", "White"],
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Anker Soundcore Liberty 4 NC",
+    "price": "Ksh 15,000",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/7Lrng5cM/Anker-Soundcore-Liberty-4-NC.webp",
+    "inStock": true,
+    "description": "Feature-packed earbuds offering strong ANC, customizable EQ, and excellent battery life at a competitive price.",
+    "features": [
+      "Strong ANC",
+      "50hr Battery",
+      "Custom EQ",
+      "Wireless Charging",
+      "Multipoint"
+    ],
+    "colorOptions": ["Black", "White", "Blue"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Redmi Buds 5 Pro",
+    "price": "Ksh 12,000",
+    "tag": "New",
+    "image": "https://i.postimg.cc/dQhncc8Z/Redmi-Buds-5-Pro.webp",
+    "inStock": true,
+    "description": "Great mid-range earbuds with solid ANC, good sound performance, and modern design. Excellent value for money.",
+    "features": [
+      "ANC",
+      "Hi-Fi Sound",
+      "38hr Battery",
+      "Fast Charging"
+    ],
+    "colorOptions": ["Black", "White"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Tecno Sonic 2",
+    "price": "Ksh 5,000",
+    "tag": "Sale",
+    "image": "https://i.postimg.cc/Dw61bxr7/Tecno-Sonic-2.webp",
+    "inStock": true,
+    "description": "Entry-level earbuds with decent audio, lightweight build, and reliable connectivity for everyday use.",
+    "features": [
+      "True Wireless",
+      "Lightweight",
+      "Affordable",
+      "Touch Controls"
+    ],
+    "colorOptions": ["Black", "White"],
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  }
+]

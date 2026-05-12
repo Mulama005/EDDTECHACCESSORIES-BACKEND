@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "name": "Apple EarPods (USB-C / Lightning)",
+    "price": "Ksh 1,200",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/8cV0C1Qw/Apple-Ear-Pods.webp",
+    "inStock": true,
+    "description": "Apple’s official wired earphones with a comfortable open-fit design. Offers clear vocals, balanced sound, and seamless compatibility with iPhones and USB-C devices. Includes in-line controls for calls and music.",
+    "features": [
+      "Clear Audio",
+      "In-line Controls",
+      "Built-in Mic",
+      "USB-C/Lightning",
+      "Comfort Fit"
+    ],
+    "colorOptions": ["White"],
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Samsung AKG Type-C Earphones",
+    "price": "Ksh 1,000",
+    "tag": "Best Value",
+    "image": "https://i.postimg.cc/gkh3Dvhp/Samsung-AKG-Type-C-Earphones.webp",
+    "inStock": true,
+    "description": "AKG-tuned Samsung earphones delivering rich bass and clear highs. Designed for modern phones without headphone jacks, offering premium sound at an affordable price.",
+    "features": [
+      "AKG Tuned Sound",
+      "Type-C",
+      "Deep Bass",
+      "Noise Isolation",
+      "Mic & Controls"
+    ],
+    "colorOptions": ["Black", "White"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Sony MDR-EX15AP",
+    "price": "Ksh 1,200",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/J40xwSmC/Sony-MDR-EX15AP.avif",
+    "inStock": true,
+    "description": "Reliable Sony wired earphones with powerful bass and comfortable silicone tips. Ideal for everyday music listening with good sound isolation.",
+    "features": [
+      "Extra Bass",
+      "3.5mm Jack",
+      "Noise Isolation",
+      "Lightweight",
+      "Mic"
+    ],
+    "colorOptions": ["Black", "Blue", "Pink"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "JBL Tune 110",
+    "price": "Ksh 1,000",
+    "tag": null,
+    "image": "https://i.postimg.cc/wMv0M349/JBL-Tune-110.webp",
+    "inStock": true,
+    "description": "JBL wired earphones with signature Pure Bass sound. Durable flat cable design prevents tangling and ensures long-lasting use.",
+    "features": [
+      "JBL Pure Bass",
+      "Tangle-Free Cable",
+      "3.5mm Jack",
+      "Lightweight",
+      "Mic"
+    ],
+    "colorOptions": ["Black", "Blue", "Red"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Oraimo Type-C Wired Earphones",
+    "price": "Ksh 600",
+    "tag": "Budget",
+    "image": "https://i.postimg.cc/D0BHptHz/Oraimo-Type-C-Wired-Earphones.png",
+    "inStock": true,
+    "description": "Affordable wired earphones popular in Kenya, offering strong bass and reliable performance for everyday use.",
+    "features": [
+      "Deep Bass",
+      "Type-C",
+      "Built-in Mic",
+      "Lightweight",
+      "Affordable"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Infinix XE10 Wired Earphones",
+    "price": "Ksh 500",
+    "tag": "Sale",
+    "image": "https://i.postimg.cc/CL0x3DtC/Infinix-XE10-Wired-Earphones.jpg",
+    "inStock": true,
+    "description": "Entry-level wired earphones with decent sound quality and a comfortable fit. Ideal for calls, classes, and casual listening.",
+    "features": [
+      "3.5mm Jack",
+      "Stereo Sound",
+      "Built-in Mic",
+      "Lightweight"
+    ],
+    "colorOptions": ["Black", "White"],
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Xiaomi Mi In-Ear Basic",
+    "price": "Ksh 800",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/SKxXw8nZ/Xiaomi-Mi-In-Ear-Basic.webp",
+    "inStock": true,
+    "description": "Minimalist earphones with aluminum build and clean sound profile. Offers good durability and balanced audio for the price.",
+    "features": [
+      "Metal Build",
+      "Balanced Sound",
+      "3.5mm Jack",
+      "Mic"
+    ],
+    "colorOptions": ["Black", "Silver"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Huawei CM33 USB-C Earphones",
+    "price": "Ksh 1,200",
+    "tag": "New",
+    "image": "https://i.postimg.cc/s24BLmff/Huawei-CM33-USB-C-Earphones.jpg",
+    "inStock": true,
+    "description": "USB-C digital earphones with clear sound output and stable connectivity. Ideal for newer Android phones without headphone jacks.",
+    "features": [
+      "USB-C Digital Audio",
+      "Clear Sound",
+      "Mic & Controls",
+      "Comfort Fit"
+    ],
+    "colorOptions": ["White"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  }
+]

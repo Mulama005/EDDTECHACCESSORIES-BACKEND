@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "name": "Apple 67W USB-C Power Adapter",
+    "price": "Ksh 9,500",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/DyFNDc2G/Apple-67W-USB-C-Power-Adapter.webp",
+    "inStock": true,
+    "description": "Official Apple fast charger designed for MacBook Air and MacBook Pro. Delivers efficient and safe charging with USB-C Power Delivery support.",
+    "features": [
+      "Fast Charging",
+      "USB-C Power Delivery",
+      "Compact Design",
+      "Original Apple Quality"
+    ],
+    "specs": {
+      "power": "67W",
+      "port": "USB-C",
+      "compatibility": "MacBook Air, MacBook Pro",
+      "safety": "Over-voltage Protection",
+      "cable": "USB-C Cable Required"
+    },
+    "warning": "Ensure your device supports USB-C Power Delivery before use.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Dell 65W USB-C Laptop Charger",
+    "price": "Ksh 6,500",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/brPm7zfW/Dell-65W-USB-C-Laptop-Charger.webp",
+    "inStock": true,
+    "description": "Reliable Dell USB-C charger compatible with most modern Dell laptops. Provides stable power delivery and efficient charging.",
+    "features": [
+      "USB-C Charging",
+      "Fast Charge Support",
+      "Lightweight",
+      "Durable Build"
+    ],
+    "specs": {
+      "power": "65W",
+      "port": "USB-C",
+      "compatibility": "Dell XPS, Latitude, Inspiron",
+      "safety": "Short Circuit Protection",
+      "cable": "Included"
+    },
+    "warning": "Check your laptop supports USB-C charging before purchase.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "HP 90W Smart Laptop Charger",
+    "price": "Ksh 4,500",
+    "tag": "Best Value",
+    "image": "https://i.postimg.cc/25BT3qzs/HP-90W-Smart-Laptop-Charger.webp",
+    "inStock": true,
+    "description": "High-performance HP charger with smart pin technology for stable and efficient power delivery across multiple HP laptops.",
+    "features": [
+      "Smart Pin Technology",
+      "Stable Power Output",
+      "Wide Compatibility",
+      "Durable Cable"
+    ],
+    "specs": {
+      "power": "90W",
+      "port": "Barrel Pin",
+      "compatibility": "HP Pavilion, EliteBook, ProBook",
+      "safety": "Overheat Protection",
+      "cable": "Fixed Cable"
+    },
+    "warning": "Ensure the connector pin matches your HP laptop model.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Lenovo 65W USB-C Charger",
+    "price": "Ksh 5,500",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/MpnmrcjV/Lenovo-65W-USB-C-Charger.webp",
+    "inStock": true,
+    "description": "Compact and efficient Lenovo USB-C charger designed for ThinkPad and IdeaPad series. Ideal for travel and everyday use.",
+    "features": [
+      "Compact Design",
+      "Fast Charging",
+      "USB-C PD",
+      "Travel Friendly"
+    ],
+    "specs": {
+      "power": "65W",
+      "port": "USB-C",
+      "compatibility": "ThinkPad, IdeaPad",
+      "safety": "Overcurrent Protection",
+      "cable": "Included"
+    },
+    "warning": "Confirm your device supports USB-C charging.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "ASUS 120W Gaming Laptop Charger",
+    "price": "Ksh 8,500",
+    "tag": "Gaming",
+    "image": "https://i.postimg.cc/YCTqtqz6/ASUS-ROG-Zephyrus-G14.webp",
+    "inStock": true,
+    "description": "High-wattage charger built for ASUS gaming laptops. Ensures stable power delivery during heavy gaming and performance tasks.",
+    "features": [
+      "High Power Output",
+      "Gaming Optimized",
+      "Fast Charging",
+      "Durable Build"
+    ],
+    "specs": {
+      "power": "120W",
+      "port": "Barrel Pin",
+      "compatibility": "ASUS ROG, TUF",
+      "safety": "Heat Protection",
+      "cable": "Fixed Cable"
+    },
+    "warning": "Use only with compatible ASUS models to avoid damage.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Universal Laptop Charger 90W (Multi-tip)",
+    "price": "Ksh 3,500",
+    "tag": "Best Value",
+    "image": "https://i.postimg.cc/6p4CfDDp/Universal-Laptop-Charger-90W-(Multi-tip).webp",
+    "inStock": true,
+    "description": "Versatile universal charger with multiple connector tips, compatible with a wide range of laptop brands. Ideal backup solution.",
+    "features": [
+      "Multiple Tips",
+      "Adjustable Voltage",
+      "Wide Compatibility",
+      "Affordable"
+    ],
+    "specs": {
+      "power": "90W",
+      "port": "Multi-tip",
+      "compatibility": "HP, Dell, Lenovo, Acer, ASUS",
+      "safety": "Surge Protection",
+      "cable": "Multiple Tips Included"
+    },
+    "warning": "Ensure correct voltage and connector tip before use to avoid damaging your device.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Acer 65W Slim Laptop Charger",
+    "price": "Ksh 4,000",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/6p4CfDDp/Universal-Laptop-Charger-90W-(Multi-tip).webp",
+    "inStock": true,
+    "description": "Slim and portable Acer charger designed for everyday use. Provides efficient charging with minimal heat output.",
+    "features": [
+      "Slim Design",
+      "Portable",
+      "Efficient Charging"
+    ],
+    "specs": {
+      "power": "65W",
+      "port": "Barrel Pin",
+      "compatibility": "Acer Aspire, Swift",
+      "safety": "Overload Protection",
+      "cable": "Fixed Cable"
+    },
+    "warning": "Confirm compatibility with your Acer model before purchase.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Anker 100W USB-C GaN Charger",
+    "price": "Ksh 7,500",
+    "tag": "Premium",
+    "image": "https://i.postimg.cc/k4GJxdHn/Anker-100W-USB-C-Ga-N-Charger.webp",
+    "inStock": true,
+    "description": "Premium GaN fast charger capable of powering laptops, tablets, and phones. Compact yet powerful with multiple ports.",
+    "features": [
+      "GaN Technology",
+      "100W Fast Charging",
+      "Multi-device Support",
+      "Compact Design"
+    ],
+    "specs": {
+      "power": "100W",
+      "port": "USB-C x2, USB-A",
+      "compatibility": "MacBook, Dell, HP, Phones",
+      "safety": "Advanced Protection System",
+      "cable": "USB-C Cable Required"
+    },
+    "warning": "Ensure your device supports USB-C PD charging and required wattage.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  }
+]

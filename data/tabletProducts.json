@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "iPad Pro M4 (11-inch)",
+    "price": "Ksh 165,000",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/C1cKTCPD/i-Pad-Pro-M4-(11-inch).webp",
+    "inStock": true,
+    "description": "Apple's most powerful tablet featuring the M4 chip, Ultra Retina XDR display, and Apple Pencil Pro support. Ideal for creatives, designers, and professionals.",
+    "features": ["Apple M4 Chip", "Ultra Retina XDR", "Apple Pencil Pro", "Face ID", "ProMotion 120Hz"],
+    "specs": {
+      "processor": "Apple M4",
+      "ram": "8GB",
+      "storage": "256GB",
+      "display": "11-inch OLED",
+      "battery": "Up to 10 hours"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "price": "Ksh 155,000",
+    "tag": "Premium",
+    "image": "https://i.postimg.cc/wMtgCCsH/Samsung-Galaxy-Tab-S9-Ultra.webp",
+    "inStock": true,
+    "description": "A massive premium Android tablet with a 14.6-inch AMOLED display, S Pen support, and powerful Snapdragon performance. Perfect for multitasking and media consumption.",
+    "features": ["14.6\" AMOLED Display", "Snapdragon 8 Gen 2", "S Pen Included", "IP68 Water Resistant", "Multi-Window"],
+    "specs": {
+      "processor": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "256GB",
+      "display": "14.6-inch AMOLED",
+      "battery": "11200mAh"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "iPad Air M2 (11-inch)",
+    "price": "Ksh 110,000",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/zf0NVzC1/i-Pad-Air-M2-(11-inch).webp",
+    "inStock": true,
+    "description": "Balanced performance and portability with Apple's M2 chip. Great for students, note-taking, and light creative work.",
+    "features": ["Apple M2 Chip", "Liquid Retina Display", "Apple Pencil Support", "Touch ID", "Lightweight"],
+    "specs": {
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "11-inch Liquid Retina",
+      "battery": "Up to 10 hours"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy Tab S9 FE",
+    "price": "Ksh 65,000",
+    "tag": "Best Value",
+    "image": "https://i.postimg.cc/wMtgCCsH/Samsung-Galaxy-Tab-S9-Ultra.webp",
+    "inStock": true,
+    "description": "Affordable premium tablet with S Pen support, smooth display, and strong battery life. Ideal for students and everyday productivity.",
+    "features": ["S Pen Included", "90Hz Display", "IP68 Rating", "Long Battery Life", "Expandable Storage"],
+    "specs": {
+      "processor": "Exynos 1380",
+      "ram": "6GB",
+      "storage": "128GB",
+      "display": "10.9-inch LCD",
+      "battery": "8000mAh"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Lenovo Tab P12",
+    "price": "Ksh 55,000",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/hPWGFGM1/Lenovo-Tab-P12.webp",
+    "inStock": true,
+    "description": "Large-screen tablet perfect for entertainment and study. Comes with stylus support and a sharp display for content consumption.",
+    "features": ["12.7\" Display", "Stylus Support", "Quad Speakers", "Large Battery", "Multitasking"],
+    "specs": {
+      "processor": "MediaTek Dimensity 7050",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "12.7-inch LCD",
+      "battery": "10200mAh"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Xiaomi Pad 6",
+    "price": "Ksh 60,000",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/mgZBR19Q/Xiaomi-Pad-6.jpg",
+    "inStock": true,
+    "description": "High-performance Android tablet with Snapdragon 870, 144Hz display, and premium design. Great for gaming and productivity.",
+    "features": ["144Hz Display", "Snapdragon 870", "Dolby Vision", "Quad Speakers", "Fast Charging"],
+    "specs": {
+      "processor": "Snapdragon 870",
+      "ram": "8GB",
+      "storage": "256GB",
+      "display": "11-inch 144Hz",
+      "battery": "8840mAh"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Huawei MatePad 11.5",
+    "price": "Ksh 48,000",
+    "tag": "Mid-range",
+    "image": "https://i.postimg.cc/7Y9rBPRH/Huawei-Mate-Pad-11-5.jpg",
+    "inStock": true,
+    "description": "Slim and stylish tablet with smooth performance and great display. Ideal for students and office productivity.",
+    "features": ["120Hz Display", "Huawei M-Pencil Support", "Lightweight", "Multi-screen Collaboration"],
+    "specs": {
+      "processor": "Snapdragon 7 Gen 1",
+      "ram": "6GB",
+      "storage": "128GB",
+      "display": "11.5-inch LCD",
+      "battery": "7700mAh"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Amazon Fire Max 11",
+    "price": "Ksh 35,000",
+    "tag": "Budget",
+    "image": "https://i.postimg.cc/RVMjn50z/Amazon-Fire-Max-11.jpg",
+    "inStock": true,
+    "description": "Affordable tablet with solid performance for streaming, reading, and casual use. Best for budget-conscious buyers.",
+    "features": ["Affordable", "Durable Build", "Alexa Support", "Long Battery Life"],
+    "specs": {
+      "processor": "Octa-core",
+      "ram": "4GB",
+      "storage": "64GB",
+      "display": "11-inch LCD",
+      "battery": "Up to 14 hours"
+    },
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  }
+]

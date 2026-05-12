@@ -1,0 +1,163 @@
+
+[
+  {
+    "id": 1,
+    "name": "Apple 20W USB-C Power Adapter",
+    "price": "Ksh 3,500",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/PfB6sQTS/Apple-20W-USB-C-Power-Adapter.jpg",
+    "inStock": true,
+    "description": "Official Apple fast charger ideal for iPhones and iPads. Supports fast charging for iPhone 8 and later models.",
+    "features": ["Fast Charging", "USB-C Power Delivery", "Compact Design", "Apple Certified"],
+    "specs": {
+      "power": "20W",
+      "port": "USB-C",
+      "compatibility": "iPhone, iPad",
+      "safety": "Over-voltage Protection",
+      "cable": "USB-C to Lightning Required"
+    },
+    "warning": "Ensure you use an original or certified Lightning cable for best performance.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Samsung 25W Super Fast Charger",
+    "price": "Ksh 2,500",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/kg7vqjZB/Samsung-25W-Super-Fast-Charger.jpg",
+    "inStock": true,
+    "description": "Samsung official fast charger with Super Fast Charging support for Galaxy devices.",
+    "features": ["Super Fast Charging", "USB-C Output", "Compact", "Reliable"],
+    "specs": {
+      "power": "25W",
+      "port": "USB-C",
+      "compatibility": "Samsung Galaxy, Android",
+      "safety": "Short Circuit Protection",
+      "cable": "USB-C Cable Required"
+    },
+    "warning": "Works best with Samsung devices supporting Super Fast Charging.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Anker 30W USB-C Fast Charger",
+    "price": "Ksh 4,000",
+    "tag": "Premium",
+    "image": "https://i.postimg.cc/k4GJxdHn/Anker-100W-USB-C-Ga-N-Charger.webp",
+    "inStock": true,
+    "description": "Compact and powerful Anker charger with GaN technology for efficient fast charging across devices.",
+    "features": ["GaN Technology", "Fast Charging", "Compact Size", "Multi-device Support"],
+    "specs": {
+      "power": "30W",
+      "port": "USB-C",
+      "compatibility": "iPhone, Samsung, Tablets",
+      "safety": "Advanced Protection",
+      "cable": "USB-C Cable Required"
+    },
+    "warning": "Ensure your device supports fast charging for optimal speeds.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Oraimo 33W Fast Charger Kit",
+    "price": "Ksh 1,800",
+    "tag": "Best Value",
+    "image": "https://i.postimg.cc/KjFRBWtN/Oraimo-33W-Fast-Charger-Kit.jpg",
+    "inStock": true,
+    "description": "Affordable fast charger with included cable, widely used in Kenya for Android devices.",
+    "features": ["33W Fast Charging", "Affordable", "Comes with Cable", "Durable"],
+    "specs": {
+      "power": "33W",
+      "port": "USB-A + USB-C",
+      "compatibility": "Android Phones",
+      "safety": "Overheat Protection",
+      "cable": "Included"
+    },
+    "warning": "Charging speed depends on device compatibility.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi 67W Turbo Charger",
+    "price": "Ksh 3,000",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/6p4CfDDp/Universal-Laptop-Charger-90W-(Multi-tip).webp",
+    "inStock": true,
+    "description": "High-speed Xiaomi charger designed for turbo charging supported devices like Redmi and Mi series.",
+    "features": ["67W Turbo Charging", "High Speed", "Durable Build", "Efficient"],
+    "specs": {
+      "power": "67W",
+      "port": "USB-A",
+      "compatibility": "Xiaomi, Redmi, Poco",
+      "safety": "Heat Protection",
+      "cable": "Included"
+    },
+    "warning": "Turbo charging works only with supported Xiaomi devices.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Infinix 45W Fast Charger",
+    "price": "Ksh 2,200",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/25BT3qzs/HP-90W-Smart-Laptop-Charger.webp",
+    "inStock": true,
+    "description": "Fast charger optimized for Infinix devices with efficient power delivery and durability.",
+    "features": ["45W Fast Charging", "Reliable", "Affordable"],
+    "specs": {
+      "power": "45W",
+      "port": "USB-C",
+      "compatibility": "Infinix Phones",
+      "safety": "Surge Protection",
+      "cable": "Included"
+    },
+    "warning": "Best performance with supported Infinix models.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Baseus 65W GaN Fast Charger",
+    "price": "Ksh 4,500",
+    "tag": "Premium",
+    "image": "https://i.postimg.cc/g2fc35Wv/Baseus-65W-Ga-N-Fast-Charger.jpg",
+    "inStock": true,
+    "description": "Multi-port fast charger capable of charging phones, tablets, and laptops with high efficiency.",
+    "features": ["GaN Technology", "Multi-port", "Fast Charging", "Compact"],
+    "specs": {
+      "power": "65W",
+      "port": "USB-C x2, USB-A",
+      "compatibility": "iPhone, Android, Tablets",
+      "safety": "Advanced Protection",
+      "cable": "Not Included"
+    },
+    "warning": "Ensure correct cable for your device type.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Tecno 18W Fast Charger",
+    "price": "Ksh 1,500",
+    "tag": "Budget",
+    "image": "https://i.postimg.cc/pdfvzLCq/Tecno-18W-Fast-Charger.jpg",
+    "inStock": true,
+    "description": "Budget-friendly charger suitable for Tecno devices and general Android phones.",
+    "features": ["18W Fast Charging", "Affordable", "Lightweight"],
+    "specs": {
+      "power": "18W",
+      "port": "USB-A",
+      "compatibility": "Tecno, Android Phones",
+      "safety": "Basic Protection",
+      "cable": "Included"
+    },
+    "warning": "Charging speed may be slower on high-end devices.",
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  }
+]

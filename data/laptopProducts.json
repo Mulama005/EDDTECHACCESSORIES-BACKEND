@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook Air M3 (13-inch)",
+    "price": "Ksh 165,000",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/k4r020kF/Mac-Book-Air-M3-(13-inch).webp",
+    "inStock": true,
+    "description": "Apple’s latest MacBook Air powered by the M3 chip, delivering exceptional performance, long battery life, and a sleek lightweight design. Perfect for students, developers, and professionals.",
+    "features": [
+      "Apple M3 Chip",
+      "13.6\" Retina Display",
+      "18hr Battery",
+      "Fanless Design",
+      "MagSafe Charging"
+    ],
+    "specs": {
+      "processor": "Apple M3",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "13.6-inch Retina",
+      "battery": "Up to 18 hours"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Dell XPS 13 Plus",
+    "price": "Ksh 185,000",
+    "tag": "Premium",
+    "image": "https://i.postimg.cc/8cYB5SYf/Dell-XPS-13-Plus.webp",
+    "inStock": true,
+    "description": "Ultra-premium laptop with a futuristic design, edge-to-edge keyboard, and powerful Intel Core Ultra processors. Ideal for productivity and high-end users.",
+    "features": [
+      "Intel Core Ultra 7",
+      "OLED Display",
+      "Ultra Slim Design",
+      "Premium Build"
+    ],
+    "specs": {
+      "processor": "Intel Core Ultra 7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "13.4-inch OLED",
+      "battery": "Up to 12 hours"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "HP Spectre x360 14",
+    "price": "Ksh 175,000",
+    "tag": "Top",
+    "image": "https://i.postimg.cc/26s4vDYv/HP-Spectre-x360-14.avif",
+    "inStock": true,
+    "description": "A premium 2-in-1 convertible laptop with stunning OLED display, powerful performance, and flexible design for both work and entertainment.",
+    "features": [
+      "2-in-1 Convertible",
+      "OLED Touchscreen",
+      "Stylus Support",
+      "All-day Battery"
+    ],
+    "specs": {
+      "processor": "Intel Core Ultra 5",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14-inch OLED Touch",
+      "battery": "Up to 13 hours"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "price": "Ksh 190,000",
+    "tag": "Business",
+    "image": "https://i.postimg.cc/Wp0ZKxTV/Lenovo-Think-Pad-X1-Carbon-Gen-12.webp",
+    "inStock": true,
+    "description": "Legendary business laptop known for durability, security, and performance. Perfect for professionals and corporate users.",
+    "features": [
+      "Military Grade Build",
+      "Fingerprint Reader",
+      "Lightweight",
+      "Business Class Security"
+    ],
+    "specs": {
+      "processor": "Intel Core Ultra 7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14-inch WUXGA",
+      "battery": "Up to 15 hours"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "ASUS ROG Zephyrus G14",
+    "price": "Ksh 210,000",
+    "tag": "Gaming",
+    "image": "https://i.postimg.cc/YCTqtqz6/ASUS-ROG-Zephyrus-G14.webp",
+    "inStock": true,
+    "description": "Compact gaming powerhouse with AMD Ryzen processor and RTX graphics. Ideal for gamers and creators who need high performance on the go.",
+    "features": [
+      "RTX Graphics",
+      "165Hz Display",
+      "High Performance",
+      "Gaming Optimized"
+    ],
+    "specs": {
+      "processor": "AMD Ryzen 9",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "14-inch 165Hz",
+      "gpu": "NVIDIA RTX 4060"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Acer Aspire 5",
+    "price": "Ksh 75,000",
+    "tag": "Best Value",
+    "image": "https://i.postimg.cc/j5xVbGmg/Acer-Aspire-5.jpg",
+    "inStock": true,
+    "description": "Affordable everyday laptop with solid performance for students and office work. Great balance of price and functionality.",
+    "features": [
+      "Full HD Display",
+      "Backlit Keyboard",
+      "Slim Design"
+    ],
+    "specs": {
+      "processor": "Intel Core i5",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch Full HD",
+      "battery": "Up to 8 hours"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Lenovo IdeaPad 3",
+    "price": "Ksh 55,000",
+    "tag": "Budget",
+    "image": "https://i.postimg.cc/1XbYfTCL/Lenovo-Idea-Pad-3.webp",
+    "inStock": true,
+    "description": "Entry-level laptop ideal for students and basic tasks like browsing, typing, and online classes.",
+    "features": [
+      "Affordable",
+      "Lightweight",
+      "Dolby Audio"
+    ],
+    "specs": {
+      "processor": "Intel Core i3",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "15.6-inch HD",
+      "battery": "Up to 7 hours"
+    },
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "HP Pavilion 15",
+    "price": "Ksh 85,000",
+    "tag": "Popular",
+    "image": "https://i.postimg.cc/jCVZsfCV/HP-Pavilion-15.webp",
+    "inStock": true,
+    "description": "Stylish mid-range laptop with good performance for work, school, and light creative tasks.",
+    "features": [
+      "Fast Charging",
+      "Slim Design",
+      "Good Performance"
+    ],
+    "specs": {
+      "processor": "Intel Core i5",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch Full HD",
+      "battery": "Up to 9 hours"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  }
+]
