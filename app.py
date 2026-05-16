@@ -26,8 +26,18 @@ CORS(app,
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
 
 # ── DB ──
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///orders.db"
+DATABASE_URL = os.getenv("POSTGRES_URL_NON_POOLING")
+
+if not DATABASE_URL:
+    raise RuntimeError("POSTGRES_URL_NON_POOLING is not set in environment variables.")
+
+# SQLAlchemy requires "postgresql://" not "postgres://"
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+
+app.config["SQLALCHEMY_DATABASE_URI"] = DATABASE_URL
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
 db = SQLAlchemy(app)
 
 # ── MAIL ──
@@ -40,6 +50,9 @@ app.config["MAIL_DEFAULT_SENDER"] = os.getenv("MAIL_USERNAME")
 
 mail = Mail(app)
 bcrypt = Bcrypt(app)
+
+# ── Read FRONTEND_URL once for use in emails ──
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -69,8 +82,6 @@ def load_products():
         try:
             with open(file_path, "r", encoding="utf-8") as file:
                 products = json.load(file)
-
-                # Ensure JSON contains a list
                 if isinstance(products, list):
                     all_products.extend(products)
                 else:
@@ -78,11 +89,9 @@ def load_products():
 
         except FileNotFoundError:
             print(f"FILE NOT FOUND: {file_name}")
-
         except json.JSONDecodeError as e:
             print(f"INVALID JSON IN: {file_name}")
             print(f"ERROR: {e}")
-
         except Exception as e:
             print(f"UNEXPECTED ERROR IN: {file_name}")
             print(e)
@@ -354,7 +363,6 @@ def build_customer_email(order):
 
         <tr>
           <td class="body-pad" style="padding:0 32px 28px;">
-
             <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:6px;">
               <tr>
                 <td style="background:#111827;padding:10px 16px;border-radius:8px 8px 0 0;">
@@ -442,7 +450,6 @@ def build_customer_email(order):
                 </td>
               </tr>
             </table>
-
           </td>
         </tr>
 
@@ -486,6 +493,7 @@ def build_customer_email(order):
   </table>
 </body>
 </html>"""
+
 
 def build_welcome_email(email):
     return f"""<!DOCTYPE html>
@@ -564,7 +572,7 @@ def build_welcome_email(email):
               </tr>
             </table>
 
-            <a href="http://localhost:5173"
+            <a href="{FRONTEND_URL}"
               style="display:inline-block;background:#111827;color:#fff;font-size:14px;font-weight:600;padding:13px 32px;border-radius:8px;text-decoration:none;margin-bottom:24px;">
               Shop Now &#8594;
             </a>
@@ -596,7 +604,7 @@ def build_welcome_email(email):
             </table>
             <p style="margin:0;font-size:11px;color:#d1d5db;">&#169; 2026 EDD Tech &amp; Accessories. Nairobi, Kenya.</p>
             <p style="margin:6px 0 0;font-size:11px;color:#d1d5db;">
-              <a href="http://localhost:5173/unsubscribe" style="color:#9ca3af;text-decoration:underline;">Unsubscribe</a>
+              <a href="{FRONTEND_URL}/unsubscribe" style="color:#9ca3af;text-decoration:underline;">Unsubscribe</a>
             </p>
           </td>
         </tr>
@@ -614,16 +622,8 @@ def build_marketing_email(product_name, product_description, product_price, prod
         image_block = f"""
         <tr>
           <td style="padding:0 0 20px;">
-            <img 
-            src="{ product_image }" 
-            alt="{product_name}"
-            style="
-            width:100%;
-            max-width:400px;
-            border-radius:10px;
-            margin:20px 0;
-            "
-            />
+            <img src="{product_image}" alt="{product_name}"
+              style="width:100%;max-width:400px;border-radius:10px;margin:20px 0;"/>
           </td>
         </tr>
         """
@@ -673,23 +673,17 @@ def build_marketing_email(product_name, product_description, product_price, prod
               {image_block}
               <tr>
                 <td style="padding-bottom:8px;">
-                  <p style="margin:0;font-size:11px;color:#9ca3af;text-transform:uppercase;letter-spacing:1px;">
-                    Featured Product
-                  </p>
+                  <p style="margin:0;font-size:11px;color:#9ca3af;text-transform:uppercase;letter-spacing:1px;">Featured Product</p>
                 </td>
               </tr>
               <tr>
                 <td style="padding-bottom:12px;">
-                  <h2 style="margin:0;font-size:24px;font-weight:700;color:#111827;letter-spacing:-0.5px;">
-                    {product_name}
-                  </h2>
+                  <h2 style="margin:0;font-size:24px;font-weight:700;color:#111827;letter-spacing:-0.5px;">{product_name}</h2>
                 </td>
               </tr>
               <tr>
                 <td style="padding-bottom:20px;">
-                  <p style="margin:0;font-size:14px;color:#6b7280;line-height:1.8;">
-                    {product_description}
-                  </p>
+                  <p style="margin:0;font-size:14px;color:#6b7280;line-height:1.8;">{product_description}</p>
                 </td>
               </tr>
               <tr>
@@ -768,7 +762,7 @@ def build_marketing_email(product_name, product_description, product_price, prod
             <p style="margin:0;font-size:11px;color:#d1d5db;">&#169; 2026 EDD Tech &amp; Accessories. Nairobi, Kenya.</p>
             <p style="margin:6px 0 0;font-size:11px;color:#d1d5db;">
               You're receiving this because you subscribed on our website. &nbsp;
-              <a href="http://localhost:5173/unsubscribe" style="color:#9ca3af;text-decoration:underline;">Unsubscribe</a>
+              <a href="{FRONTEND_URL}/unsubscribe" style="color:#9ca3af;text-decoration:underline;">Unsubscribe</a>
             </p>
           </td>
         </tr>
@@ -779,31 +773,23 @@ def build_marketing_email(product_name, product_description, product_price, prod
 </body>
 </html>"""
 
+
 def build_contact_owner_email(name, email, phone, subject, message):
     return f"""<!DOCTYPE html>
 <html>
 <body style="margin:0;padding:0;background:#f4f4f4;font-family:'Segoe UI',Arial,sans-serif;">
-
 <table width="100%" style="padding:30px 0;">
 <tr><td align="center">
-
 <table width="600" style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.08);">
-
-  <!-- HEADER -->
   <tr>
     <td style="background:#111827;padding:28px;text-align:center;">
-      <h1 style="margin:0;color:#fff;">EDD TECH<span style="opacity:.4;">&ACCESSORIES</span></h1>
-      <p style="color:#9ca3af;font-size:12px;">📩 New Contact Message</p>
+      <h1 style="margin:0;color:#fff;">EDD TECH<span style="opacity:.4;">&amp;ACCESSORIES</span></h1>
+      <p style="color:#9ca3af;font-size:12px;">&#128233; New Contact Message</p>
     </td>
   </tr>
-
-  <!-- BODY -->
   <tr>
     <td style="padding:30px;">
-      <p style="font-size:15px;color:#374151;">
-        You’ve received a new message from your website:
-      </p>
-
+      <p style="font-size:15px;color:#374151;">You've received a new message from your website:</p>
       <table width="100%" style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:16px;">
         <tr>
           <td>
@@ -814,126 +800,91 @@ def build_contact_owner_email(name, email, phone, subject, message):
           </td>
         </tr>
       </table>
-
       <br/>
-
       <table width="100%" style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:16px;">
         <tr>
           <td>
             <p style="font-size:12px;color:#9ca3af;text-transform:uppercase;">Message</p>
-            <p style="font-size:14px;color:#374151;line-height:1.6;">
-              {message}
-            </p>
+            <p style="font-size:14px;color:#374151;line-height:1.6;">{message}</p>
           </td>
         </tr>
       </table>
-
       <br/>
-
       <div style="text-align:center;">
         <a href="mailto:{email}"
            style="background:#111827;color:#fff;padding:12px 25px;border-radius:8px;text-decoration:none;font-weight:600;">
-           Reply to {name} →
+           Reply to {name} &rarr;
         </a>
       </div>
     </td>
   </tr>
-
-  <!-- FOOTER -->
   <tr>
     <td style="text-align:center;padding:15px;background:#f9fafb;font-size:12px;color:#9ca3af;">
-      EDD Tech & Accessories • Nairobi, Kenya
+      EDD Tech &amp; Accessories &bull; Nairobi, Kenya
     </td>
   </tr>
-
 </table>
-
 </td></tr>
 </table>
 </body>
-</html>
-"""
+</html>"""
+
+
 def build_contact_customer_email(name, subject):
     return f"""<!DOCTYPE html>
 <html>
 <body style="margin:0;padding:0;background:#f4f4f4;font-family:'Segoe UI',Arial,sans-serif;">
-
 <table width="100%" style="padding:30px 0;">
 <tr><td align="center">
-
 <table width="600" style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.08);">
-
-  <!-- HEADER -->
   <tr>
     <td style="background:#111827;padding:32px;text-align:center;">
-      <h1 style="margin:0;color:#fff;">EDD TECH<span style="opacity:.4;">&ACCESSORIES</span></h1>
-      <p style="color:#9ca3af;font-size:12px;">We’ve received your message</p>
+      <h1 style="margin:0;color:#fff;">EDD TECH<span style="opacity:.4;">&amp;ACCESSORIES</span></h1>
+      <p style="color:#9ca3af;font-size:12px;">We've received your message</p>
     </td>
   </tr>
-
-  <!-- BODY -->
   <tr>
     <td style="padding:32px;text-align:center;">
-
-      <div style="font-size:40px;">📩</div>
-
+      <div style="font-size:40px;">&#128233;</div>
       <h2 style="margin:10px 0;color:#111827;">Thank You, {name}!</h2>
-
-      <p style="color:#6b7280;font-size:14px;line-height:1.7;">
-        We truly appreciate you reaching out to us.
-      </p>
-
+      <p style="color:#6b7280;font-size:14px;line-height:1.7;">We truly appreciate you reaching out to us.</p>
       <p style="color:#374151;font-size:14px;line-height:1.7;">
         Your message regarding <strong>"{subject or 'your inquiry'}"</strong> has been received.
       </p>
-
       <br/>
-
       <table width="100%" style="background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:16px;">
         <tr>
           <td>
             <p style="margin:0;font-size:13px;color:#92400e;">
-              📞 Our team will contact you shortly via phone or email.
+              &#128222; Our team will contact you shortly via phone or email.
             </p>
           </td>
         </tr>
       </table>
-
       <br/>
-
-      <a href="http://localhost:5173"
+      <a href="{FRONTEND_URL}"
          style="display:inline-block;background:#111827;color:#fff;padding:12px 30px;border-radius:8px;text-decoration:none;font-weight:600;">
-         Back to Store →
+         Back to Store &rarr;
       </a>
-
       <br/><br/>
-
-      <p style="font-size:13px;color:#9ca3af;">
-        Need urgent help? Reach us directly:
-      </p>
-
+      <p style="font-size:13px;color:#9ca3af;">Need urgent help? Reach us directly:</p>
       <a href="https://wa.me/254758743522"
          style="display:inline-block;background:#25d366;color:#fff;padding:10px 20px;border-radius:6px;text-decoration:none;">
          WhatsApp Us
       </a>
-
     </td>
   </tr>
-
-  <!-- FOOTER -->
   <tr>
     <td style="text-align:center;padding:15px;background:#f9fafb;font-size:12px;color:#9ca3af;">
-      © 2026 EDD Tech & Accessories • Nairobi, Kenya
+      &copy; 2026 EDD Tech &amp; Accessories &bull; Nairobi, Kenya
     </td>
   </tr>
-
 </table>
-
 </td></tr>
 </table>
 </body>
-</html>
-"""
+</html>"""
+
 
 # ─────────────────────────────
 # MODELS
@@ -964,9 +915,6 @@ class Order(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
 
-# ─────────────────────────────
-# SUBSCRIBER MODEL
-# ─────────────────────────────
 class Subscriber(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(200), unique=True, nullable=False)
@@ -974,8 +922,6 @@ class Subscriber(db.Model):
     subscribed_at = db.Column(db.DateTime, default=datetime.utcnow)
     is_active = db.Column(db.Boolean, default=True)
 
-
-# CAMPAIGN MODEL
 
 class Campaign(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -991,8 +937,7 @@ class Campaign(db.Model):
     failed_count = db.Column(db.Integer, default=0)
     sent_at = db.Column(db.DateTime, default=datetime.utcnow)
 
-    # Contact Messages Model
-  
+
 class ContactMessage(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(200))
@@ -1000,16 +945,22 @@ class ContactMessage(db.Model):
     phone = db.Column(db.String(50))
     subject = db.Column(db.String(200))
     message = db.Column(db.Text)
-    status = db.Column(db.String(50), default="New")  # New / Replied / Closed
+    status = db.Column(db.String(50), default="New")
     is_read = db.Column(db.Boolean, default=False)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
 
 # ─────────────────────────────
-# SUBSCRIPTION ROUTES
+# CREATE TABLES ON STARTUP
+# ─────────────────────────────
+with app.app_context():
+    db.create_all()
+
+
+# ─────────────────────────────
+# HELPERS
 # ─────────────────────────────
 def get_current_user():
-    """Helper — extracts user from JWT token."""
     auth = request.headers.get("Authorization")
     if not auth or " " not in auth:
         return None
@@ -1021,6 +972,9 @@ def get_current_user():
         return None
 
 
+# ─────────────────────────────
+# SUBSCRIPTION ROUTES
+# ─────────────────────────────
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     user = get_current_user()
@@ -1032,11 +986,8 @@ def subscribe():
     if existing:
         if existing.is_active:
             return jsonify({"error": "You are already subscribed."}), 400
-        # Re-activate if they previously unsubscribed
         existing.is_active = True
         db.session.commit()
-
-        # Send re-subscription welcome email
         msg = Message(
             subject="You're back! Welcome to EDD Tech updates",
             recipients=[user.email],
@@ -1045,19 +996,16 @@ def subscribe():
         mail.send(msg)
         return jsonify({"message": "Welcome back! You have re-subscribed."}), 200
 
-    # New subscriber
     subscriber = Subscriber(email=user.email, user_id=user.id)
     db.session.add(subscriber)
     db.session.commit()
 
-    # Send welcome email
     msg = Message(
         subject="Welcome to EDD Tech & Accessories updates!",
         recipients=[user.email],
         html=build_welcome_email(user.email)
     )
     mail.send(msg)
-
     return jsonify({"message": "Subscribed successfully!"}), 201
 
 
@@ -1097,14 +1045,13 @@ def broadcast():
     product_description = data.get("product_description")
     product_price       = data.get("product_price", "")
     product_image       = data.get("product_image", "")
-    product_link        = data.get("product_link", "http://localhost:5173")
+    product_link        = data.get("product_link", FRONTEND_URL)  # falls back to env URL
     cta_text            = data.get("cta_text", "Shop Now")
     audience            = data.get("audience", "all")
 
     if not all([subject, product_name, product_description]):
         return jsonify({"error": "Subject, product name and description are required."}), 400
 
-    # ── Filter subscribers by audience ──
     if audience == "active":
         subscribers = Subscriber.query.filter_by(is_active=True).all()
     elif audience == "inactive":
@@ -1138,7 +1085,6 @@ def broadcast():
             print(f"Failed to send to {sub.email}: {e}")
             failed += 1
 
-    # ── Save to campaign history ──
     campaign = Campaign(
         subject=subject,
         preheader=preheader,
@@ -1154,9 +1100,8 @@ def broadcast():
     db.session.add(campaign)
     db.session.commit()
 
-    return jsonify({
-        "message": f"Campaign sent. ✓ {sent} delivered, ✗ {failed} failed."
-    }), 200
+    return jsonify({"message": f"Campaign sent. ✓ {sent} delivered, ✗ {failed} failed."}), 200
+
 
 @app.route("/api/admin/campaigns", methods=["GET"])
 @role_required("admin")
@@ -1275,7 +1220,6 @@ def create_order():
         db.session.add(order)
         db.session.commit()
 
-        # ── Email to Owner ──
         owner_msg = Message(
             subject=f"New Order — {order.product_name} ({order.full_name})",
             recipients=[os.getenv("OWNER_EMAIL")],
@@ -1284,7 +1228,6 @@ def create_order():
         )
         mail.send(owner_msg)
 
-        # ── Email to Customer ──
         customer_msg = Message(
             subject=f"Order Confirmed — {order.product_name}",
             recipients=[order.email],
@@ -1371,7 +1314,6 @@ def contact():
         return jsonify({"error": "All fields required"}), 400
 
     try:
-        # Save message to DB
         new_message = ContactMessage(
             name=name,
             email=email,
@@ -1382,7 +1324,6 @@ def contact():
         db.session.add(new_message)
         db.session.commit()
 
-        # ── EMAIL TO OWNER ──
         owner_msg = Message(
             subject=f"New Contact: {subject or 'General Inquiry'} — {name}",
             recipients=[os.getenv("OWNER_EMAIL")],
@@ -1391,9 +1332,8 @@ def contact():
         )
         mail.send(owner_msg)
 
-        # ── EMAIL TO CUSTOMER ──
         customer_msg = Message(
-            subject="We’ve received your message 🙌",
+            subject="We've received your message 🙌",
             recipients=[email],
             html=build_contact_customer_email(name, subject)
         )
@@ -1405,11 +1345,11 @@ def contact():
         print("CONTACT ERROR:", e)
         return jsonify({"error": "Failed to send message"}), 500
 
+
 @app.route("/api/admin/messages", methods=["GET"])
 @role_required("admin")
 def get_messages():
     messages = ContactMessage.query.order_by(ContactMessage.created_at.desc()).all()
-
     return jsonify([
         {
             "id": m.id,
@@ -1424,52 +1364,47 @@ def get_messages():
         for m in messages
     ]), 200
 
+
 @app.route("/api/admin/messages/<int:id>/status", methods=["PUT"])
 @role_required("admin")
 def update_message_status(id):
     msg = ContactMessage.query.get_or_404(id)
     data = request.get_json()
-
     status = data.get("status")
+
     if status not in ["New", "Replied", "Closed"]:
         return jsonify({"error": "Invalid status"}), 400
 
     msg.status = status
     db.session.commit()
-
     return jsonify({"message": "Status updated"}), 200
+
 
 @app.route("/api/admin/messages/<int:id>/read", methods=["PUT"])
 @role_required("admin")
 def mark_message_read(id):
     try:
         msg = ContactMessage.query.get(id)
-
         if not msg:
             return jsonify({"error": "Not found"}), 404
 
         msg.is_read = True
         db.session.commit()
-
         return jsonify({"message": "Marked as read"}), 200
 
     except Exception as e:
         print("ERROR MARKING READ:", e)
         return jsonify({"error": "Server error"}), 500
 
-  
 
 @app.route("/api/products/search")
 def search_products():
     query = request.args.get("q", "").lower().strip()
-
     all_products = load_products()
-
     results = [
         product for product in all_products
         if query in product.get("name", "").lower()
     ]
-
     return jsonify(results)
 
 
@@ -1477,6 +1412,4 @@ def search_products():
 # RUN
 # ─────────────────────────────
 if __name__ == "__main__":
-    with app.app_context():
-        db.create_all()
     app.run(debug=True, port=5000)
