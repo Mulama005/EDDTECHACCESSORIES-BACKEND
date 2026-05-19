@@ -6,10 +6,13 @@
 !.env.example
 *.pem
 *.key
-
+.env.local
+.env.production
+.env.development
 
 # Python
-
+.pyre/
+.mypy_cache/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -27,6 +30,8 @@ develop-eggs/
 lib/
 lib64/
 
+# Node
+node_modules/
 
 # Virtual Environments
 
@@ -62,6 +67,9 @@ flask_session/
 logs/
 log/
 
+# Build
+*.out
+*.pyc
 
 # Testing
 
