@@ -9,6 +9,12 @@ from datetime import datetime, timedelta
 import json
 import os
 import jwt
+import random
+import string
+
+# ── OTP Store (in-memory) ──
+# { email: { "otp": "123456", "expires": datetime } }
+otp_store = {}
 
 # ─────────────────────────────
 # INIT
@@ -31,7 +37,6 @@ DATABASE_URL = os.getenv("POSTGRES_URL_NON_POOLING")
 if not DATABASE_URL:
     raise RuntimeError("POSTGRES_URL_NON_POOLING is not set in environment variables.")
 
-# SQLAlchemy requires "postgresql://" not "postgres://"
 if DATABASE_URL.startswith("postgres://"):
     DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
@@ -51,7 +56,6 @@ app.config["MAIL_DEFAULT_SENDER"] = os.getenv("MAIL_USERNAME")
 mail = Mail(app)
 bcrypt = Bcrypt(app)
 
-# ── Read FRONTEND_URL once for use in emails ──
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -73,7 +77,8 @@ def load_products():
         "laptopProducts.json",
         "phonechargersProducts.json",
         "powerbankProducts.json",
-        "tabletProducts.json"
+        "tabletProducts.json",
+        "speakersProducts.json"
     ]
 
     for file_name in json_files:
@@ -120,6 +125,65 @@ def role_required(required_role):
             return f(*args, **kwargs)
         return wrapper
     return decorator
+
+
+# ─────────────────────────────
+# OTP HELPERS
+# ─────────────────────────────
+def generate_otp():
+    return ''.join(random.choices(string.digits, k=6))
+
+
+def build_otp_email(otp):
+    return f"""<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"/></head>
+<body style="margin:0;padding:0;background:#f4f4f4;font-family:'Segoe UI',Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="padding:32px 0;">
+    <tr><td align="center">
+      <table width="500" style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.08);">
+
+        <tr>
+          <td style="background:#111827;padding:28px 32px;text-align:center;">
+            <h1 style="margin:0;font-size:20px;font-weight:700;color:#fff;letter-spacing:-0.5px;">
+              EDD TECH<span style="opacity:0.45;">&amp;ACCESSORIES</span>
+            </h1>
+            <p style="margin:8px 0 0;font-size:11px;color:rgba(255,255,255,0.4);text-transform:uppercase;letter-spacing:1.5px;">
+              Two-Factor Authentication
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:36px 32px;text-align:center;">
+            <p style="font-size:15px;color:#374151;margin:0 0 24px;">
+              Your one-time login code is:
+            </p>
+
+            <div style="display:inline-block;background:#f3f4f6;border:2px dashed #e5e7eb;border-radius:12px;padding:20px 40px;margin-bottom:24px;">
+              <span style="font-size:36px;font-weight:700;color:#111827;letter-spacing:10px;">{otp}</span>
+            </div>
+
+            <p style="font-size:13px;color:#6b7280;margin:0 0 8px;">
+              This code expires in <strong>5 minutes</strong>.
+            </p>
+            <p style="font-size:13px;color:#6b7280;margin:0;">
+              If you didn't request this, please ignore this email.
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="background:#f9fafb;padding:16px 32px;text-align:center;border-top:1px solid #e5e7eb;">
+            <p style="margin:0;font-size:12px;color:#9ca3af;">EDD Tech &amp; Accessories &bull; Nairobi, Kenya</p>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>"""
 
 
 # ─────────────────────────────
@@ -1045,7 +1109,7 @@ def broadcast():
     product_description = data.get("product_description")
     product_price       = data.get("product_price", "")
     product_image       = data.get("product_image", "")
-    product_link        = data.get("product_link", FRONTEND_URL)  # falls back to env URL
+    product_link        = data.get("product_link", FRONTEND_URL)
     cta_text            = data.get("cta_text", "Shop Now")
     audience            = data.get("audience", "all")
 
@@ -1187,6 +1251,56 @@ def login():
     if not user or not bcrypt.check_password_hash(user.password, password):
         return jsonify({"error": "Invalid credentials"}), 401
 
+    # ── Generate and store OTP ──
+    otp = generate_otp()
+    otp_store[email] = {
+        "otp": otp,
+        "expires": datetime.utcnow() + timedelta(minutes=5)
+    }
+
+    # ── Send OTP email ──
+    try:
+        msg = Message(
+            subject="Your EDD Tech Login Code",
+            recipients=[email],
+            html=build_otp_email(otp)
+        )
+        mail.send(msg)
+    except Exception as e:
+        print("OTP EMAIL ERROR:", e)
+        return jsonify({"error": "Failed to send verification code"}), 500
+
+    return jsonify({"message": "OTP sent to your email", "requires_otp": True}), 200
+
+
+@app.route("/api/verify-otp", methods=["POST"])
+def verify_otp():
+    data = request.get_json()
+    email = data.get("email")
+    otp = data.get("otp")
+
+    if not email or not otp:
+        return jsonify({"error": "Email and OTP required"}), 400
+
+    stored = otp_store.get(email)
+
+    if not stored:
+        return jsonify({"error": "No OTP found. Please login again."}), 400
+
+    if datetime.utcnow() > stored["expires"]:
+        del otp_store[email]
+        return jsonify({"error": "OTP has expired. Please login again."}), 400
+
+    if stored["otp"] != otp:
+        return jsonify({"error": "Invalid OTP. Please try again."}), 400
+
+    # ── OTP correct — clean up and issue token ──
+    del otp_store[email]
+
+    user = User.query.filter_by(email=email).first()
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
     token = jwt.encode({
         "user_id": user.id,
         "role": user.role,
@@ -1194,6 +1308,38 @@ def login():
     }, app.config["SECRET_KEY"], algorithm="HS256")
 
     return jsonify({"token": token, "role": user.role}), 200
+
+
+@app.route("/api/resend-otp", methods=["POST"])
+def resend_otp():
+    data = request.get_json()
+    email = data.get("email")
+
+    if not email:
+        return jsonify({"error": "Email required"}), 400
+
+    user = User.query.filter_by(email=email).first()
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    otp = generate_otp()
+    otp_store[email] = {
+        "otp": otp,
+        "expires": datetime.utcnow() + timedelta(minutes=5)
+    }
+
+    try:
+        msg = Message(
+            subject="Your New EDD Tech Login Code",
+            recipients=[email],
+            html=build_otp_email(otp)
+        )
+        mail.send(msg)
+    except Exception as e:
+        print("RESEND OTP ERROR:", e)
+        return jsonify({"error": "Failed to resend code"}), 500
+
+    return jsonify({"message": "New OTP sent to your email"}), 200
 
 
 # ─────────────────────────────
