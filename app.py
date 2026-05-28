@@ -10,6 +10,9 @@ import json
 import os
 import jwt
 import random
+import secrets
+from google.oauth2 import id_token
+from google.auth.transport import requests as google_requests
 import string
 
 # ── OTP Store (in-memory) ──
@@ -1340,6 +1343,55 @@ def resend_otp():
         return jsonify({"error": "Failed to resend code"}), 500
 
     return jsonify({"message": "New OTP sent to your email"}), 200
+
+
+# ─────────────────────────────
+# GOOGLE AUTH ROUTE
+# ─────────────────────────────
+@app.route("/api/auth/google", methods=["POST"])
+def google_auth():
+    data = request.get_json()
+    google_token = data.get("token")
+
+    if not google_token:
+        return jsonify({"error": "Token required"}), 400
+
+    try:
+        idinfo = id_token.verify_firebase_token(
+            google_token,
+            google_requests.Request()
+        )
+
+        email = idinfo.get("email")
+        if not email:
+            return jsonify({"error": "Could not get email from Google"}), 400
+
+        user = User.query.filter_by(email=email).first()
+
+        if not user:
+            random_pw = secrets.token_hex(32)
+            hashed_pw = bcrypt.generate_password_hash(random_pw).decode("utf-8")
+            user = User(
+                email=email,
+                password=hashed_pw,
+                role="user",
+                agreed_to_policy=True,
+                agreed_at=datetime.utcnow()
+            )
+            db.session.add(user)
+            db.session.commit()
+
+        token = jwt.encode({
+            "user_id": user.id,
+            "role": user.role,
+            "exp": datetime.utcnow() + timedelta(hours=24)
+        }, app.config["SECRET_KEY"], algorithm="HS256")
+
+        return jsonify({"token": token, "role": user.role}), 200
+
+    except Exception as e:
+        print("GOOGLE AUTH ERROR:", e)
+        return jsonify({"error": "Invalid or expired Google token"}), 401
 
 
 # ─────────────────────────────

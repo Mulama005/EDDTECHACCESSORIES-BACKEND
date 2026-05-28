@@ -31,6 +31,7 @@ Flask-Mail==0.10.0
 Flask-SQLAlchemy==3.1.1
 frozenlist==1.8.0
 git-filter-repo==2.47.0
+google-auth==2.53.0
 greenlet==3.4.0
 gunicorn==23.0.0
 h11==0.16.0
@@ -48,6 +49,8 @@ packaging==25.0
 postgrest==2.24.0
 propcache==0.4.1
 psycopg2-binary==2.9.10
+pyasn1==0.6.3
+pyasn1_modules==0.4.2
 pycparser==2.23
 pydantic==2.12.4
 pydantic_core==2.41.5
