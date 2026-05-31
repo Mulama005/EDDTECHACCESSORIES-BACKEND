@@ -1367,8 +1367,10 @@ def google_auth():
             return jsonify({"error": "Could not get email from Google"}), 400
 
         user = User.query.filter_by(email=email).first()
+        is_new_user = False
 
         if not user:
+            is_new_user = True
             random_pw = secrets.token_hex(32)
             hashed_pw = bcrypt.generate_password_hash(random_pw).decode("utf-8")
             user = User(
@@ -1387,11 +1389,38 @@ def google_auth():
             "exp": datetime.utcnow() + timedelta(hours=24)
         }, app.config["SECRET_KEY"], algorithm="HS256")
 
-        return jsonify({"token": token, "role": user.role}), 200
+        return jsonify({
+            "token": token,
+            "role": user.role,
+            "is_new_user": is_new_user,
+            "email": email
+        }), 200
 
     except Exception as e:
         print("GOOGLE AUTH ERROR:", e)
         return jsonify({"error": "Invalid or expired Google token"}), 401
+
+
+@app.route("/api/set-password", methods=["POST"])
+def set_password():
+    data = request.get_json()
+    email = data.get("email")
+    password = data.get("password")
+
+    if not email or not password:
+        return jsonify({"error": "Email and password required"}), 400
+
+    if len(password) < 8:
+        return jsonify({"error": "Password must be at least 8 characters"}), 400
+
+    user = User.query.filter_by(email=email).first()
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    user.password = bcrypt.generate_password_hash(password).decode("utf-8")
+    db.session.commit()
+
+    return jsonify({"message": "Password set successfully"}), 200
 
 
 # ─────────────────────────────
