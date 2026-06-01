@@ -1310,7 +1310,11 @@ def verify_otp():
         "exp": datetime.utcnow() + timedelta(hours=24)
     }, app.config["SECRET_KEY"], algorithm="HS256")
 
-    return jsonify({"token": token, "role": user.role}), 200
+    return jsonify({
+      "token": token,
+      "role": user.role,
+      "email": user.email
+      }), 200
 
 
 @app.route("/api/resend-otp", methods=["POST"])
