@@ -10,10 +10,12 @@ import json
 import os
 import jwt
 import random
+import re
 import secrets
+import string
+from difflib import SequenceMatcher
 from google.oauth2 import id_token
 from google.auth.transport import requests as google_requests
-import string
 
 # ── OTP Store (in-memory) ──
 # { email: { "otp": "123456", "expires": datetime } }
@@ -65,28 +67,35 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 
+# ─────────────────────────────
+# PRODUCT LOADING
+# ─────────────────────────────
+
+# Maps each JSON filename → category key (must match CATEGORY_ROUTES in React)
+FILE_CATEGORY_MAP = {
+    "iphoneProducts.json":           "iphone",
+    "infinixProducts.json":          "infinix",
+    "tecnoProducts.json":            "tecno",
+    "samsungProducts.json":          "samsung",
+    "headphonesProducts.json":       "headphones",
+    "earbudsProducts.json":          "earbuds",
+    "earphonesProducts.json":        "earphones",
+    "laptopchargersProducts.json":   "laptopchargers",
+    "laptopProducts.json":           "laptop",
+    "phonechargersProducts.json":    "phonechargers",
+    "powerbankProducts.json":        "powerbank",
+    "tabletProducts.json":           "tablet",
+    "speakersProducts.json":         "speakers",
+    "phoneCaseProducts.json":        "phonecases",
+    "screenprotectorsProducts.json": "screenprotectors",
+}
+
+
 def load_products():
+    """Load all products without category stamping (used by existing code)."""
     all_products = []
-
-    json_files = [
-        "iphoneProducts.json",
-        "infinixProducts.json",
-        "tecnoProducts.json",
-        "samsungProducts.json",
-        "headphonesProducts.json",
-        "earbudsProducts.json",
-        "earphonesProducts.json",
-        "laptopchargersProducts.json",
-        "laptopProducts.json",
-        "phonechargersProducts.json",
-        "powerbankProducts.json",
-        "tabletProducts.json",
-        "speakersProducts.json"
-    ]
-
-    for file_name in json_files:
+    for file_name in FILE_CATEGORY_MAP:
         file_path = os.path.join(DATA_DIR, file_name)
-
         try:
             with open(file_path, "r", encoding="utf-8") as file:
                 products = json.load(file)
@@ -94,17 +103,67 @@ def load_products():
                     all_products.extend(products)
                 else:
                     print(f"WARNING: {file_name} does not contain a list")
-
         except FileNotFoundError:
             print(f"FILE NOT FOUND: {file_name}")
         except json.JSONDecodeError as e:
-            print(f"INVALID JSON IN: {file_name}")
-            print(f"ERROR: {e}")
+            print(f"INVALID JSON IN: {file_name} — {e}")
         except Exception as e:
-            print(f"UNEXPECTED ERROR IN: {file_name}")
-            print(e)
-
+            print(f"UNEXPECTED ERROR IN: {file_name} — {e}")
     return all_products
+
+
+def load_products_with_category():
+    """Load all products and stamp each with its category key."""
+    all_products = []
+    for file_name, category in FILE_CATEGORY_MAP.items():
+        file_path = os.path.join(DATA_DIR, file_name)
+        try:
+            with open(file_path, "r", encoding="utf-8") as file:
+                products = json.load(file)
+                if isinstance(products, list):
+                    for p in products:
+                        p["category"] = category
+                    all_products.extend(products)
+                else:
+                    print(f"WARNING: {file_name} does not contain a list")
+        except FileNotFoundError:
+            print(f"FILE NOT FOUND: {file_name}")
+        except json.JSONDecodeError as e:
+            print(f"INVALID JSON IN: {file_name} — {e}")
+        except Exception as e:
+            print(f"UNEXPECTED ERROR IN: {file_name} — {e}")
+    return all_products
+
+
+# ─────────────────────────────
+# SEARCH HELPERS
+# ─────────────────────────────
+
+def tokenize(text):
+    """Lowercase and split into alphanumeric tokens."""
+    return re.findall(r"[a-z0-9]+", text.lower())
+
+
+def fuzzy_score(a, b):
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def product_matches(product, query_tokens):
+    name   = product.get("name", "")
+    name_l = name.lower()
+    tokens = tokenize(name)
+
+    for qt in query_tokens:
+        # 1. Direct substring — catches "iphone 15", "note 40 pro", etc.
+        if qt in name_l:
+            return True
+        # 2. Prefix match — catches "infin" → Infinix, "sam" → Samsung
+        if any(word.startswith(qt) for word in tokens):
+            return True
+        # 3. Fuzzy match — catches typos like "samsng", "infenix"
+        if any(fuzzy_score(qt, word) >= 0.75 for word in tokens):
+            return True
+    return False
 
 
 # ─────────────────────────────
@@ -1254,14 +1313,12 @@ def login():
     if not user or not bcrypt.check_password_hash(user.password, password):
         return jsonify({"error": "Invalid credentials"}), 401
 
-    # ── Generate and store OTP ──
     otp = generate_otp()
     otp_store[email] = {
         "otp": otp,
         "expires": datetime.utcnow() + timedelta(minutes=5)
     }
 
-    # ── Send OTP email ──
     try:
         msg = Message(
             subject="Your EDD Tech Login Code",
@@ -1297,7 +1354,6 @@ def verify_otp():
     if stored["otp"] != otp:
         return jsonify({"error": "Invalid OTP. Please try again."}), 400
 
-    # ── OTP correct — clean up and issue token ──
     del otp_store[email]
 
     user = User.query.filter_by(email=email).first()
@@ -1311,10 +1367,10 @@ def verify_otp():
     }, app.config["SECRET_KEY"], algorithm="HS256")
 
     return jsonify({
-      "token": token,
-      "role": user.role,
-      "email": user.email
-      }), 200
+        "token": token,
+        "role": user.role,
+        "email": user.email
+    }), 200
 
 
 @app.route("/api/resend-otp", methods=["POST"])
@@ -1628,14 +1684,18 @@ def mark_message_read(id):
         return jsonify({"error": "Server error"}), 500
 
 
+# ─────────────────────────────
+# PRODUCT SEARCH
+# ─────────────────────────────
 @app.route("/api/products/search")
 def search_products():
-    query = request.args.get("q", "").lower().strip()
-    all_products = load_products()
-    results = [
-        product for product in all_products
-        if query in product.get("name", "").lower()
-    ]
+    query = request.args.get("q", "").strip()
+    if not query:
+        return jsonify([])
+
+    query_tokens = tokenize(query)
+    all_products = load_products_with_category()
+    results = [p for p in all_products if product_matches(p, query_tokens)]
     return jsonify(results)
 
 
