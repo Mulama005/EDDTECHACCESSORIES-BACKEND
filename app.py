@@ -825,12 +825,27 @@ def build_marketing_email(product_name, product_description, product_price, prod
                 </td>
               </tr>
               <tr>
-                <td align="center" style="padding-bottom:28px;">
-                  <a href="{product_link}"
-                    style="display:inline-block;background:#111827;color:#fff;font-size:14px;font-weight:600;padding:14px 40px;border-radius:8px;text-decoration:none;">
-                    {cta_text} &#8594;
-                  </a>
-                </td>
+              <td align="center" style="padding-bottom:28px;">
+              <table cellpadding="0" cellspacing="0" border="0">
+              <tr>
+              <td bgcolor="#111827" style="border-radius:8px;">
+              <a href="{product_link}"
+              target="_blank"
+              style="
+              display:inline-block;
+              padding:14px 40px;
+              color:#ffffff;
+              text-decoration:none;
+              font-size:14px;
+              font-weight:600;
+              border-radius:8px;
+              ">
+              {cta_text} →
+              </a>
+              </td>
+              </tr>
+              </table>
+              </td>
               </tr>
               <tr>
                 <td>
