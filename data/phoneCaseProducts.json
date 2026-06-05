@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro Max MagSafe Leather Case",
+    "price": "Ksh 3,500",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/iPhone%2015%20Pro%20Max%20MagSafe%20Leather%20Case.webp",
+    "inStock": true,
+    "description": "Apple's official MagSafe leather case for iPhone 15 Pro Max. Premium leather construction with wireless charging compatibility through case.",
+    "features": [
+      "MagSafe Compatible",
+      "Premium Leather",
+      "Wireless Charging",
+      "Slim Profile",
+      "Drop Protection"
+    ],
+    "colorOptions": ["Black", "Brown", "Red"],
+    "specs": {
+      "material": "Leather",
+      "compatibility": "iPhone 15 Pro Max",
+      "charging": "Wireless charging compatible",
+      "weight": "50g"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S25 Ultra Silicone Case",
+    "price": "Ksh 2,500",
+    "tag": "Top Seller",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Samsung%20Galaxy%20S25%20Ultra%20Silicone%20Case.webp",
+    "inStock": true,
+    "description": "Authentic Samsung silicone case for Galaxy S25 Ultra with Armor Aluminum frame. Provides excellent grip and drop protection.",
+    "features": [
+      "Silicone Material",
+      "Armor Aluminum Frame",
+      "Great Grip",
+      "Drop Protection",
+      "Official Samsung"
+    ],
+    "colorOptions": ["Black", "Navy", "Beige"],
+    "specs": {
+      "material": "Silicone + Aluminum",
+      "compatibility": "Samsung Galaxy S25 Ultra",
+      "impact protection": "Military-grade",
+      "weight": "65g"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Universal Shockproof TPU Case",
+    "price": "Ksh 1,200",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Universal%20Shockproof%20TPU%20Case.webp",
+    "inStock": true,
+    "description": "Universal TPU shockproof case that fits most 6.5-inch phones. Clear design shows phone color while protecting from drops.",
+    "features": [
+      "TPU Material",
+      "Shockproof",
+      "Clear Design",
+      "Universal Fit",
+      "Lightweight"
+    ],
+    "colorOptions": ["Clear", "Frosted", "Black"],
+    "specs": {
+      "material": "TPU (Thermoplastic Polyurethane)",
+      "compatibility": "Most 6.5-inch phones",
+      "thickness": "2mm",
+      "weight": "45g"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "iPhone 15 Clear MagSafe Case",
+    "price": "Ksh 2,000",
+    "tag": "Clear Design",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/iPhone%2015%20Clear%20MagSafe%20Case.webp",
+    "inStock": true,
+    "description": "Crystal clear acrylic MagSafe case for iPhone 15. Shows off phone design while providing protection.",
+    "features": [
+      "MagSafe Compatible",
+      "Crystal Clear",
+      "Anti-Yellow Technology",
+      "Drop Protection",
+      "Slim Fit"
+    ],
+    "colorOptions": ["Clear"],
+    "specs": {
+      "material": "Acrylic",
+      "compatibility": "iPhone 15",
+      "charging": "MagSafe compatible",
+      "weight": "35g"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Android Premium Hard Case",
+    "price": "Ksh 1,800",
+    "tag": "Protection",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Android%20Premium%20Hard%20Case.webp",
+    "inStock": true,
+    "description": "Premium hard polycarbonate case for Android phones with anti-slip grip and raised bezels for protection.",
+    "features": [
+      "Polycarbonate Material",
+      "Anti-Slip Grip",
+      "Raised Bezels",
+      "Military Grade Protection",
+      "Durable"
+    ],
+    "colorOptions": ["Black", "Blue", "Red"],
+    "specs": {
+      "material": "Polycarbonate",
+      "compatibility": "Most Android phones 6-6.7 inches",
+      "impact rating": "Up to 15ft",
+      "weight": "55g"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "iPhone 15 Pro Titanium Case",
+    "price": "Ksh 4,200",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/iPhone%2015%20Pro%20Titanium%20Case.webp",
+    "inStock": true,
+    "description": "Aluminum titanium alloy case for iPhone 15 Pro with maximum durability and sleek design.",
+    "features": [
+      "Titanium Alloy",
+      "Military Grade Protection",
+      "Ultra-Thin Design",
+      "Heat Dissipation",
+      "Premium Build"
+    ],
+    "colorOptions": ["Silver", "Black", "Gold"],
+    "specs": {
+      "material": "Titanium Alloy",
+      "compatibility": "iPhone 15 Pro",
+      "thickness": "1.2mm",
+      "weight": "70g"
+    },
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Samsung Galaxy A55 Fabric Case",
+    "price": "Ksh 1,500",
+    "tag": "Stylish",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Samsung%20Galaxy%20A55%20Fabric%20Case.webp",
+    "inStock": true,
+    "description": "Premium fabric case for Samsung Galaxy A55 with elegant design and comfortable grip.",
+    "features": [
+      "Fabric Material",
+      "Elegant Design",
+      "Comfortable Grip",
+      "Camera Protection",
+      "Durable Stitching"
+    ],
+    "colorOptions": ["Gray", "Black", "Navy"],
+    "specs": {
+      "material": "Fabric",
+      "compatibility": "Samsung Galaxy A55",
+      "texture": "Premium fabric weave",
+      "weight": "50g"
+    },
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Android Matte Translucent Case",
+    "price": "Ksh 1,300",
+    "tag": "Stylish",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Android%20Matte%20Translucent%20Case.webp",
+    "inStock": true,
+    "description": "Matte translucent TPU case for Android phones combining elegance with protection. Shows off phone color with frosted finish.",
+    "features": [
+      "Matte Finish",
+      "Translucent Design",
+      "TPU Material",
+      "Anti-Fingerprint",
+      "Drop Protection"
+    ],
+    "colorOptions": ["Black Matte", "Frosted", "Smoke"],
+    "specs": {
+      "material": "Matte TPU",
+      "compatibility": "Most Android phones 6-6.8 inches",
+      "thickness": "1.5mm",
+      "weight": "48g"
+    },
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  }
+]

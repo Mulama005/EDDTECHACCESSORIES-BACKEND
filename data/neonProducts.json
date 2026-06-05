@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "Neon Smart",
+    "price": "Ksh 5,000",
+    "tag": "Sale",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phones/neon/Neon%20Smart.jfif",
+    "inStock": true,
+    "description": "Ultra-affordable entry-level smartphone designed for reliable essential connectivity, messaging, and everyday basic applications.",
+    "storageOptions": ["32GB"],
+    "colorOptions": ["Classic Black"],
+    "rating": 2,
+    "whatsappNumber": "254758743522"
+  }
+]

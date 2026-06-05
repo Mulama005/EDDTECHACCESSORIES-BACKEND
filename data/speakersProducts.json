@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Amaya Wireless Bluetooth Speaker (BD68)",
+    "price": "Ksh 3,200",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/speakers/Amaya%20Wireless%20Bluetooth%20Speaker%20(BD68).webp",
+    "inStock": true,
+    "description": "Compact IPX5 waterproof wireless speaker delivering 15W audio power with Bluetooth 5.3 and vibrant RGB dynamic light rings."
+  },
+  {
+    "id": 2,
+    "name": "Amaya XTREME4 Wireless Speaker (ASP-J4)",
+    "price": "Ksh 9,000",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/speakers/Amaya%20XTREME4%20Wireless%20Speaker%20(ASP-J4).webp",
+    "inStock": true,
+    "description": "Powerful 80W audio portable speaker featuring Bluetooth 5.3, long playback time, integrated carry strap, and lights that interact dynamically with your music."
+  },
+  {
+    "id": 3,
+    "name": "Amaya Portable Wireless Karaoke Speaker (ASP-SC500)",
+    "price": "Ksh 18,000",
+    "tag": "Entertainment",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/speakers/Amaya%20Portable%20Wireless%20Karaoke%20Speaker%20(ASP-SC500).jfif",
+    "inStock": true,
+    "description": "High-power 80W wireless party speaker equipped with dual wireless microphones, solid carry handle, and reactive light matrix presets."
+  },
+  {
+    "id": 4,
+    "name": "Amaya Premium Wireless Karaoke Speaker (ASP-SC600)",
+    "price": "Ksh 25,000",
+    "tag": "Premium Bass",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/speakers/Amaya%20Premium%20Wireless%20Karaoke%20Speaker%20(ASP-SC600).jfif",
+    "inStock": true,
+    "description": "Colossal 200W audio output station featuring deep bass refinement, dual premium wireless microphones, Bluetooth 5.3, and robust wide-body structural framing."
+  },
+  {
+    "id": 5,
+    "name": "Amaya Hi-Fi Wireless Speaker (ASP-150)",
+    "price": "Ksh 25,000",
+    "tag": "Hi-Fi Studio",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/speakers/Amaya%20Hi-Fi%20Wireless%20Speaker%20(ASP-150).jfif",
+    "inStock": true,
+    "description": "Premium 150W Hi-Fi wireless acoustics boombox with dedicated remote control tuning, dynamic RGB lighting panels, and dual metallic wireless microphones."
+  },
+  {
+    "id": 6,
+    "name": "Amaya GO+PLAY 3 Wireless Bluetooth Speaker (ASP-HP3)",
+    "price": "Ksh 15,000",
+    "tag": "Top Pick",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/speakers/Amaya%20GO+PLAY%203%20Wireless%20Bluetooth%20Speaker%20(ASP-HP3).jfif",
+    "inStock": true,
+    "description": "Sleek arch-handle premium speaker bringing 80W of rich wireless fidelity, long-endurance battery, and music-synchronized ambient lighting layouts."
+  },
+  {
+    "id": 7,
+    "name": "Amaya 100W Super Bass Home Outdoor Speaker (ASP-HK7)",
+    "price": "Ksh 19,000",
+    "tag": "Heavy Bass",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/speakers/Amaya%20100W%20Super%20Bass%20Home%20Outdoor%20Speaker%20(ASP-HK7).jfif",
+    "inStock": true,
+    "description": "Futuristic circular acoustic system producing 100W Super Bass audio with full 360-degree sound projection, long battery standby, and interactive lighting grids."
+  },
+  {
+    "id": 8,
+    "name": "Amaya Mini Bass Retro Cube Speaker (ASP-M2)",
+    "price": "Ksh 3,000",
+    "tag": "Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/speakers/Amaya%20Mini%20Bass%20Retro%20Cube%20Speaker%20(ASP-M2).jfif",
+    "inStock": true,
+    "description": "Vintage-styled compact 10W mini cube speaker featuring True Wireless Stereo (TWS) pairing support, Bluetooth 5.3 connectivity, and a premium leather-feel lanyard handle."
+  }
+]

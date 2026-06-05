@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 9D Full Cover Tempered Glass",
+    "price": "Ksh 800",
+    "tag": "Top Seller",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/iPhone%209D%20Full%20Cover%20Tempered%20Glass.jfif",
+    "inStock": true,
+    "description": "High-durability 9D edge-to-edge tempered glass providing seamless coverage, maximum scratch resistance, and pristine HD clarity.",
+    "features": [
+      "9D Curved Edge-to-Edge Fit",
+      "9H Hardness Rating",
+      "Oleophobic Anti-Fingerprint Layer",
+      "High Touch Sensitivity"
+    ],
+    "specs": {
+      "category": "iPhone",
+      "type": "Tempered Glass",
+      "material": "Aluminosilicate Tempered Glass",
+      "compatibility": "iPhone 11 through iPhone 15 Pro Max",
+      "safety": "Shatter-Proof Layered Construction"
+    },
+    "warning": "Clean the display thoroughly using the dust-absorber sticker to prevent permanent air bubbles.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "iPhone Premium Anti-Spy Privacy Glass",
+    "price": "Ksh 1,200",
+    "tag": "Hot",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/iPhone%20Premium%20Anti-Spy%20Privacy%20Glass.jfif",
+    "inStock": true,
+    "description": "Advanced 28-degree side-view blocking privacy glass that keeps your confidential onscreen data safe from wandering eyes in public crowded areas.",
+    "features": [
+      "28-Degree Anti-Spy Tinting",
+      "Full Screen FaceID Compatibility",
+      "Scratch-Resistant Shielding",
+      "Case-Friendly Border Cut"
+    ],
+    "specs": {
+      "category": "iPhone",
+      "type": "Privacy Tinted Glass",
+      "material": "Polarized Tempered Glass",
+      "compatibility": "iPhone 12 through iPhone 15 Pro Max",
+      "safety": "Impact and Visual Privacy Deflector"
+    },
+    "warning": "This privacy filter decreases screen brightness slightly; you may need to adjust your display levels manually.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "iPhone Unbreakable Matte Hydrogel Protector",
+    "price": "Ksh 1,000",
+    "tag": "Best Feel",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/iPhone%20Unbreakable%20Matte%20Hydrogel%20Protector.jfif",
+    "inStock": true,
+    "description": "Ultra-thin, self-healing hydrogel membrane with a frosted matte finish. Perfect for elimination of glare and oily smudges.",
+    "features": [
+      "24-Hour Micro-Scratch Self Healing",
+      "Anti-Glare Frosted Surface Texture",
+      "Zero Edge Lifting Design",
+      "Smooth Gaming Touch Glide"
+    ],
+    "specs": {
+      "category": "iPhone",
+      "type": "Matte Hydrogel Film",
+      "material": "Flexible TPU Elastic Membrane",
+      "compatibility": "All iPhone Series (Flat & Curved Displays)",
+      "safety": "Shock Absorption Elasticity"
+    },
+    "warning": "Any tiny application lines or residual bubbles disappear entirely within 24 to 48 hours.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Android 5D UV Liquid Glue Tempered Glass",
+    "price": "Ksh 2,000",
+    "tag": "Premium Android",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Android%205D%20UV%20Liquid%20Glue%20Tempered%20Glass.png",
+    "inStock": true,
+    "description": "Specialized liquid UV adhesive installation kit engineered perfectly to lock onto curved display edges without lifting away over time.",
+    "features": [
+      "Full Liquid LOCA Adhesive Bond",
+      "UV Light Cured Precision Fit",
+      "Flawless In-Display Fingerprint Unlock",
+      "Edge-to-Edge Seamless Geometry"
+    ],
+    "specs": {
+      "category": "Android",
+      "type": "UV Curved Tempered Glass",
+      "material": "Premium Curved Tempered Glass",
+      "compatibility": "Samsung Galaxy S22/S23/S24 Ultra, OnePlus Curved Series",
+      "safety": "Heavy Duty Drop & Edge Impact Shield"
+    },
+    "warning": "Cover the earpiece speaker grill using the protective tape strip provided before dispensing the liquid glue.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Android Universal Clear Tempered Glass",
+    "price": "Ksh 600",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Android%20Universal%20Clear%20Tempered%20Glass.jfif",
+    "inStock": true,
+    "description": "Affordable, reliable everyday defensive tempered glass delivering high transparency and scratch prevention for flat screen displays.",
+    "features": [
+      "9H Defensive Hardness Layer",
+      "99.9% Optical Clear Transparency",
+      "Silicone Auto-Adsorption Backing",
+      "Budget Friendly Protection"
+    ],
+    "specs": {
+      "category": "Android",
+      "type": "Clear Tempered Glass",
+      "material": "Standard Tempered Mineral Glass",
+      "compatibility": "Samsung A Series, Tecno Camon/Spark, Infinix Note/Hot, Redmi Series",
+      "safety": "Daily Scratch & Minor Drop Shield"
+    },
+    "warning": "This flat profile glass will leave a minor unsealed border gap if installed onto heavily curved 2.5D screens.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Android Ultra-Clear Hydrogel Membrane",
+    "price": "Ksh 900",
+    "tag": "Trending",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Android%20Ultra-Clear%20Hydrogel%20Membrane.webp",
+    "inStock": true,
+    "description": "A highly resilient, flexible elastic clear film designed to form perfectly to curved edges while sustaining optimal fingerprint scanner recognition.",
+    "features": [
+      "100% Ultrasonic Fingerprint Optimization",
+      "Flexible Curved Edge Conformation",
+      "Scratches Self-Repair Structure",
+      "Ultra-Thin Native Feel"
+    ],
+    "specs": {
+      "category": "Android",
+      "type": "Clear Hydrogel Film",
+      "material": "Thermoplastic Polyurethane Hydrogel",
+      "compatibility": "All Samsung Galaxy, Tecno, Infinix, Oppo, and Xiaomi Smartphones",
+      "safety": "Flexible Shock Dispersion Matrix"
+    },
+    "warning": "Avoid scraping or pushing on the soft film surface with sharp fingernails during the application phase.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Android Privacy Anti-Spy Hydrogel Protector",
+    "price": "Ksh 1,300",
+    "tag": "Privacy King",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Android%20Privacy%20Anti-Spy%20Hydrogel%20Protector.jfif",
+    "inStock": true,
+    "description": "Combines advanced side-angle viewing dark filters with flexible hydrogel layers to bring privacy protection straight to curved screen smartphones.",
+    "features": [
+      "Side Angular Privacy Blinders",
+      "Flexible Film Architecture",
+      "Oleophobic Oil-Slick Defender",
+      "Full Peripheral Display Cover"
+    ],
+    "specs": {
+      "category": "Android",
+      "type": "Privacy Hydrogel Film",
+      "material": "Polarized Hydrogel TPU Compound",
+      "compatibility": "Samsung Galaxy S and Note Series, Premium Android Flags",
+      "safety": "Privacy Defense & Scratch Insulation"
+    },
+    "warning": "For optical scanning modules, re-register your saved system fingerprints after completing the installation.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Universal Flexible Ceramic Screen Guard",
+    "price": "Ksh 800",
+    "tag": "Unbreakable",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Universal%20Flexible%20Ceramic%20Screen%20Guard.jpg",
+    "inStock": true,
+    "description": "An innovative premium hybrid formulation mixing glass hardness with plastic flexibility to yield a shield that never cracks or chips along its borders.",
+    "features": [
+      "Zero Edge Chipping Guarantee",
+      "High Structural Bend Flexibility",
+      "Full Glue Uniform Adhesion Layer",
+      "Excellent Impact Force Isolation"
+    ],
+    "specs": {
+      "category": "Universal",
+      "type": "Flexible Ceramic Glass",
+      "material": "Ceramic and PMMA Polymer Blend",
+      "compatibility": "Extensive model layouts for both iPhone and major Android manufacturers",
+      "safety": "High-Impact Elastic Shock Dispersion"
+    },
+    "warning": "This specific hybrid structure behaves with slightly more surface reflection than basic tempered glass variants.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  }
+]
