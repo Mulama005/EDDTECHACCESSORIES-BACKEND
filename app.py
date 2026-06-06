@@ -88,6 +88,11 @@ FILE_CATEGORY_MAP = {
     "speakersProducts.json":         "speakers",
     "phoneCaseProducts.json":        "phonecases",
     "screenprotectorsProducts.json": "screenprotectors",
+    "clocksProducts.json":          "clocks",
+    "flashdisksProducts.json":      "flashdisks",
+    "memorycardsProducts.json":     "memorycards",
+    "watchProducts.json":           "watches",
+    
 }
 
 
