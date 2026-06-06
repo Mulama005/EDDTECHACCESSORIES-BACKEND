@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Twin-Bell Quartz Alarm Clock",
+    "price": "Ksh 2000",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/watches/Classic%20Twin-Bell%20Quartz%20Alarm%20Clock.webp",
+    "inStock": true,
+    "description": "A retro-inspired desk alarm clock featuring loud mechanical twin bells, a sturdy metallic handle, and a highly precise quartz analog movement. Available in vibrantly colored matte frames.",
+    "features": ["Extra-Loud Twin Bell Ringer", "Mechanical Hammer Strike", "Backlight Function for Night Reading"],
+    "specs": {
+      "type": "Alarm Clock",
+      "mechanism": "Quartz Analog",
+      "display": "Arabic Numerals",
+      "powerSource": "Battery Operated",
+      "chassisMaterial": "Metal / Polycarbonate"
+    },
+    "warning": "Handle the hammer assembly with care when cleaning to avoid bending the ringer mechanism.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "G-Shock Sports Chronograph Wristwatch",
+    "price": "Ksh 2500",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/watches/G-Shock%20Sports%20Chronograph%20Wristwatch.jfif",
+    "inStock": true,
+    "description": "An ultra-rugged, tactical multi-function sports watch built with shock resistance, a triple sensor mockup profile, dual time display tracking, and heavy-duty resin strap architecture.",
+    "features": ["Heavy-Duty Shock Resistant Case", "Multi-Dial Chronograph Dashboard", "Textured Non-Slip Resin Band"],
+    "specs": {
+      "type": "Sports Wristwatch",
+      "mechanism": "Quartz Electronic",
+      "display": "Analog-Digital Hybrid",
+      "powerSource": "Button Cell Battery",
+      "closure": "Buckle"
+    },
+    "warning": "Avoid pressing buttons underwater or during heavy rainstorms to preserve seal life.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Amaya Watch Lite Rectangular Smart Watch",
+    "price": "Ksh 4000",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/watches/Amaya%20Watch%20Lite%20Rectangular%20Smart%20Watch.webp",
+    "inStock": true,
+    "description": "The Amaya ASW-04 is a sleek, rectangular lifestyle smart watch featuring a brilliant color touchscreen, IP67 waterproof certification, and an efficient battery managing up to 14 days of life.",
+    "features": ["IP67 Waterproof Certification", "Up to 14 Days Battery Endurance", "Real-Time Message & Call Notifications"],
+    "specs": {
+      "type": "Smart Watch",
+      "model": "ASW-04",
+      "screenShape": "Rectangular Touchscreen",
+      "protectionRating": "IP67",
+      "warranty": "365 Days Amaya Warranty"
+    },
+    "warning": "Do not submerge the watch in hot water, saunas, or deep diving environments.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Amaya Watch Lite Circular Smart Watch",
+    "price": "Ksh 5000",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/watches/Amaya%20Watch%20Lite%20Circular%20Smart%20Watch.jfif",
+    "inStock": true,
+    "description": "The Amaya ASW-05 combines traditional round watch ergonomics with modern smart capabilities. Features a crisp round interface dashboard tracking multi-sport activities, daily vitals, and a 14-day standby engine.",
+    "features": ["Classic Circular Dashboard Interface", "IP67 Certified Water Protection", "Long-Lasting 14-Day Power Cell"],
+    "specs": {
+      "type": "Smart Watch",
+      "model": "ASW-05",
+      "screenShape": "Round Touchscreen",
+      "protectionRating": "IP67",
+      "warranty": "365 Days Amaya Warranty"
+    },
+    "warning": "Charge only using the designated original charging dock to guarantee battery cell longevity.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Okpu D96 Plus Smart Ecosystem Set",
+    "price": "Ksh 6500",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/watches/Okpu%20D96%20Plus%20Smart%20Ecosystem%20Set.jfif",
+    "inStock": true,
+    "description": "An all-in-one electronic lifestyle collection package from Okpu featuring a modern square smart watch with interchangeable straps, bundled alongside true wireless stereo earbuds and a matching portable desktop cooling fan.",
+    "features": ["Square HD Smart Display", "Bundled True Wireless Earbuds", "Includes Portable Personal Cooling Fan", "Interchangeable Sports Bands Included"],
+    "specs": {
+      "type": "Ecosystem Gift Set",
+      "model": "D96 Plus",
+      "components": "Smart Watch + Wireless Earbuds + Handheld Fan",
+      "authenticity": "100% Original Certified",
+      "connectivity": "Bluetooth Wireless Protocol"
+    },
+    "warning": "Ensure the fan blades are clear of obstruction during high-speed rotation.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Okpu D97 Plus 7-in-3 Premium Smart Set",
+    "price": "Ksh 7000",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/watches/Okpu%20D97%20Plus%207-in-3%20Premium%20Smart%20Set.jfif",
+    "inStock": true,
+    "description": "The elite multi-utility gadget kit. Features a premium square smart watch with tracking capabilities, integrated high-definition wireless earbuds with an external LED charge dock, and an attaching clip-on selfie fill light ring.",
+    "features": ["Pro Series Smart Tracking Watch", "Wireless Earbuds with Digital LED Cradle", "Attachable Circular Selfie Fill Light", "Multi-Sport Activity Modes"],
+    "specs": {
+      "type": "Premium Tech Bundle",
+      "model": "D97 Plus (7 in 3 Set)",
+      "components": "Smart Watch + Wireless Buds + LED Fill Light",
+      "displayType": "Full Touchscreen Display",
+      "chargingInterface": "Universal USB Protocol"
+    },
+    "warning": "Charge individual kit components properly to prevent over-voltage degradation.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  }
+]

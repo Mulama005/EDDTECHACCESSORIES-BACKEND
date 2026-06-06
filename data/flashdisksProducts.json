@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Amaya High Speed 2GB USB Flash Drive",
+    "price": "Ksh 700",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/flashdisks/Amaya%20High%20Speed%202GB%20USB%20Flash%20Drive.jfif",
+    "inStock": true,
+    "description": "Compact and highly durable 2GB metal casing USB flash drive engineered by Amaya Premium Accessories, offering reliable files transmission and media storage.",
+    "features": ["Super Fast Data Transfer", "Durable Metallic Design", "365 Days Warranty Protection"],
+    "specs": {
+      "capacity": "2GB",
+      "interface": "USB-A",
+      "speedProfile": "High Speed",
+      "material": "Metal Shell",
+      "formFactor": "Capless with Lanyard Hole"
+    },
+    "warning": "Do not eject the flash disk while file transfer operations are actively running.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Amaya High Speed 4GB USB Flash Drive",
+    "price": "Ksh 800",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/flashdisks/Amaya%20High%20Speed%204GB%20USB%20Flash%20Drive.webp",
+    "inStock": true,
+    "description": "A pocket-sized 4GB high-speed flash drive built with solid metallic framing to securely store essential documents, multi-format images, and music tracks.",
+    "features": ["Super Fast Performance", "Premium Shockproof Chassis", "365 Days Amaya Warranty"],
+    "specs": {
+      "capacity": "4GB",
+      "interface": "USB-A",
+      "speedProfile": "High Speed",
+      "material": "Metal Shell",
+      "formFactor": "Capless with Lanyard Hole"
+    },
+    "warning": "Keep contact pins free from dust or liquid buildup to ensure stable device connection.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Amaya High Speed 8GB USB Flash Drive",
+    "price": "Ksh 900",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/flashdisks/Amaya%20High%20Speed%208GB%20USB%20Flash%20Drive.jfif",
+    "inStock": true,
+    "description": "Reliable 8GB storage memory stick optimized for quick daily data transfers, boasting full hardware cross-compatibility with laptops, cars, and smart screens.",
+    "features": ["Super Fast Architecture", "Ruggedized Metal Housing", "365 Days Guarantee Blueprint"],
+    "specs": {
+      "capacity": "8GB",
+      "interface": "USB-A",
+      "speedProfile": "High Speed",
+      "material": "Metal Shell",
+      "formFactor": "Capless with Lanyard Hole"
+    },
+    "warning": "Format only to supported file systems like FAT32 or exFAT based on target equipment parameters.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Amaya High Speed 16GB USB Flash Drive",
+    "price": "Ksh 1000",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/flashdisks/Amaya%20High%20Speed%2016GB%20USB%20Flash%20Drive.jfif",
+    "inStock": true,
+    "description": "Ample 16GB metal flash drive providing high-velocity reads and writes for heavier multimedia, videos, blueprints, and large text collections.",
+    "features": ["Super Fast Processing", "Scratch-Resistant Metal Body", "365 Days Verified Protection"],
+    "specs": {
+      "capacity": "16GB",
+      "interface": "USB-A",
+      "speedProfile": "High Speed",
+      "material": "Metal Shell",
+      "formFactor": "Capless with Lanyard Hole"
+    },
+    "warning": "Avoid exposure to extreme external temperatures or strong magnetic currents.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Amaya Ultra Fast 32GB USB Flash Drive",
+    "price": "Ksh 1100",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/flashdisks/Amaya%20Ultra%20Fast%2032GB%20USB%20Flash%20Drive.jfif",
+    "inStock": true,
+    "description": "High performance 32GB data flash drive processing hyper speeds up to 100MB/s for seamless HD streaming, massive backup storage, and heavy data migration cycles.",
+    "features": ["Up to 100MB/S Transfers", "Super Fast & Durable Core", "365 Days Extended Safeguard"],
+    "specs": {
+      "capacity": "32GB",
+      "interface": "USB-A Rapid Lanes",
+      "speedProfile": "Up to 100MB/s High Bandwidth",
+      "material": "Heavy-Duty Metal Case",
+      "formFactor": "Capless with Lanyard Hole"
+    },
+    "warning": "Achieving max 100MB/s metrics requires connection to a fully compliant high-speed USB hub interface.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Amaya Pro Performance 256GB USB Flash Drive",
+    "price": "Ksh 4500",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/flashdisks/Amaya%20Pro%20Performance%20256GB%20USB%20Flash%20Drive.jfif",
+    "inStock": true,
+    "description": "The ultimate institutional storage asset. Packs a massive 256GB workspace delivering speeds up to 100MB/s inside a sleek armored frame to manage large file archives and system images.",
+    "features": ["Massive 256GB Grid Capacity", "Up to 100MB/S Delivery Speed", "Premium Matte Armor Casting"],
+    "specs": {
+      "capacity": "256GB",
+      "interface": "USB-A High Throughput",
+      "speedProfile": "Up to 100MB/s Elite Tier",
+      "material": "Premium Reinforced Alloy",
+      "formFactor": "Capless with Lanyard Hole"
+    },
+    "warning": "Keep your root data secured via system level encryption solutions when handling highly confidential assets.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  }
+]

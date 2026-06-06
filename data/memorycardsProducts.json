@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Amaya High Speed 2GB Micro SDHC Card",
+    "price": "Ksh 700",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/memory%20cards/Amaya%20High%20Speed%202GB%20Micro%20SDHC%20Card.png",
+    "inStock": true,
+    "description": "Compact and highly durable 2GB Micro SDHC memory card engineered by Amaya Premium Accessories, offering reliable expandable storage and includes a convenient full-size SD adapter.",
+    "features": ["Super Fast Data Transfer", "Durable Storage Core", "Includes SD Adapter", "365 Days Warranty Protection"],
+    "specs": {
+      "capacity": "2GB",
+      "type": "Micro SDHC",
+      "speedClass": "Class 10",
+      "videoSupport": "HD Video Recording",
+      "compatibility": "Smartphones, Tablets, Cameras"
+    },
+    "warning": "Always unmount or safely eject the memory card from your device settings before physical removal to prevent data corruption.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Amaya High Speed 4GB Micro SDHC Card",
+    "price": "Ksh 800",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/memory%20cards/Amaya%20High%20Speed%204GB%20Micro%20SDHC%20Card.jfif",
+    "inStock": true,
+    "description": "A reliable 4GB Micro SDHC card built for everyday media storage, providing stable read and write speeds alongside an SD adapter for cross-device compatibility.",
+    "features": ["Super Fast Performance", "Durable Architecture", "Full-Size SD Adapter Included", "365 Days Amaya Warranty"],
+    "specs": {
+      "capacity": "4GB",
+      "type": "Micro SDHC",
+      "speedClass": "Class 10",
+      "videoSupport": "HD Video Recording",
+      "compatibility": "Smartphones, Tablets, Cameras"
+    },
+    "warning": "Do not expose the memory card contacts to moisture, dust, or direct static electricity.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Amaya High Speed 8GB Micro SDHC Card",
+    "price": "Ksh 900",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/memory%20cards/Amaya%20High%20Speed%208GB%20Micro%20SDHC%20Card.jfif",
+    "inStock": true,
+    "description": "An excellent value 8GB memory expansion option designed for seamless integration with mobile devices and portable electronics, bundled with a protective full-size SD adapter.",
+    "features": ["Super Fast Read/Write", "Shockproof and Durable", "SD Adapter for Laptops/Cameras", "365 Days Guarantee Blueprint"],
+    "specs": {
+      "capacity": "8GB",
+      "type": "Micro SDHC",
+      "speedClass": "Class 10",
+      "videoSupport": "HD Video Recording",
+      "compatibility": "Smartphones, Tablets, Dashcams"
+    },
+    "warning": "Formatting deletes all data; please back up your important files before performing a full card format.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Amaya High Speed 16GB Micro SDHC Card",
+    "price": "Ksh 1000",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/memory%20cards/Amaya%20High%20Speed%2016GB%20Micro%20SDHC%20Card.jfif",
+    "inStock": true,
+    "description": "Ample 16GB Micro SDHC storage card providing high-velocity performance for heavier multimedia loads, music libraries, applications, and HD media capture.",
+    "features": ["Super Fast Processing Speed", "Durable Build Quality", "Includes SD Card Adapter", "365 Days Verified Protection"],
+    "specs": {
+      "capacity": "16GB",
+      "type": "Micro SDHC",
+      "speedClass": "Class 10",
+      "videoSupport": "HD Video Recording",
+      "compatibility": "Smartphones, Audio Players, Action Cams"
+    },
+    "warning": "Avoid using the memory card in unsupported legacy devices that do not explicitly recognize the SDHC standard.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Amaya Ultra Fast 32GB Micro SDXC Card",
+    "price": "Ksh 1200",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/memory%20cards/Amaya%20Ultra%20Fast%2032GB%20Micro%20SDXC%20Card.png",
+    "inStock": true,
+    "description": "High-performance 32GB Micro SDXC flash memory card processing rapid transfer speeds up to 100MB/s for smooth HD video recordings and high-speed photography.",
+    "features": ["Up to 100MB/s Transfer Speeds", "Super Fast & Durable Core", "SD Adapter Packaged Inside", "365 Days Extended Safeguard"],
+    "specs": {
+      "capacity": "32GB",
+      "type": "Micro SDXC",
+      "speedClass": "Class 10 UHS-I",
+      "videoSupport": "Ultra HD / Full HD Video",
+      "compatibility": "High-Res Cameras, Gaming Consoles, Smartphones"
+    },
+    "warning": "Maximum speed performance metrics require a host device compatible with high-bandwidth UHS-I interface standards.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Amaya Pro Performance 256GB Micro SDXC Card",
+    "price": "Ksh 5000",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/memory%20cards/Amaya%20Pro%20Performance%20256GB%20Micro%20SDXC%20Card.png",
+    "inStock": true,
+    "description": "The ultimate high-capacity storage solution. Packs a massive 256GB grid delivering transfer speeds up to 100MB/s, making it perfect for intensive 4K filming, action cameras, and professional archives.",
+    "features": ["Massive 256GB Storage Grid", "Up to 100MB/s Premium Throughput", "Pro Durability Design", "365 Days Comprehensive Warranty"],
+    "specs": {
+      "capacity": "256GB",
+      "type": "Micro SDXC",
+      "speedClass": "Class 10 High-Tier",
+      "videoSupport": "4K Ultra HD Optimized",
+      "compatibility": "Drones, Professional Cameras, High-End Smartphones"
+    },
+    "warning": "Ensure your specific smartphone or camera model supports high-capacity 256GB SDXC formatting frameworks before deployment.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  }
+]

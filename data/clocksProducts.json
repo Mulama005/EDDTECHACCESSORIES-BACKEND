@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Round Silver Wall Clock",
+    "price": "Ksh 800",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Classic%20Round%20Silver%20Wall%20Clock.jfif",
+    "inStock": true,
+    "description": "An elegant, minimalist round wall clock featuring a clean white face with bold black numerals and a sleek metallic silver finish frame.",
+    "features": ["Precise Quartz Movement", "Sleek Silver Frame", "Highly Visible Large Numbers"],
+    "specs": {
+      "type": "Wall Clock",
+      "shape": "Round",
+      "mechanism": "Quartz",
+      "display": "Analog",
+      "powerSource": "Battery Operated"
+    },
+    "warning": "Ensure the wall hook is securely fastened before mounting.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Elegant Round Gold Wall Clock",
+    "price": "Ksh 800",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Elegant%20Round%20Gold%20Wall%20Clock.jfif",
+    "inStock": true,
+    "description": "Add a touch of sophistication to your interior space with this polished golden-framed round wall clock featuring a sharp analog display.",
+    "features": ["Polished Gold Trim", "Quiet Analog Sweeping", "Clear Protective Lens"],
+    "specs": {
+      "type": "Wall Clock",
+      "shape": "Round",
+      "mechanism": "Quartz",
+      "display": "Analog",
+      "powerSource": "Battery Operated"
+    },
+    "warning": "Keep out of directly humid environments to maintain frame luster.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Modern Square Matte Black Wall Clock",
+    "price": "Ksh 1000",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Modern%20Square%20Matte%20Black%20Wall%20Clock.jfif",
+    "inStock": true,
+    "description": "A stylish square-profile wall clock featuring rounded corners, a deep matte black frame, and accented silver hardware clips on the sides.",
+    "features": ["Contemporary Square Frame", "Accented Side Clips", "Durable Polycarbonate Face"],
+    "specs": {
+      "type": "Wall Clock",
+      "shape": "Square with Rounded Corners",
+      "mechanism": "Quartz",
+      "display": "Analog",
+      "powerSource": "Battery Operated"
+    },
+    "warning": "Avoid using heavy-duty industrial batteries; standard AA recommended.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "Traditional Mahogany Round Wall Clock",
+    "price": "Ksh 800",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Traditional%20Mahogany%20Round%20Wall%20Clock.jfif",
+    "inStock": true,
+    "description": "Classic home or office timepiece styled with a rich mahogany brown outer frame enclosing a stark white dial face.",
+    "features": ["Deep Mahogany Tone Frame", "High Contrast Dial Track", "Reliable Timekeeping"],
+    "specs": {
+      "type": "Wall Clock",
+      "shape": "Round",
+      "mechanism": "Quartz",
+      "display": "Analog",
+      "powerSource": "Battery Operated"
+    },
+    "warning": "Clean the outer frame using only a dry microfibre cloth.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Amaya Multi-Dial Gold Station Clock",
+    "price": "Ksh 2000",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Amaya%20Multi-Dial%20Gold%20Station%20Clock.jfif",
+    "inStock": true,
+    "description": "A dark-faced premium wall clock featuring integrated sub-dials for monitoring environmental diagnostics alongside standard time.",
+    "features": ["Built-in Humidity Dial", "Built-in Temperature Gauge", "Polished Gold Metallic Bezel"],
+    "specs": {
+      "type": "Diagnostic Wall Clock",
+      "shape": "Round",
+      "mechanism": "Quartz Multi-Movement",
+      "display": "Analog with Environmental Sub-dials",
+      "powerSource": "Battery Operated"
+    },
+    "warning": "Sub-dials calibrate naturally based on ambient room conditions.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Haishi Digital-Display Smart Wall Clock",
+    "price": "Ksh 2000",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Haishi%20Digital-Display%20Smart%20Wall%20Clock.jfif",
+    "inStock": true,
+    "description": "An innovative hybrid clock from Haishi featuring a large analog main face combined with an embedded LCD screen showing month, date, day, and temperature.",
+    "features": ["Embedded LCD Dashboard", "Calendar & Temp Integration", "Chrome-Plated Premium Bezel"],
+    "specs": {
+      "type": "Hybrid Smart Clock",
+      "shape": "Round",
+      "mechanism": "Quartz + Digital Module",
+      "display": "Analog and LCD Screen",
+      "powerSource": "Battery Operated"
+    },
+    "warning": "Ensure the digital dashboard batteries are replaced promptly to avoid losing synchronization.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Luminous Glow-in-the-Dark Wall Clock",
+    "price": "Ksh 2000",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Luminous%20Glow-in-the-Dark%20Wall%20Clock.jfif",
+    "inStock": true,
+    "description": "Perfect for bedrooms and dark corridors, this clock features premium photo-luminescent numerals and hands that glow brilliantly when lights are out.",
+    "features": ["High-Glow Luminescent Track", "Clean Off-White Frame", "Silent Sweep Mechanism"],
+    "specs": {
+      "type": "Luminous Wall Clock",
+      "shape": "Round",
+      "mechanism": "Quartz Silent-Sweep",
+      "display": "Analog (Glow Dial)",
+      "powerSource": "Battery Operated"
+    },
+    "warning": "Requires brief exposure to natural or ambient light during the day to charge the glowing properties.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Luxury Skeleton Gear Pendulum Clock",
+    "price": "Ksh 5000",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Luxury%20Skeleton%20Gear%20Pendulum%20Clock.jfif",
+    "inStock": true,
+    "description": "A magnificent statement piece featuring a completely open transparent dial, floating rose gold Roman numerals, visible interlocking metallic gears, and an active mechanical swinging pendulum.",
+    "features": ["Active Interlocking Moving Gears", "Rose Gold Skeleton Framework", "Swinging Balance Pendulum"],
+    "specs": {
+      "type": "Luxury Skeleton Wall Clock",
+      "shape": "Round Floating Wheel",
+      "mechanism": "Kinetic Gear Quartz",
+      "display": "Analog Roman Numerals",
+      "powerSource": "Multi-Battery System"
+    },
+    "warning": "Mount securely to a structural wall or stud due to the heavy luxury build configuration.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Grand Steampunk Map & Moving Gear Clock",
+    "price": "Ksh 6500",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Grand%20Steampunk%20Map%20&%20Moving%20Gear%20Clock.jfif",
+    "inStock": true,
+    "description": "The ultimate luxury time art piece. Features an intricate background map texture, high-relief golden numerals, and an expansive center array of rotating open-work mechanical brass gears.",
+    "features": ["Expansive Moving Brass Gears", "Vintage Cartography Background Texture", "Premium Polished Gold Case Frame"],
+    "specs": {
+      "type": "Luxury Moving Gear Clock",
+      "shape": "Round Deluxe",
+      "mechanism": "Heavy-Duty Kinetic Quartz",
+      "display": "Analog Raised Numerals",
+      "powerSource": "Multi-Battery System"
+    },
+    "warning": "Do not manually obstruct the moving decorative gears to prevent motor strain.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 10,
+    "name": "Chocolat Traditional Round Wall Clock",
+    "price": "Ksh 800",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Chocolat%20Traditional%20Round%20Wall%20Clock.jfif",
+    "inStock": true,
+    "description": "A simple, deep brown variation of our standard boardroom round clock, emphasizing long-term battery life and straightforward, legible timekeeping.",
+    "features": ["Deep Dark Chocolate Frame", "Bold Legible Dial Track", "Energy Efficient Movement"],
+    "specs": {
+      "type": "Wall Clock",
+      "shape": "Round",
+      "mechanism": "Quartz",
+      "display": "Analog",
+      "powerSource": "Battery Operated"
+    },
+    "warning": "Ensure correct polarity placement when snapping batteries into the back hub.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  }
+]
