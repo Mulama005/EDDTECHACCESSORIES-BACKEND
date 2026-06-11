@@ -1096,6 +1096,24 @@ class ContactMessage(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
 
+# COOKIE CONSENT 
+
+class CookieConsent(db.Model):
+    id              = db.Column(db.Integer, primary_key=True)
+    session_id      = db.Column(db.String(200))           # anonymous identifier
+    user_id         = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=True)  # null if not logged in
+    consent_type    = db.Column(db.String(50))            # 'all', 'necessary', 'custom'
+    necessary       = db.Column(db.Boolean, default=True)
+    analytics       = db.Column(db.Boolean, default=False)
+    functional      = db.Column(db.Boolean, default=False)
+    marketing       = db.Column(db.Boolean, default=False)
+    ip_address      = db.Column(db.String(100))
+    user_agent      = db.Column(db.String(500))
+    consented_at    = db.Column(db.DateTime, default=datetime.utcnow)
+    withdrawn_at    = db.Column(db.DateTime, nullable=True)
+    is_active       = db.Column(db.Boolean, default=True)
+
+
 # ─────────────────────────────
 # CREATE TABLES ON STARTUP
 # ─────────────────────────────
@@ -1717,6 +1735,119 @@ def search_products():
     all_products = load_products_with_category()
     results = [p for p in all_products if product_matches(p, query_tokens)]
     return jsonify(results)
+
+
+
+# COOKIE CONSENT ROUTES
+
+@app.route("/api/consent", methods=["POST"])
+def save_consent():
+    data         = request.get_json()
+    consent_type = data.get("consent_type")        # 'all', 'necessary', 'custom'
+    session_id   = data.get("session_id")
+    prefs        = data.get("prefs", {})
+
+    # Get optional user from token
+    user_id = None
+    auth    = request.headers.get("Authorization")
+    if auth and " " in auth:
+        try:
+            token   = auth.split(" ")[1]
+            decoded = jwt.decode(token, app.config["SECRET_KEY"], algorithms=["HS256"])
+            user_id = decoded.get("user_id")
+        except Exception:
+            pass
+
+    # Deactivate any previous consent for this session
+    if session_id:
+        prev = CookieConsent.query.filter_by(session_id=session_id, is_active=True).all()
+        for p in prev:
+            p.is_active    = False
+            p.withdrawn_at = datetime.utcnow()
+        db.session.commit()
+
+    consent = CookieConsent(
+        session_id   = session_id,
+        user_id      = user_id,
+        consent_type = consent_type,
+        necessary    = prefs.get("necessary", True),
+        analytics    = prefs.get("analytics", False),
+        functional   = prefs.get("functional", False),
+        marketing    = prefs.get("marketing", False),
+        ip_address   = request.remote_addr,
+        user_agent   = request.headers.get("User-Agent", "")[:500],
+        is_active    = True
+    )
+    db.session.add(consent)
+    db.session.commit()
+
+    return jsonify({"message": "Consent recorded.", "id": consent.id}), 201
+
+
+@app.route("/api/consent/withdraw", methods=["POST"])
+def withdraw_consent():
+    data       = request.get_json()
+    session_id = data.get("session_id")
+
+    records = CookieConsent.query.filter_by(session_id=session_id, is_active=True).all()
+    for r in records:
+        r.is_active    = False
+        r.withdrawn_at = datetime.utcnow()
+    db.session.commit()
+
+    return jsonify({"message": "Consent withdrawn."}), 200
+
+
+@app.route("/api/admin/consents", methods=["GET"])
+@role_required("admin")
+def get_consents():
+    page     = request.args.get("page", 1, type=int)
+    per_page = 20
+    consents = CookieConsent.query.order_by(
+        CookieConsent.consented_at.desc()
+    ).paginate(page=page, per_page=per_page, error_out=False)
+
+    return jsonify({
+        "total":   consents.total,
+        "pages":   consents.pages,
+        "current": consents.page,
+        "records": [
+            {
+                "id":           c.id,
+                "session_id":   c.session_id,
+                "user_id":      c.user_id,
+                "consent_type": c.consent_type,
+                "necessary":    c.necessary,
+                "analytics":    c.analytics,
+                "functional":   c.functional,
+                "marketing":    c.marketing,
+                "ip_address":   c.ip_address,
+                "is_active":    c.is_active,
+                "consented_at": c.consented_at.strftime("%d %b %Y, %I:%M %p") if c.consented_at else None,
+                "withdrawn_at": c.withdrawn_at.strftime("%d %b %Y, %I:%M %p") if c.withdrawn_at else None,
+            } for c in consents.items
+        ]
+    }), 200
+
+
+@app.route("/api/admin/consents/stats", methods=["GET"])
+@role_required("admin")
+def consent_stats():
+    total      = CookieConsent.query.count()
+    active     = CookieConsent.query.filter_by(is_active=True).count()
+    all_type   = CookieConsent.query.filter_by(consent_type="all", is_active=True).count()
+    necessary  = CookieConsent.query.filter_by(consent_type="necessary", is_active=True).count()
+    custom     = CookieConsent.query.filter_by(consent_type="custom", is_active=True).count()
+    withdrawn  = CookieConsent.query.filter_by(is_active=False).count()
+
+    return jsonify({
+        "total":     total,
+        "active":    active,
+        "all":       all_type,
+        "necessary": necessary,
+        "custom":    custom,
+        "withdrawn": withdrawn,
+    }), 200
 
 
 # ─────────────────────────────
