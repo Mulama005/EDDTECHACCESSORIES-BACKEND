@@ -1,154 +1,219 @@
 [
   {
     "id": 1,
-    "name": "iPad Pro M4 (11-inch)",
-    "price": "Ksh 165,000",
-    "tag": "Top",
-    "image": "https://i.postimg.cc/C1cKTCPD/i-Pad-Pro-M4-(11-inch).webp",
+    "name": "Modio M730",
+    "price": "Ksh 7,900",
+    "tag": "Modio Series",
     "inStock": true,
-    "description": "Apple's most powerful tablet featuring the M4 chip, Ultra Retina XDR display, and Apple Pencil Pro support. Ideal for creatives, designers, and professionals.",
-    "features": ["Apple M4 Chip", "Ultra Retina XDR", "Apple Pencil Pro", "Face ID", "ProMotion 120Hz"],
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Modio%20M730.jfif",
+    "description": "Affordable and reliable Modio tablet engineered for standard day-to-day productivity and casual media consumption.",
+    "features": [
+      "Vibrant Compact Display Panel",
+      "Reliable Processing Core for Daily Tasks",
+      "Expandable Memory Capacity",
+      "Long-lasting Operational Battery Life"
+    ],
     "specs": {
-      "processor": "Apple M4",
-      "ram": "8GB",
-      "storage": "256GB",
-      "display": "11-inch OLED",
-      "battery": "Up to 10 hours"
+      "brand": "Modio",
+      "model": "M730",
+      "storage": "Standard",
+      "connectivity": "Wi-Fi Enabled"
     },
-    "rating": 5,
+    "warning": "Avoid exposing the micro-charging connections to sudden drops or alignment strains.",
+    "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 2,
-    "name": "Samsung Galaxy Tab S9 Ultra",
-    "price": "Ksh 155,000",
-    "tag": "Premium",
-    "image": "https://i.postimg.cc/wMtgCCsH/Samsung-Galaxy-Tab-S9-Ultra.webp",
+    "name": "Modio M96",
+    "price": "Ksh 7,900",
+    "tag": "Modio Series",
     "inStock": true,
-    "description": "A massive premium Android tablet with a 14.6-inch AMOLED display, S Pen support, and powerful Snapdragon performance. Perfect for multitasking and media consumption.",
-    "features": ["14.6\" AMOLED Display", "Snapdragon 8 Gen 2", "S Pen Included", "IP68 Water Resistant", "Multi-Window"],
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Modio%20M96.jfif",
+    "description": "Value-packed mobile smart tablet designed to handle smooth application multitasking and everyday reading routines.",
+    "features": [
+      "Responsive Touchscreen Layer Matrix",
+      "Optimized System Power Consumption Framework",
+      "Sleek and Ergonomic Exterior Shell",
+      "Built-in Audio Integration Speakers"
+    ],
     "specs": {
-      "processor": "Snapdragon 8 Gen 2",
-      "ram": "12GB",
-      "storage": "256GB",
-      "display": "14.6-inch AMOLED",
-      "battery": "11200mAh"
+      "brand": "Modio",
+      "model": "M96",
+      "storage": "Standard",
+      "connectivity": "Wi-Fi Enabled"
     },
-    "rating": 5,
+    "warning": "Ensure accurate power adapter voltages are utilized to optimize overall charge efficiency.",
+    "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 3,
-    "name": "iPad Air M2 (11-inch)",
-    "price": "Ksh 110,000",
-    "tag": "Popular",
-    "image": "https://i.postimg.cc/zf0NVzC1/i-Pad-Air-M2-(11-inch).webp",
+    "name": "Modio M750",
+    "price": "Ksh 7,900",
+    "tag": "Modio Series",
     "inStock": true,
-    "description": "Balanced performance and portability with Apple's M2 chip. Great for students, note-taking, and light creative work.",
-    "features": ["Apple M2 Chip", "Liquid Retina Display", "Apple Pencil Support", "Touch ID", "Lightweight"],
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Modio%20M750.jfif",
+    "description": "Versatile dynamic computing pad ideal for light browsing workflows and smooth operational response grids.",
+    "features": [
+      "High-Definition Core Rendering Capabilities",
+      "Sturdy Structural Casing Assembly",
+      "Seamless Interface Navigation Logic",
+      "Fast Operational Data Execution Module"
+    ],
     "specs": {
-      "processor": "Apple M2",
-      "ram": "8GB",
-      "storage": "128GB",
-      "display": "11-inch Liquid Retina",
-      "battery": "Up to 10 hours"
+      "brand": "Modio",
+      "model": "M750",
+      "storage": "Standard",
+      "connectivity": "Wi-Fi Enabled"
     },
-    "rating": 5,
+    "warning": "Do not block rear audio or vent arrays during extended media playback scenarios.",
+    "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 4,
-    "name": "Samsung Galaxy Tab S9 FE",
-    "price": "Ksh 65,000",
-    "tag": "Best Value",
-    "image": "https://i.postimg.cc/wMtgCCsH/Samsung-Galaxy-Tab-S9-Ultra.webp",
+    "name": "Modio M43",
+    "price": "Ksh 10,500",
+    "tag": "Modio Mid-Range",
     "inStock": true,
-    "description": "Affordable premium tablet with S Pen support, smooth display, and strong battery life. Ideal for students and everyday productivity.",
-    "features": ["S Pen Included", "90Hz Display", "IP68 Rating", "Long Battery Life", "Expandable Storage"],
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Modio%20M25.jfif",
+    "description": "Upgraded core mid-tier configuration balancing advanced computing capabilities with a beautiful rich graphics display matrix.",
+    "features": [
+      "Enhanced Processor Core Integration Hub",
+      "Sharper Enhanced Resolution Pixel Density",
+      "Generous Internal Matrix Storage Layout",
+      "Multi-Touch Responsive Interface Glass"
+    ],
     "specs": {
-      "processor": "Exynos 1380",
-      "ram": "6GB",
-      "storage": "128GB",
-      "display": "10.9-inch LCD",
-      "battery": "8000mAh"
+      "brand": "Modio",
+      "model": "M43",
+      "storage": "Upgraded",
+      "connectivity": "Cellular / Wi-Fi Support"
     },
+    "warning": "Utilize protective glass layered covers to maintain surface structural integrity.",
     "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 5,
-    "name": "Lenovo Tab P12",
-    "price": "Ksh 55,000",
-    "tag": "Popular",
-    "image": "https://i.postimg.cc/hPWGFGM1/Lenovo-Tab-P12.webp",
+    "name": "Modio M25",
+    "price": "Ksh 10,500",
+    "tag": "Modio Mid-Range",
     "inStock": true,
-    "description": "Large-screen tablet perfect for entertainment and study. Comes with stylus support and a sharp display for content consumption.",
-    "features": ["12.7\" Display", "Stylus Support", "Quad Speakers", "Large Battery", "Multitasking"],
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Modio%20M25.jfif",
+    "description": "High-efficiency media execution tablet boasting an expanded battery framework and fluid app interaction response indexes.",
+    "features": [
+      "Extended Operational Battery Cell Matrix",
+      "Streamlined Thin Profile Chassis Frame",
+      "Accurate Color Calibration Screen Layer",
+      "High-Speed System Data Bandwidth"
+    ],
     "specs": {
-      "processor": "MediaTek Dimensity 7050",
-      "ram": "8GB",
-      "storage": "128GB",
-      "display": "12.7-inch LCD",
-      "battery": "10200mAh"
+      "brand": "Modio",
+      "model": "M25",
+      "storage": "Upgraded",
+      "connectivity": "Cellular / Wi-Fi Support"
     },
+    "warning": "Keep internal system modules updated via stable configuration network options.",
     "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 6,
-    "name": "Xiaomi Pad 6",
-    "price": "Ksh 60,000",
-    "tag": "Top",
-    "image": "https://i.postimg.cc/mgZBR19Q/Xiaomi-Pad-6.jpg",
+    "name": "Modio M39",
+    "price": "Ksh 13,500",
+    "tag": "Modio Premium",
     "inStock": true,
-    "description": "High-performance Android tablet with Snapdragon 870, 144Hz display, and premium design. Great for gaming and productivity.",
-    "features": ["144Hz Display", "Snapdragon 870", "Dolby Vision", "Quad Speakers", "Fast Charging"],
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Modio%20M25.jfif",
+    "description": "Premium-tier production tablet packaging heavy-duty operational RAM capacity, crisp visual display nodes, and massive storage grids.",
+    "features": [
+      "High-Performance System Computation Matrix",
+      "Expansive Wide-Angle Visual Display Screen",
+      "Massive Flash Data Memory Architecture",
+      "Premium Textured Aluminum Alloy Backing"
+    ],
     "specs": {
-      "processor": "Snapdragon 870",
-      "ram": "8GB",
-      "storage": "256GB",
-      "display": "11-inch 144Hz",
-      "battery": "8840mAh"
+      "brand": "Modio",
+      "model": "M39",
+      "storage": "Premium Massive",
+      "connectivity": "High-Speed Cellular 4G/LTE"
     },
+    "warning": "Avoid leaving the core power architecture connected past maximum threshold statuses.",
     "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 7,
-    "name": "Huawei MatePad 11.5",
-    "price": "Ksh 48,000",
-    "tag": "Mid-range",
-    "image": "https://i.postimg.cc/7Y9rBPRH/Huawei-Mate-Pad-11-5.jpg",
+    "name": "Modio M93",
+    "price": "Ksh 14,500",
+    "tag": "Modio Flagship",
     "inStock": true,
-    "description": "Slim and stylish tablet with smooth performance and great display. Ideal for students and office productivity.",
-    "features": ["120Hz Display", "Huawei M-Pencil Support", "Lightweight", "Multi-screen Collaboration"],
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Modio%20M750.jfif",
+    "description": "The peak of the Modio family framework, providing desktop-like task execution pipelines and multi-threaded calculation properties.",
+    "features": [
+      "Top-Tier Heavy Workload Processing Matrix",
+      "Stunning Ultra-Bright Pixel Matrix Array",
+      "Professional Multitasking Application RAM Space",
+      "Advanced Structural Shockproof Edge Engineering"
+    ],
     "specs": {
-      "processor": "Snapdragon 7 Gen 1",
-      "ram": "6GB",
-      "storage": "128GB",
-      "display": "11.5-inch LCD",
-      "battery": "7700mAh"
+      "brand": "Modio",
+      "model": "M93",
+      "storage": "Flagship Maximum",
+      "connectivity": "High-Speed Cellular 4G/LTE"
     },
-    "rating": 4,
+    "warning": "To maintain original structural longevity, clean only using certified specialized lint-free tech wipes.",
+    "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 8,
-    "name": "Amazon Fire Max 11",
-    "price": "Ksh 35,000",
-    "tag": "Budget",
-    "image": "https://i.postimg.cc/RVMjn50z/Amazon-Fire-Max-11.jpg",
+    "name": "Matekids 10 Pro",
+    "price": "Ksh 6,800",
+    "tag": "Matekids Series",
     "inStock": true,
-    "description": "Affordable tablet with solid performance for streaming, reading, and casual use. Best for budget-conscious buyers.",
-    "features": ["Affordable", "Durable Build", "Alexa Support", "Long Battery Life"],
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Matekids%2010%20Pro.jfif",
+    "description": "Ruggedized, child-friendly learning environment pad optimized with interactive instructional suites and parental filtering frameworks.",
+    "features": [
+      "Reinforced Drop-Resistant Exterior Armor Shell",
+      "Pre-loaded Specialized Educational Programs",
+      "Integrated Safe Software Parental Control Suite",
+      "Eye-Protection Display Filter Filtering Layer"
+    ],
     "specs": {
-      "processor": "Octa-core",
-      "ram": "4GB",
-      "storage": "64GB",
-      "display": "11-inch LCD",
-      "battery": "Up to 14 hours"
+      "brand": "Matekids",
+      "model": "10 Pro",
+      "storage": "Kids Safe Optimized",
+      "connectivity": "Safe Wi-Fi"
     },
-    "rating": 3,
+    "warning": "Ensure kids' shockproof external silicone handles are kept dry and free of persistent food debris.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Matekids 20 Pro",
+    "price": "Ksh 6,600",
+    "tag": "Matekids Series",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/tablets/Matekids%2020%20Pro.jfif",
+    "description": "Budget-conscious durable learning tablet device loaded with rich developmental calculation puzzles and high-response multimedia logic.",
+    "features": [
+      "Thick Layered Shock Cushion Guarding",
+      "Fluid Interactive Multi-Touch Learning Matrix",
+      "Clear HD Multi-Media Playback Core",
+      "Ergonomically Balanced Child Grip Outline"
+    ],
+    "specs": {
+      "brand": "Matekids",
+      "model": "20 Pro",
+      "storage": "Kids Safe Optimized",
+      "connectivity": "Safe Wi-Fi"
+    },
+    "warning": "Do not submerge the casing elements into moisture variables despite ruggedized guard assets.",
+    "rating": 4,
     "whatsappNumber": "254758743522"
   }
+  
 ]

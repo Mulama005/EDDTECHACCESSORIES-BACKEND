@@ -1,191 +1,1501 @@
 [
   {
     "id": 1,
-    "name": "MacBook Air M3 (13-inch)",
-    "price": "Ksh 165,000",
-    "tag": "Top",
-    "image": "https://i.postimg.cc/k4r020kF/Mac-Book-Air-M3-(13-inch).webp",
+    "name": "HP ZBook 14 G8 Intel Core i7 (11th Gen)",
+    "price": "Ksh 77,000",
+    "tag": "Premium Workstation",
     "inStock": true,
-    "description": "Apple’s latest MacBook Air powered by the M3 chip, delivering exceptional performance, long battery life, and a sleek lightweight design. Perfect for students, developers, and professionals.",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20ZBook%2014%20G8%20Intel%20Core%20i7%20(11th%20Gen).avif",
+    "description": "High-tier performance packaging a high-speed 11th Gen Intel Core i7 engine, massive 32GB RAM matrix, 512GB NVMe flash storage grid, a dedicated 4GB graphics processing module, and an intuitive touchscreen layer.",
     "features": [
-      "Apple M3 Chip",
-      "13.6\" Retina Display",
-      "18hr Battery",
-      "Fanless Design",
-      "MagSafe Charging"
+      "11th Gen Intel Core i7 Processing Matrix",
+      "Massive 32GB High-Speed System Memory",
+      "Dedicated 4GB Graphics Subsystem",
+      "Interactive Multi-Touch Screen Display Layer"
     ],
     "specs": {
-      "processor": "Apple M3",
-      "ram": "8GB",
-      "storage": "256GB SSD",
-      "display": "13.6-inch Retina",
-      "battery": "Up to 18 hours"
+      "processor": "Intel Core i7 11th Gen",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "graphics": "4GB Dedicated",
+      "display": "Touchscreen"
     },
+    "warning": "Ensure demanding graphic configurations utilize matching adapter currents to maximize performance architectures.",
     "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 2,
-    "name": "Dell XPS 13 Plus",
-    "price": "Ksh 185,000",
-    "tag": "Premium",
-    "image": "https://i.postimg.cc/8cYB5SYf/Dell-XPS-13-Plus.webp",
+    "name": "HP ZBook 14 G8 Intel Core i7 (11th Gen) Matte",
+    "price": "Ksh 75,000",
+    "tag": "Premium Workstation",
     "inStock": true,
-    "description": "Ultra-premium laptop with a futuristic design, edge-to-edge keyboard, and powerful Intel Core Ultra processors. Ideal for productivity and high-end users.",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20ZBook%2014%20G7%20Intel%20Core%20i7%20Non-Touch.jfif",
+    "description": "Professional engineering workstation equipped with an 11th Gen Core i7 framework, 32GB RAM capacity, a 512GB solid-state drive, and 4GB dedicated graphic architecture. Formulated with a classic non-touch anti-glare screen matrix.",
     "features": [
-      "Intel Core Ultra 7",
-      "OLED Display",
-      "Ultra Slim Design",
-      "Premium Build"
+      "11th Gen Intel Core i7 Compute Engine",
+      "32GB Professional Multitasking RAM Grid",
+      "4GB Dedicated Graphic Processing Hub",
+      "Anti-Glare Matte Non-Touch Framework"
     ],
     "specs": {
-      "processor": "Intel Core Ultra 7",
-      "ram": "16GB",
+      "processor": "Intel Core i7 11th Gen",
+      "ram": "32GB",
       "storage": "512GB SSD",
-      "display": "13.4-inch OLED",
-      "battery": "Up to 12 hours"
+      "graphics": "4GB Dedicated",
+      "display": "Non-Touch"
     },
+    "warning": "Do not block the bottom air vents during resource-intensive calculations to sustain ideal thermal baselines.",
     "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 3,
-    "name": "HP Spectre x360 14",
-    "price": "Ksh 175,000",
-    "tag": "Top",
-    "image": "https://i.postimg.cc/26s4vDYv/HP-Spectre-x360-14.avif",
+    "name": "HP ZBook 14 G8 Intel Core i7 16GB RAM",
+    "price": "Ksh 72,000",
+    "tag": "Workstation Choice",
     "inStock": true,
-    "description": "A premium 2-in-1 convertible laptop with stunning OLED display, powerful performance, and flexible design for both work and entertainment.",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20ZBook%2014%20G7%20Intel%20Core%20i7%20Touch.webp",
+    "description": "Streamlined ZBook 14 G8 built on an 11th Gen Intel i7 foundation, housing 16GB layout memory, 512GB rapid data storage, and a robust 4GB dedicated graphics unit behind a standard non-touch display layout.",
     "features": [
-      "2-in-1 Convertible",
-      "OLED Touchscreen",
-      "Stylus Support",
-      "All-day Battery"
+      "Efficient 11th Gen Core i7 Blueprint",
+      "16GB High-Speed Data Execution Engine",
+      "4GB Dedicated VRAM Infrastructure",
+      "Anti-Reflective Non-Touch Display Screen"
     ],
     "specs": {
-      "processor": "Intel Core Ultra 5",
+      "processor": "Intel Core i7 11th Gen",
       "ram": "16GB",
       "storage": "512GB SSD",
-      "display": "14-inch OLED Touch",
-      "battery": "Up to 13 hours"
+      "graphics": "4GB Dedicated",
+      "display": "Non-Touch"
     },
-    "rating": 5,
+    "warning": "Always allow system software updates to conclude systematically before initiating manual hardware shutoffs.",
+    "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 4,
-    "name": "Lenovo ThinkPad X1 Carbon Gen 12",
-    "price": "Ksh 190,000",
-    "tag": "Business",
-    "image": "https://i.postimg.cc/Wp0ZKxTV/Lenovo-Think-Pad-X1-Carbon-Gen-12.webp",
+    "name": "HP ZBook 14 G7 Intel Core i7 Touch",
+    "price": "Ksh 74,000",
+    "tag": "Professional Hub",
     "inStock": true,
-    "description": "Legendary business laptop known for durability, security, and performance. Perfect for professionals and corporate users.",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20ZBook%2014%20G7%20Intel%20Core%20i7%20Touch.webp",
+    "description": "Capable 10th Gen Intel Core i7 mobile creative suite boasting an expansive 32GB RAM array, 512GB storage capacity, 4GB of dedicated graphical rendering hardware, and a fully interactive touch panel framework.",
     "features": [
-      "Military Grade Build",
-      "Fingerprint Reader",
-      "Lightweight",
-      "Business Class Security"
+      "10th Gen Intel Core i7 Computing Architecture",
+      "Heavy-Duty 32GB System RAM Array",
+      "4GB Graphics Accelerator Platform",
+      "Responsive Touchscreen Interaction Panel"
     ],
     "specs": {
-      "processor": "Intel Core Ultra 7",
-      "ram": "16GB",
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "32GB",
       "storage": "512GB SSD",
-      "display": "14-inch WUXGA",
-      "battery": "Up to 15 hours"
+      "graphics": "4GB Dedicated",
+      "display": "Touchscreen"
     },
-    "rating": 5,
+    "warning": "Clean the screen assembly using certified micro-fiber cloths to avoid superficial micro-scratches.",
+    "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 5,
-    "name": "ASUS ROG Zephyrus G14",
-    "price": "Ksh 210,000",
-    "tag": "Gaming",
-    "image": "https://i.postimg.cc/YCTqtqz6/ASUS-ROG-Zephyrus-G14.webp",
+    "name": "HP EliteBook 1040 G10 Intel Core i7",
+    "price": "Ksh 77,000",
+    "tag": "Modern Executive",
     "inStock": true,
-    "description": "Compact gaming powerhouse with AMD Ryzen processor and RTX graphics. Ideal for gamers and creators who need high performance on the go.",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201040%20G10%20Intel%20Core%20i7.jfif",
+    "description": "Cutting-edge modern executive business laptop running a high-tier 13th Gen Intel Core i7 processor array, matching 16GB of rapid multitasking RAM, and 512GB premium storage capacity on an expansive non-touch display matrix.",
     "features": [
-      "RTX Graphics",
-      "165Hz Display",
-      "High Performance",
-      "Gaming Optimized"
+      "Next-Gen 13th Gen Intel Core i7 Core",
+      "16GB High-Bandwidth System RAM Module",
+      "512GB Ultra-Fast Solid State Engine",
+      "High-Definition Anti-Glare Non-Touch Matrix"
     ],
     "specs": {
-      "processor": "AMD Ryzen 9",
+      "processor": "Intel Core i7 13th Gen",
       "ram": "16GB",
-      "storage": "1TB SSD",
-      "display": "14-inch 165Hz",
-      "gpu": "NVIDIA RTX 4060"
+      "storage": "512GB SSD",
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Non-Touch"
     },
+    "warning": "Deploy authentic Type-C power delivery devices to preserve premium battery charge cycles.",
     "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 6,
-    "name": "Acer Aspire 5",
-    "price": "Ksh 75,000",
-    "tag": "Best Value",
-    "image": "https://i.postimg.cc/j5xVbGmg/Acer-Aspire-5.jpg",
+    "name": "HP EliteBook 1040 G8 x360 Convertible Touch",
+    "price": "Ksh 74,000",
+    "tag": "Popular Convertible",
     "inStock": true,
-    "description": "Affordable everyday laptop with solid performance for students and office work. Great balance of price and functionality.",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201040%20G8%20x360%20Convertible%20Touch.webp",
+    "description": "Premium 2-in-1 executive hybrid framework driven by an 11th Gen Intel Core i7 architecture, a heavy 32GB RAM module, 512GB high-speed disk node, and a 360-degree rotating interactive touch display infrastructure.",
     "features": [
-      "Full HD Display",
-      "Backlit Keyboard",
-      "Slim Design"
+      "360-Degree Convertible Hybrid Frame",
+      "High-Velocity 11th Gen Core i7 Core",
+      "32GB Voluminous Multitasking Module",
+      "Premium Interactive Touchscreen Shell"
     ],
     "specs": {
-      "processor": "Intel Core i5",
-      "ram": "8GB",
+      "processor": "Intel Core i7 11th Gen",
+      "ram": "32GB",
       "storage": "512GB SSD",
-      "display": "15.6-inch Full HD",
-      "battery": "Up to 8 hours"
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Touchscreen x360 Convertible"
     },
-    "rating": 4,
+    "warning": "Support the system hinge assembly uniformly when pivoting from laptop posture into tablet configuration.",
+    "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 7,
-    "name": "Lenovo IdeaPad 3",
-    "price": "Ksh 55,000",
-    "tag": "Budget",
-    "image": "https://i.postimg.cc/1XbYfTCL/Lenovo-Idea-Pad-3.webp",
+    "name": "Dell Precision 7550 High-End Workstation",
+    "price": "Ksh 73,000",
+    "tag": "Heavy Duty Workstation",
     "inStock": true,
-    "description": "Entry-level laptop ideal for students and basic tasks like browsing, typing, and online classes.",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Dell%20Precision%207550%20High-End%20Workstation.webp",
+    "description": "A titan of calculations, processing workflows through a 10th Gen Intel Core i7 platform, 16GB elite system memory, 512GB rapid array storage, and backed by an independent 4GB dedicated high-tier graphics grid.",
     "features": [
-      "Affordable",
-      "Lightweight",
-      "Dolby Audio"
+      "10th Gen Intel Core i7 Industrial Processor",
+      "16GB Dedicated Calculation System RAM",
+      "4GB Discrete Workstation Graphics Module",
+      "Heavy-Duty Industrial Grade Core Build"
     ],
     "specs": {
-      "processor": "Intel Core i3",
-      "ram": "8GB",
-      "storage": "256GB SSD",
-      "display": "15.6-inch HD",
-      "battery": "Up to 7 hours"
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "4GB Dedicated",
+      "display": "Non-Touch"
     },
-    "rating": 3,
+    "warning": "This premium industrial model requires flat surfaces to enable correct thermal exhaust ventilation.",
+    "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 8,
-    "name": "HP Pavilion 15",
-    "price": "Ksh 85,000",
-    "tag": "Popular",
-    "image": "https://i.postimg.cc/jCVZsfCV/HP-Pavilion-15.webp",
+    "name": "Lenovo ThinkPad X1 Carbon Intel Core i7 (11th Gen)",
+    "price": "Ksh 67,000",
+    "tag": "Ultralight Elite",
     "inStock": true,
-    "description": "Stylish mid-range laptop with good performance for work, school, and light creative tasks.",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Lenovo%20ThinkPad%20X1%20Carbon%20Intel%20Core%20i7%20(11th%20Gen).jfif",
+    "description": "The peak of lightweight execution metrics. Encompasses an ultra-fast 11th Gen Intel i7 processor core, a immense 32GB operational RAM blueprint, and 512GB fast storage in a featherlight carbon-fiber non-touch setup.",
     "features": [
-      "Fast Charging",
-      "Slim Design",
-      "Good Performance"
+      "Featherlight Carbon-Fiber Space Structure",
+      "High-Velocity 11th Gen Intel i7 Engine",
+      "32GB Extreme Bandwidth RAM Cluster",
+      "Anti-Reflective Executive Non-Touch Display"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 11th Gen",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Non-Touch"
+    },
+    "warning": "Avoid applying centralized focal force over the top carbon matrix weave lid structure.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Lenovo ThinkPad X1 Carbon i7 16GB Touch",
+    "price": "Ksh 66,000",
+    "tag": "Ultralight Elite",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Lenovo%20ThinkPad%20X1%20Carbon%20i7%2016GB%20Touch.jfif",
+    "description": "Ultra-slim carbon executive machine running an 11th Gen Core i7 module, paired along 16GB layout RAM, 512GB solid storage matrix, and accented with a beautiful direct multi-touch interface layer.",
+    "features": [
+      "Premium Carbon Architecture Build",
+      "11th Gen Core i7 High-Performance Chip",
+      "16GB System Multitasking Matrix",
+      "Precision Fingerprint Touchscreen Grid"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 11th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Touchscreen"
+    },
+    "warning": "Do not expose internal display connections to volatile screen cleaner spray formulations.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 10,
+    "name": "HP EliteBook 840 G8 Intel Core i7",
+    "price": "Ksh 55,000",
+    "tag": "Best Value Business",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G8%20Intel%20Core%20i7.webp",
+    "description": "Mainstream flagship corporate laptop deploying an 11th Gen Intel Core i7 chipset architecture, 16GB system RAM workspace, and 512GB fast memory storage drive. Built with classic anti-glare non-touch paneling.",
+    "features": [
+      "11th Gen Intel Core i7 Productivity Base",
+      "16GB Rapid Access System Memory",
+      "512GB High-Speed Solid-State Storage",
+      "Sleek Aluminum Shell Engineering"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 11th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Non-Touch"
+    },
+    "warning": "Keep laptop ports clear from localized lint pileups to ensure seamless interface contacts.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 11,
+    "name": "HP ProBook 11 G6 x360 Education Touch",
+    "price": "Ksh 32,500",
+    "tag": "Budget Student",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20ProBook%2011%20G6%20x360%20Education%20Touch.jfif",
+    "description": "Ruggedized multi-posture flexible classroom notebook processing tasks with a 10th Gen Intel Core i5 engine, 8GB workspace RAM, 256GB reliable storage base, and an interactive rotating 360 touch display surface.",
+    "features": [
+      "10th Gen Intel Core i5 Processor Platform",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "360-Degree Convertible Tough Design"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 10th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Ensure the external rubber rugged chassis guards remain dry and free of particulate debris.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 12,
+    "name": "Apple MacBook Pro 15-Inch (2018 Edition)",
+    "price": "Ksh 49,000",
+    "tag": "Content Creator Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Apple%20MacBook%20Pro%2015-Inch%20(2018%20Edition).jfif",
+    "description": "Classic premium creation workhorse featuring a 6-core Intel Core i7 engine layout, 16GB system memory space, 512GB flash architecture disk, and a 4GB dedicated graphics unit powering a stunning high-res Retina panel.",
+    "features": [
+      "High-Performance Intel Core i7 6-Core",
+      "16GB Unified Architecture RAM Module",
+      "4GB Dedicated Premium Graphics Architecture",
+      "Iconic Aluminum Unibody Shell Frame"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 Hexa-Core",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "4GB Dedicated",
+      "display": "Retina Display Panel"
+    },
+    "warning": "Keep keyboard switches clear from fine micro-crumbs to sustain proper long-term button mechanism travel.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 13,
+    "name": "HP EliteBook 845 G8 AMD Ryzen 5",
+    "price": "Ksh 40,000",
+    "tag": "Budget AMD Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20845%20G8%20AMD%20Ryzen%205.jfif",
+    "description": "Efficient modern multi-core office processing asset run by an AMD Ryzen 5 engine, 8GB high-speed memory layout, 256GB quick drive space, and wrapped in a classic lightweight non-touch corporate frame.",
+    "features": [
+      "Multi-Threaded AMD Ryzen 5 Core",
+      "8GB Dynamic Desktop RAM Module",
+      "256GB Electronic Solid-State Drive",
+      "Anti-Reflective Professional Workspace Panel"
+    ],
+    "specs": {
+      "processor": "AMD Ryzen 5",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "AMD Radeon Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Always carry out standard power operations inside appropriate, non-condensing workspace moisture baselines.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 14,
+    "name": "Lenovo ThinkPad Yoga 11e G4 Touch",
+    "price": "Ksh 20,000",
+    "tag": "Entry Level Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Lenovo%20ThinkPad%20Yoga%2011e%20G4%20Touch.jfif",
+    "description": "Affordable, exceptionally rugged 11-inch convertible companion engineered with 8GB performance memory, a 128GB flash disk array, and a versatile x360 pivoting touch screen designed for learning or lightweight operations.",
+    "features": [
+      "Highly Rigid Shockproof External Armor",
+      "8GB Workstation Operational RAM Layout",
+      "128GB Responsive Data Solid-State Matrix",
+      "Flexible Multi-Posture Touch Screen Mechanism"
+    ],
+    "specs": {
+      "processor": "Intel Core Dual-Core",
+      "ram": "8GB",
+      "storage": "128GB SSD",
+      "graphics": "Intel Integrated HD",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Avoid forcing the screen framework beyond its natural mechanical hinge retention stops.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 15,
+    "name": "HP ZBook 14 G7 Intel Core i7 Non-Touch",
+    "price": "Ksh 73,000",
+    "tag": "Professional Hub",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20ZBook%2014%20G7%20Intel%20Core%20i7%20Non-Touch.jfif",
+    "description": "High-tier performance packaging a 10th Gen Intel Core i7 engine, massive 32GB RAM matrix, 512GB NVMe flash storage grid, and a dedicated 4GB graphics processing module behind a standard anti-glare screen.",
+    "features": [
+      "10th Gen Intel Core i7 Computing Architecture",
+      "Heavy-Duty 32GB System RAM Array",
+      "4GB Graphics Accelerator Platform",
+      "Anti-Reflective Professional Workspace Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "graphics": "4GB Dedicated",
+      "display": "Non-Touch"
+    },
+    "warning": "Do not block the bottom air vents during resource-intensive calculations to sustain ideal thermal baselines.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 16,
+    "name": "HP ZBook 14 G6 Intel Core i7 Touch",
+    "price": "Ksh 57,000",
+    "tag": "Workstation Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20ZBook%2014%20G6%20Intel%20Core%20i7%20Touch.jfif",
+    "description": "Capable 8th Gen Intel Core i7 mobile workstation housing 16GB layout memory, 512GB rapid data storage, a robust 4GB dedicated graphics unit, and a fully interactive touch panel framework.",
+    "features": [
+      "8th Gen Intel Core i7 Computing Architecture",
+      "16GB High-Speed Data Execution Engine",
+      "4GB Graphics Accelerator Platform",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 8th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "4GB Dedicated",
+      "display": "Touchscreen"
+    },
+    "warning": "Clean the screen assembly using certified micro-fiber cloths to avoid superficial micro-scratches.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 17,
+    "name": "HP EliteBook 850 G7 Intel Core i7 Touch",
+    "price": "Ksh 57,000",
+    "tag": "Premium Business",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20850%20G7%20Intel%20Core%20i7%20Touch.jfif",
+    "description": "Sleek, thin-profile 15.6-inch executive workspace machine powered by a 10th Gen Intel i7 processor core, 16GB system memory space, 512GB rapid flash drive, and enhanced with a multi-touch crisp interface layer.",
+    "features": [
+      "10th Gen Intel Core i7 Productivity Base",
+      "16GB Rapid Access System Memory",
+      "512GB High-Speed Solid-State Storage",
+      "Precision Fingerprint Touchscreen Grid"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen"
+    },
+    "warning": "Deploy authentic power delivery devices to preserve premium battery charge cycles.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 18,
+    "name": "HP EliteBook 850 G6 Intel Core i7 Touch",
+    "price": "Ksh 54,000",
+    "tag": "Business Hub",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20850%20G6%20Intel%20Core%20i7%20Touch.jfif",
+    "description": "Large-screen flagship corporate notebook driven by an 8th Gen Intel Core i7 chipset, 16GB system RAM workspace, 512GB high-speed disk node, and an independent 2GB dedicated graphics module underneath a responsive glass touch matrix.",
+    "features": [
+      "8th Gen Intel Core i7 Compute Engine",
+      "16GB Professional Multitasking RAM Grid",
+      "2GB Dedicated Graphics Hub",
+      "Premium Interactive Glass Touchscreen Shell"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 8th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "2GB Dedicated",
+      "display": "Touchscreen (Glass)"
+    },
+    "warning": "Always allow system software updates to conclude systematically before initiating manual hardware shutoffs.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 19,
+    "name": "HP EliteBook 850 G3/G4 Intel Core i5",
+    "price": "Ksh 35,000",
+    "tag": "Budget Business",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20850%20G3%20Intel%20Core%20i5.jfif",
+    "description": "Mainstream business deployment model processing tasks with a reliable 6th Gen Intel Core i5 architecture, 8GB efficient system memory, and a 256GB reliable solid-state core storage setup.",
+    "features": [
+      "6th Gen Intel Core i5 Processor Platform",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Durable Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 6th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Keep laptop ports clear from localized lint pileups to ensure seamless interface contacts.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 20,
+    "name": "HP EliteBook 845 G7 AMD Ryzen 5 Touch",
+    "price": "Ksh 41,000",
+    "tag": "AMD Core Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20845%20G7%20AMD%20Ryzen%205%20Touch.jfif",
+    "description": "Multi-threaded AMD Ryzen 5 corporate notebook powered by a 10th Gen platform architecture, hosting an 8GB workspace memory layout, 256GB quick drive space, and accented with a direct multi-touch layer.",
+    "features": [
+      "Multi-Threaded AMD Ryzen 5 Core",
+      "8GB Dynamic Desktop RAM Module",
+      "256GB Electronic Solid-State Drive",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "AMD Ryzen 5 10th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "AMD Radeon Graphics",
+      "display": "Touchscreen"
+    },
+    "warning": "Always carry out standard power operations inside appropriate, non-condensing workspace moisture baselines.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 21,
+    "name": "HP EliteBook 845 G7 AMD Ryzen 5 Non-Touch",
+    "price": "Ksh 39,000",
+    "tag": "AMD Core Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20845%20G7%20AMD%20Ryzen%205%20Non-Touch.webp",
+    "description": "Streamlined 14-inch professional layout laptop fueled by an AMD Ryzen 5 processing core, 8GB dynamic desktop RAM module, and a 256GB electronic solid-state drive with a matte non-touch paneling setup.",
+    "features": [
+      "Multi-Threaded AMD Ryzen 5 Core",
+      "8GB Dynamic Desktop RAM Module",
+      "256GB Electronic Solid-State Drive",
+      "Anti-Reflective Professional Workspace Panel"
+    ],
+    "specs": {
+      "processor": "AMD Ryzen 5 10th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "AMD Radeon Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Ensure laptop vents remain free from obstructions to maximize structural efficiency.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 22,
+    "name": "HP EliteBook 845 G7 AMD Ryzen 3",
+    "price": "Ksh 38,000",
+    "tag": "Entry AMD Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20845%20G7%20AMD%20Ryzen%203.webp",
+    "description": "Affordable business class machine utilizing a 10th Gen AMD Ryzen 3 platform, equipped with 8GB RAM capacity, 256GB high-speed memory storage, and configured with a classic non-touch anti-glare screen matrix.",
+    "features": [
+      "Efficient AMD Ryzen 3 Core Processor",
+      "8GB System Multitasking Matrix",
+      "256GB Fast Memory Storage Drive",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "AMD Ryzen 3 10th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "AMD Radeon Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Handle the battery recharge parameters with care to prolong original runtime stats.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 23,
+    "name": "HP EliteBook 745 G6 AMD Ryzen 7",
+    "price": "Ksh 41,000",
+    "tag": "AMD Power Asset",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20745%20G6%20AMD%20Ryzen%207.jfif",
+    "description": "High-performance AMD Ryzen 7 corporate workstation setup including an 8GB workspace memory layout, 256GB solid-state core storage, and a crisp non-touch panel design layout.",
+    "features": [
+      "High-Performance AMD Ryzen 7 Core",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Anti-Reflective Professional Workspace Panel"
+    ],
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "AMD Radeon Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Avoid localized screen pressure to guard against display light bleed errors.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 24,
+    "name": "HP EliteBook 745 G6 AMD Ryzen 5 Touch",
+    "price": "Ksh 38,000",
+    "tag": "AMD Balance choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20745%20G6%20AMD%20Ryzen%205%20Touch.jfif",
+    "description": "Sleek aluminum mid-range office asset fueled by an AMD Ryzen 5 core engine, paired along 8GB layout RAM, 256GB quick drive space, and accented with a multi-touch face panel.",
+    "features": [
+      "Multi-Threaded AMD Ryzen 5 Core",
+      "8GB Dynamic Desktop RAM Module",
+      "256GB Electronic Solid-State Drive",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "AMD Ryzen 5",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "AMD Radeon Graphics",
+      "display": "Touchscreen"
+    },
+    "warning": "Do not clean with harsh solvents; use soft specialized lint-free tech wipes.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 25,
+    "name": "HP EliteBook 745 G6 AMD Ryzen 5 Non-Touch",
+    "price": "Ksh 37,000",
+    "tag": "AMD Balance Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20745%20G6%20AMD%20Ryzen%205%20Non-Touch.jfif",
+    "description": "Affordable 14-inch professional layout notebook driven by an AMD Ryzen 5 compute engine, 8GB high-speed system memory, 256GB flash architecture disk, behind a classic non-touch anti-glare screen layout.",
+    "features": [
+      "Multi-Threaded AMD Ryzen 5 Core",
+      "8GB Dynamic Desktop RAM Module",
+      "256GB Electronic Solid-State Drive",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "AMD Ryzen 5",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "AMD Radeon Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Unplug peripheral docks before packing device inside compact travel protection items.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 26,
+    "name": "Apple MacBook Air 13-Inch (2017 Edition)",
+    "price": "Ksh 35,000",
+    "tag": "Legacy Mac Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Apple%20MacBook%20Air%2013-Inch%20(2017%20Edition).jfif",
+    "description": "Classic premium aluminum ultra-thin companion powered by an Intel Core i5 setup, featuring an 8GB workspace layout and 256GB rapid flash memory disk space inside a featherlight design frame.",
+    "features": [
+      "Intel Core i5 Processor Platform",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Iconic Slim Aluminum Unibody Shell Frame"
     ],
     "specs": {
       "processor": "Intel Core i5",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Glossy LED Panel"
+    },
+    "warning": "Maintain careful treatment of magnetic charging cords to enjoy maximum long-term utility.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 27,
+    "name": "Apple MacBook Air 13-Inch (2015 Core i7)",
+    "price": "Ksh 35,000",
+    "tag": "Legacy Mac Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Apple%20MacBook%20Air%2013-Inch%20(2015%20Core%20i7).jfif",
+    "description": "Legacy aluminum unibody notebook configured with an upgraded Intel Core i7 layout, 8GB multitasking RAM cluster, and a fast 256GB rapid data storage matrix.",
+    "features": [
+      "Upgraded Intel Core i7 Processor",
+      "8GB System Multitasking Matrix",
+      "256GB Fast Memory Storage Drive",
+      "Iconic Slim Aluminum Unibody Shell Frame"
+    ],
+    "specs": {
+      "processor": "Intel Core i7",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Glossy LED Panel"
+    },
+    "warning": "Do not expose internal display connections to volatile screen cleaner spray formulations.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 28,
+    "name": "Apple MacBook Air 13-Inch (2015 Core i5)",
+    "price": "Ksh 33,000",
+    "tag": "Legacy Mac Entry",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Apple%20MacBook%20Air%2013-Inch%20(2015%20Core%20i5).jfif",
+    "description": "Budget legacy macOS laptop powered by an Intel Core i5 setup, housing an 8GB efficient system memory base and a 256GB integrated storage core space.",
+    "features": [
+      "Intel Core i5 Processor Platform",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Iconic Slim Aluminum Unibody Shell Frame"
+    ],
+    "specs": {
+      "processor": "Intel Core i5",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Glossy LED Panel"
+    },
+    "warning": "Keep laptop ports clear from localized lint pileups to ensure seamless interface contacts.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 29,
+    "name": "Apple MacBook Pro 13-Inch (2012 Edition)",
+    "price": "Ksh 28,000",
+    "tag": "Legacy Mac Entry",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/Apple%20MacBook%20Pro%2013-Inch%20(2012%20Edition).jfif",
+    "description": "Affordable legacy entry-tier MacBook Pro model processing workflows through an Intel Core i5 platform, 8GB system layout RAM, and 256GB solid-state storage.",
+    "features": [
+      "Intel Core i5 Processor Platform",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Durable Thick Aluminum Unibody Chassis"
+    ],
+    "specs": {
+      "processor": "Intel Core i5",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Glossy LED Panel"
+    },
+    "warning": "Heavier frame metrics require appropriate care during active mobile handling commutes.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 30,
+    "name": "HP EliteBook 1040 G8 x360 Touch 16GB RAM",
+    "price": "Ksh 70,000",
+    "tag": "Popular Convertible",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201040%20G8%20x360%20Touch%2016GB%20RAM.jfif",
+    "description": "Premium 2-in-1 executive hybrid framework driven by an 11th Gen Intel Core i7 architecture, a standard 16GB RAM module, 512GB high-speed disk node, and a 360-degree rotating interactive touch display infrastructure.",
+    "features": [
+      "360-Degree Convertible Hybrid Frame",
+      "High-Velocity 11th Gen Core i7 Core",
+      "16GB High-Speed Data Execution Engine",
+      "Premium Interactive Touchscreen Shell"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 11th Gen",
       "ram": "16GB",
       "storage": "512GB SSD",
-      "display": "15.6-inch Full HD",
-      "battery": "Up to 9 hours"
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Touchscreen x360 Convertible"
     },
+    "warning": "Support the system hinge assembly uniformly when pivoting from laptop posture into tablet configuration.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 31,
+    "name": "HP EliteBook 1040 G8 x360 Core i5",
+    "price": "Ksh 54,000",
+    "tag": "Convertible Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201040%20G8%20x360%20Core%20i5.jfif",
+    "description": "Versatile multi-posture business hybrid notebook run by an 11th Gen Intel Core i5 core processor, featuring 16GB system RAM workspace, 256GB reliable solid-state disk storage, and an interactive 360-degree touch display.",
+    "features": [
+      "360-Degree Convertible Hybrid Frame",
+      "Efficient 11th Gen Intel Core i5 Engine",
+      "16GB Professional Multitasking RAM Grid",
+      "Premium Interactive Touchscreen Shell"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 11th Gen",
+      "ram": "16GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Charge only using certified original power accessories to maintain battery architecture health.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 32,
+    "name": "HP EliteBook 1040 G7 x360 Convertible",
+    "price": "Ksh 64,000",
+    "tag": "Convertible Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201040%20G7%20x360%20Core%20i5.jfif",
+    "description": "Executive 2-in-1 layout driven by a 10th Gen Intel Core i7 compute structure, boasting 16GB layout memory, 512GB rapid array storage, underneath a flexible multi-touch rotating panel face.",
+    "features": [
+      "360-Degree Convertible Hybrid Frame",
+      "10th Gen Intel Core i7 Processing Matrix",
+      "16GB High-Speed Data Execution Engine",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Avoid lifting the notebook chassis solely by the rotating screen interface boundary.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 33,
+    "name": "HP EliteBook 1040 G5 x360 Touch",
+    "price": "Ksh 54,000",
+    "tag": "Convertible Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201040%20G5%20x360%20Touch.jfif",
+    "description": "Highly responsive hybrid platform running an 8th Gen Intel Core i7 engine, packed along 16GB system RAM, 512GB rapid flash drive, and complete with a x360 rotating direct touch panel.",
+    "features": [
+      "360-Degree Convertible Hybrid Frame",
+      "8th Gen Intel Core i7 Compute Engine",
+      "16GB Professional Multitasking RAM Grid",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 8th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Ensure flat base deployment coordinates to prevent internal heat pileup loops.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 34,
+    "name": "HP EliteBook 1040 G6 x360 Touch",
+    "price": "Ksh 55,000",
+    "tag": "Convertible Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201040%20G6%20x360%20Touch.jfif",
+    "description": "Refined executive 2-in-1 device running on an 8th Gen Intel Core i7 chipset, encompassing 16GB system memory layout, 512GB high-speed solid-state core storage, and a robust 360-degree touch interaction face.",
+    "features": [
+      "360-Degree Convertible Hybrid Frame",
+      "8th Gen Intel Core i7 Compute Engine",
+      "16GB Professional Multitasking RAM Grid",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 8th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Keep touch surface free from industrial oils or corrosive liquid exposures.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 35,
+    "name": "HP EliteBook 1030 G8 x360 Core i7",
+    "price": "Ksh 68,000",
+    "tag": "Premium Ultra-Convertible",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201030%20G8%20x360%20Core%20i7.jfif",
+    "description": "Ultra-compact 13.3-inch enterprise elite hybrid running an 11th Gen Intel Core i7 processing setup, matched with 16GB system memory space, 512GB rapid NVMe disk, and a rotating crisp direct-touch matrix.",
+    "features": [
+      "Ultra-Compact 13.3-inch Convertible Frame",
+      "High-Velocity 11th Gen Core i7 Core",
+      "16GB High-Speed Data Execution Engine",
+      "Premium Interactive Touchscreen Shell"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 11th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Avoid using near moisture areas to keep internal computing hubs thoroughly insulated.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 36,
+    "name": "HP EliteBook 1030 G8 x360 Core i5",
+    "price": "Ksh 58,000",
+    "tag": "Ultra-Convertible Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201030%20G8%20x360%20Core%20i5.jfif",
+    "description": "Sleek compact corporate hybrid layout processing workloads with an 11th Gen Intel Core i5 engine, 16GB efficient system memory, 512GB reliable storage, and an adaptive 360 touch rotating screen.",
+    "features": [
+      "Ultra-Compact 13.3-inch Convertible Frame",
+      "Efficient 11th Gen Intel Core i5 Engine",
+      "16GB Professional Multitasking RAM Grid",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 11th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Only deploy premium grade microfiber cloths to manage dust clearing protocols.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 37,
+    "name": "HP EliteBook 1030 G7 x360 Core i7",
+    "price": "Ksh 43,000",
+    "tag": "Ultra-Convertible Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201030%20G7%20x360%20Core%20i7.jfif",
+    "description": "Compact premium mobile companion engineered with a 10th Gen Intel i7 processor core, 16GB system workspace capacity, 512GB fast memory storage drive, and a flexible multi-touch rotating panel face.",
+    "features": [
+      "Ultra-Compact 13.3-inch Convertible Frame",
+      "10th Gen Intel Core i7 Processing Matrix",
+      "16GB High-Speed Data Execution Engine",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Ensure software resets are followed regularly to clear operational cached blocks.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 38,
+    "name": "HP EliteBook 1030 G7 x360 Core i5",
+    "price": "Ksh 58,000",
+    "tag": "Ultra-Convertible Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201030%20G7%20x360%20Core%20i5.jfif",
+    "description": "Compact enterprise convertible setup running a 10th Gen Intel Core i5 core, housing a 16GB multitasking RAM cluster, 512GB rapid solid-state drive framework, behind an active touch screen.",
+    "features": [
+      "Ultra-Compact 13.3-inch Convertible Frame",
+      "10th Gen Intel Core i5 Processor Platform",
+      "16GB System Multitasking Matrix",
+      "Premium Interactive Touchscreen Shell"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 10th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Unplug charging docks when full system threshold statuses have been completed.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 39,
+    "name": "HP EliteBook 1030 G4 x360 Touch",
+    "price": "Ksh 46,000",
+    "tag": "Compact Hybrid Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201030%20G4%20x360%20Touch.jfif",
+    "description": "Highly portable 2-in-1 notebook utilizing an 8th Gen Intel Core i5 platform, equipped with 8GB RAM capacity, 256GB flash architecture disk, and a 360-degree rotating touch panel frame.",
+    "features": [
+      "Ultra-Compact 13.3-inch Convertible Frame",
+      "8th Gen Intel Core i5 Compute Engine",
+      "8GB Efficient Desktop RAM Assembly",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 8th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Do not force rotating screens beyond fixed geometric physical limits.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 40,
+    "name": "HP EliteBook 1030 G3 x360 Touch",
+    "price": "Ksh 45,000",
+    "tag": "Compact Hybrid Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201030%20G3%20x360%20Touch.jfif",
+    "description": "Streamlined legacy compact corporate hybrid driven by an 8th Gen Intel Core i5 engine, 8GB high-speed data execution capacity, 256GB integrated storage drive, and an interactive touch layout.",
+    "features": [
+      "Ultra-Compact 13.3-inch Convertible Frame",
+      "8th Gen Intel Core i5 Compute Engine",
+      "8GB Efficient Desktop RAM Assembly",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 8th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Keep keypads well-brushed from debris accumulation to retain smooth response indexes.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 41,
+    "name": "HP EliteBook 1030 G2 x360 Touch",
+    "price": "Ksh 43,500",
+    "tag": "Compact Hybrid Entry",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%201030%20G2%20x360%20Touch.jfif",
+    "description": "Budget legacy compact hybrid platform processing workloads through a 7th Gen Intel Core i5 configuration, 8GB operational system RAM, and 256GB solid-state data drive underneath a rotating multi-touch interface.",
+    "features": [
+      "Ultra-Compact 13.3-inch Convertible Frame",
+      "7th Gen Intel Core i5 Processor Matrix",
+      "8GB Efficient Desktop RAM Assembly",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 7th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Touchscreen x360 Convertible"
+    },
+    "warning": "Disconnect external drives properly via settings menus to prevent tracking data failures.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 42,
+    "name": "HP Elite x2 1012 G2 Detachable Touch",
+    "price": "Ksh 42,000",
+    "tag": "Detachable Tablet Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20Elite%20x2%201012%20G2%20Detachable%20Touch.jfif",
+    "description": "Versatile enterprise 2-in-1 detachable tablet featuring a 7th Gen Intel Core i5 setup, 16GB extensive RAM module, 256GB rapid data storage matrix, and an interactive brilliant touch screen display layer.",
+    "features": [
+      "Detachable Keyboard Hybrid Architecture",
+      "7th Gen Intel Core i5 Processor Matrix",
+      "16GB High-Speed Data Execution Engine",
+      "Interactive Multi-Touch Screen Display Layer"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 7th Gen",
+      "ram": "16GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Touchscreen Detachable"
+    },
+    "warning": "Carefully dock pin alignment structures when re-engaging separate base configurations.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 43,
+    "name": "HP Elite x2 1012 G2 Detachable Non-Touch Mock",
+    "price": "Ksh 40,000",
+    "tag": "Detachable Tablet Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20Elite%20x2%201012%20G2%20Detachable%20Non-Touch%20Mock.jfif",
+    "description": "Detachable enterprise series configuration built on a 7th Gen Intel i5 engine base, housing 16GB layout memory, 256GB quick solid-state drive node, paired with a non-touch standard rendering workspace screen face.",
+    "features": [
+      "Detachable Keyboard Hybrid Architecture",
+      "7th Gen Intel Core i5 Processor Matrix",
+      "16GB High-Speed Data Execution Engine",
+      "Standard Workspace Anti-Glare Screen Matrix"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 7th Gen",
+      "ram": "16GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Non-Touch Detachable"
+    },
+    "warning": "Avoid putting extreme loads over backing support kickstand elements.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 44,
+    "name": "HP Elite x2 1012 G2 Touch 8GB RAM",
+    "price": "Ksh 38,500",
+    "tag": "Detachable Tablet Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20Elite%20x2%201012%20G2%20Touch%208GB%20RAM.jfif",
+    "description": "Affordable executive detachable hybrid model processing tasks with a 7th Gen Intel Core i5 core processor, 8GB efficient system memory, 256GB responsive core storage, and a fully interactive direct touch display.",
+    "features": [
+      "Detachable Keyboard Hybrid Architecture",
+      "7th Gen Intel Core i5 Processor Matrix",
+      "8GB Efficient Desktop RAM Assembly",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 7th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Touchscreen Detachable"
+    },
+    "warning": "Unclip secondary interfaces under safe desktop stationary placement rules.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 45,
+    "name": "HP Elite x2 1012 G2 Non-Touch 8GB RAM",
+    "price": "Ksh 36,000",
+    "tag": "Detachable Tablet Entry",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20Elite%20x2%201012%20G2%20Non-Touch%208GB%20RAM.jfif",
+    "description": "Budget modular business tablet platform running a 7th Gen Intel Core i5 base, carrying an 8GB system multitasking matrix, 256GB solid storage core, configured behind a non-touch anti-glare screen assembly.",
+    "features": [
+      "Detachable Keyboard Hybrid Architecture",
+      "7th Gen Intel Core i5 Processor Matrix",
+      "8GB Efficient Desktop RAM Assembly",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 7th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Non-Touch Detachable"
+    },
+    "warning": "Always carry structural chassis elements by main solid foundational points.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 46,
+    "name": "HP EliteBook 840 G8 Intel Core i5",
+    "price": "Ksh 46,000",
+    "tag": "Business Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G8%20Intel%20Core%20i5.jfif",
+    "description": "Mainstream business laptop deploying an 11th Gen Intel Core i5 core setup, running an 8GB performance memory layout, and 256GB rapid data solid-state memory on a non-touch screen layer.",
+    "features": [
+      "11th Gen Intel Core i5 Compute Engine",
+      "8GB Dynamic Desktop RAM Module",
+      "256GB Electronic Solid-State Drive",
+      "Anti-Reflective Professional Workspace Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 11th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel Iris Xe Integrated",
+      "display": "Non-Touch"
+    },
+    "warning": "Always use approved electrical ground connections when running extended computing actions.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 47,
+    "name": "HP EliteBook 840 G7 Intel Core i7 Touch",
+    "price": "Ksh 56,000",
+    "tag": "Business Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G7%20Intel%20Core%20i7%20Touch.jfif",
+    "description": "Capable 10th Gen Intel Core i7 corporate laptop boasting an expansive 16GB RAM array, 512GB storage capacity, and configured with a fully interactive direct touch screen interaction panel.",
+    "features": [
+      "10th Gen Intel Core i7 Computing Architecture",
+      "16GB High-Speed Data Execution Engine",
+      "512GB Ultra-Fast Solid State Engine",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen"
+    },
+    "warning": "Avoid cleaning display using standard generic glass chemical solutions.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 48,
+    "name": "HP EliteBook 840 G7 Intel Core i7 Matte",
+    "price": "Ksh 54,000",
+    "tag": "Business Choice",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G7%20Intel%20Core%20i7%20Matte.jfif",
+    "description": "Professional executive notebook powered by a 10th Gen Intel Core i7 framework, 16GB professional multitasking RAM grid, 512GB solid-state drive, behind a standard non-touch display layout.",
+    "features": [
+      "10th Gen Intel Core i7 Computing Architecture",
+      "16GB High-Speed Data Execution Engine",
+      "512GB Ultra-Fast Solid State Engine",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 10th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Clear side air intake elements occasionally from any surface debris accumulations.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 49,
+    "name": "HP EliteBook 840 G6 Intel Core i7 Touch",
+    "price": "Ksh 46,500",
+    "tag": "Business Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G6%20Intel%20Core%20i7%20Touch.jfif",
+    "description": "Mainstream 14-inch professional layout notebook processing tasks with an 8th Gen Intel Core i7 configuration, 16GB layout RAM, 512GB solid storage matrix, underneath an active touch screen interface layer.",
+    "features": [
+      "8th Gen Intel Core i7 Compute Engine",
+      "16GB Professional Multitasking RAM Grid",
+      "512GB High-Speed Solid-State Storage",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 8th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen"
+    },
+    "warning": "Do not expose the hardware computing system to high localized ambient damp setups.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 50,
+    "name": "HP EliteBook 840 G6 Intel Core i5 Touch Glass",
+    "price": "Ksh 39,500",
+    "tag": "Business Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G6%20Intel%20Core%20i5%20Touch%20Glass.jfif",
+    "description": "Mid-tier flagship business asset run by an 8th Gen Intel Core i5 engine, 8GB high-speed memory layout, 256GB quick drive space, finished with a premium direct touch glass display core surface.",
+    "features": [
+      "8th Gen Intel Core i5 Compute Engine",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Premium Interactive Glass Touchscreen Shell"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 8th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen (Glass)"
+    },
+    "warning": "Protect the screen assembly uniformly from rigid blunt impacts.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 51,
+    "name": "HP EliteBook 840 G6 Intel Core i5 Touch",
+    "price": "Ksh 39,000",
+    "tag": "Business Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G6%20Intel%20Core%20i5%20Touch.jfif",
+    "description": "Standard business edition laptop running on an 8th Gen Intel Core i5 platform, carrying an 8GB workspace RAM layout, 256GB electronic solid-state drive, completed with an interactive touch display face.",
+    "features": [
+      "8th Gen Intel Core i5 Compute Engine",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Responsive Touchscreen Interaction Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 8th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen"
+    },
+    "warning": "Keep touch surface clean using recommended cleaning micro cloths regularly.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 52,
+    "name": "HP EliteBook 840 G6 Intel Core i5 Non-Touch",
+    "price": "Ksh 35,500",
+    "tag": "Business Entry Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G6%20Intel%20Core%20i5%20Non-Touch.jfif",
+    "description": "Affordable enterprise business solution run by an 8th Gen Intel Core i5 core processor, 8GB dynamic desktop memory array, 256GB integrated storage drive, configured with a classic non-touch anti-glare panel layout.",
+    "features": [
+      "8th Gen Intel Core i5 Compute Engine",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 8th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Shut down secondary processing routines to help maximize basic field standby longevity.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 53,
+    "name": "HP EliteBook 840 G5/G6 Intel Core i7 16GB",
+    "price": "Ksh 45,000",
+    "tag": "Core Business Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G5%20G6%20Intel%20Core%20i7%2016GB.jfif",
+    "description": "Robust corporate workhorse driven by an 8th Gen Intel Core i7 processing platform, packing 16GB high-bandwidth system RAM, 512GB solid-state disk node, built into a sleek aluminum non-touch shell layout.",
+    "features": [
+      "8th Gen Intel Core i7 Compute Engine",
+      "16GB High-Speed Data Execution Engine",
+      "512GB High-Speed Solid-State Storage",
+      "Anti-Reflective Professional Workspace Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 8th Gen",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Ensure accurate airflow passages remain free from obstruction when running long operations.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 54,
+    "name": "HP EliteBook 840 G5/G6 Intel Core i7 8GB",
+    "price": "Ksh 41,000",
+    "tag": "Core Business Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G5%20G6%20Intel%20Core%20i7%208GB.jfif",
+    "description": "Corporate execution module processing with an 8th Gen Intel Core i7 processing setup, carrying an 8GB workspace memory layout, 256GB reliable solid-state core storage on a classic non-touch anti-glare panel.",
+    "features": [
+      "8th Gen Intel Core i7 Compute Engine",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 8th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Always keep operating base clear from high micro dust concentrations.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 55,
+    "name": "HP EliteBook 840 G5 Intel Core i5 Touch Glass",
+    "price": "Ksh 39,500",
+    "tag": "Core Business Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G5%20Intel%20Core%20i5%20Touch%20Glass.jfif",
+    "description": "Sleek 14-inch professional business notebook running an 8th Gen Intel Core i5 engine, 8GB high-speed RAM layout, 256GB reliable solid-state disk storage, finished underneath a premium direct touch glass layout face.",
+    "features": [
+      "8th Gen Intel Core i5 Compute Engine",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Premium Interactive Glass Touchscreen Shell"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 8th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Touchscreen (Glass)"
+    },
+    "warning": "Protect glass boundaries from rigid sharp corners during mobile usage cycles.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 56,
+    "name": "HP EliteBook 840 G5 Intel Core i5 Non-Touch",
+    "price": "Ksh 35,500",
+    "tag": "Core Business Entry",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G5%20Intel%20Core%20i5%20Non-Touch.jfif",
+    "description": "Mainstream flagship corporate laptop deploying an 8th Gen Intel Core i5 chipset architecture, 8GB performance memory layout, and 256GB electronic solid-state drive behind classic anti-glare non-touch paneling.",
+    "features": [
+      "8th Gen Intel Core i5 Compute Engine",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 8th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel UHD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Run clean system disk optimizations periodically to enjoy ideal standard usage statistics.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 57,
+    "name": "HP EliteBook 840 G4 Intel Core i7",
+    "price": "Ksh 34,000",
+    "tag": "Legacy Corporate Value",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G4%20Intel%20Core%20i7.webp",
+    "description": "Legacy corporate business model processing workflows through a 7th Gen Intel Core i7 platform, carrying 8GB system multitasking matrix, 256GB solid-state disk storage, and an anti-reflective non-touch display screen.",
+    "features": [
+      "7th Gen Intel Core i7 Processing Matrix",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Anti-Reflective Professional Workspace Panel"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 7th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Deploy only recommended matching chargers to secure regular runtime thresholds.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 58,
+    "name": "HP EliteBook 840 G4 Intel Core i5",
+    "price": "Ksh 32,000",
+    "tag": "Legacy Corporate Entry",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G4%20Intel%20Core%20i5.jfif",
+    "description": "Budget legacy corporate laptop driven by a 7th Gen Intel Core i5 configuration, housing an 8GB workspace RAM module, 256GB quick solid-state core storage drive, behind a matte non-touch panel face.",
+    "features": [
+      "7th Gen Intel Core i5 Processor Matrix",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 7th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Ensure keyboard switches are clear from localized crumb particles.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 59,
+    "name": "HP EliteBook 840 G3 Intel Core i7",
+    "price": "Ksh 33,500",
+    "tag": "Legacy Corporate Entry",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G3%20Intel%20Core%20i7.jfif",
+    "description": "Reliable legacy business edition machine running a 6th Gen Intel Core i7 platform architecture, containing 8GB performance memory layout, 256GB integrated storage drive, behind a standard non-touch display layout.",
+    "features": [
+      "6th Gen Intel Core i7 Processing Matrix",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i7 6th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Always keep battery drainage thresholds above minimal bounds to maximize life attributes.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 60,
+    "name": "HP EliteBook 840 G3 Intel Core i5",
+    "price": "Ksh 30,500",
+    "tag": "Legacy Corporate Entry",
+    "inStock": true,
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptops/HP%20EliteBook%20840%20G3%20Intel%20Core%20i5.webp",
+    "description": "Highly affordable legacy business laptop run by a 6th Gen Intel Core i5 compute engine, carrying an 8GB system memory array, 256GB quick drive space, and configured with a classic non-touch anti-glare panel layout.",
+    "features": [
+      "6th Gen Intel Core i5 Processor Platform",
+      "8GB Efficient Desktop RAM Assembly",
+      "256GB Integrated Storage Core Space",
+      "Anti-Glare Matte Non-Touch Framework"
+    ],
+    "specs": {
+      "processor": "Intel Core i5 6th Gen",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "graphics": "Intel HD Graphics",
+      "display": "Non-Touch"
+    },
+    "warning": "Carry structural notebook assemblies inside well-padded standard computer luggage sleeves.",
     "rating": 4,
     "whatsappNumber": "254758743522"
   }
