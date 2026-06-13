@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Apple 67W USB-C Power Adapter",
-    "price": "Ksh 9,500",
+    "price": "Ksh 7,000",
     "tag": "Top",
-    "image": "https://i.postimg.cc/DyFNDc2G/Apple-67W-USB-C-Power-Adapter.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptop%20chargers/Apple%2067W%20USB-C%20Power%20Adapter.webp",
     "inStock": true,
     "description": "Official Apple fast charger designed for MacBook Air and MacBook Pro. Delivers efficient and safe charging with USB-C Power Delivery support.",
     "features": [
@@ -27,9 +27,9 @@
   {
     "id": 2,
     "name": "Dell 65W USB-C Laptop Charger",
-    "price": "Ksh 6,500",
+    "price": "Ksh 2,500",
     "tag": "Popular",
-    "image": "https://i.postimg.cc/brPm7zfW/Dell-65W-USB-C-Laptop-Charger.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptop%20chargers/Dell%2065W%20USB-C%20Laptop%20Charger.webp",
     "inStock": true,
     "description": "Reliable Dell USB-C charger compatible with most modern Dell laptops. Provides stable power delivery and efficient charging.",
     "features": [
@@ -52,9 +52,9 @@
   {
     "id": 3,
     "name": "HP 90W Smart Laptop Charger",
-    "price": "Ksh 4,500",
+    "price": "Ksh 2,000",
     "tag": "Best Value",
-    "image": "https://i.postimg.cc/25BT3qzs/HP-90W-Smart-Laptop-Charger.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptop%20chargers/HP%2090W%20Smart%20Laptop%20Charger.webp",
     "inStock": true,
     "description": "High-performance HP charger with smart pin technology for stable and efficient power delivery across multiple HP laptops.",
     "features": [
@@ -77,9 +77,9 @@
   {
     "id": 4,
     "name": "Lenovo 65W USB-C Charger",
-    "price": "Ksh 5,500",
+    "price": "Ksh 2,500",
     "tag": "Top",
-    "image": "https://i.postimg.cc/MpnmrcjV/Lenovo-65W-USB-C-Charger.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptop%20chargers/Lenovo%2065W%20USB-C%20Charger.webp",
     "inStock": true,
     "description": "Compact and efficient Lenovo USB-C charger designed for ThinkPad and IdeaPad series. Ideal for travel and everyday use.",
     "features": [
@@ -102,9 +102,9 @@
   {
     "id": 5,
     "name": "ASUS 120W Gaming Laptop Charger",
-    "price": "Ksh 8,500",
+    "price": "Ksh 2,500",
     "tag": "Gaming",
-    "image": "https://i.postimg.cc/YCTqtqz6/ASUS-ROG-Zephyrus-G14.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptop%20chargers/ASUS%20120W%20Gaming%20Laptop%20Charger.jfif",
     "inStock": true,
     "description": "High-wattage charger built for ASUS gaming laptops. Ensures stable power delivery during heavy gaming and performance tasks.",
     "features": [
@@ -127,9 +127,9 @@
   {
     "id": 6,
     "name": "Universal Laptop Charger 90W (Multi-tip)",
-    "price": "Ksh 3,500",
+    "price": "Ksh 2,000",
     "tag": "Best Value",
-    "image": "https://i.postimg.cc/6p4CfDDp/Universal-Laptop-Charger-90W-(Multi-tip).webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptop%20chargers/Universal%20Laptop%20Charger%2090W%20(Multi-tip).webp",
     "inStock": true,
     "description": "Versatile universal charger with multiple connector tips, compatible with a wide range of laptop brands. Ideal backup solution.",
     "features": [
@@ -152,9 +152,9 @@
   {
     "id": 7,
     "name": "Acer 65W Slim Laptop Charger",
-    "price": "Ksh 4,000",
+    "price": "Ksh 2,500",
     "tag": "Popular",
-    "image": "https://i.postimg.cc/6p4CfDDp/Universal-Laptop-Charger-90W-(Multi-tip).webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptop%20chargers/Acer%2065W%20Slim%20Laptop%20Charger.jfif",
     "inStock": true,
     "description": "Slim and portable Acer charger designed for everyday use. Provides efficient charging with minimal heat output.",
     "features": [
@@ -176,9 +176,9 @@
   {
     "id": 8,
     "name": "Anker 100W USB-C GaN Charger",
-    "price": "Ksh 7,500",
+    "price": "Ksh 3,000",
     "tag": "Premium",
-    "image": "https://i.postimg.cc/k4GJxdHn/Anker-100W-USB-C-Ga-N-Charger.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/laptop%20chargers/Anker%20100W%20USB-C%20GaN%20Charger.webp",
     "inStock": true,
     "description": "Premium GaN fast charger capable of powering laptops, tablets, and phones. Compact yet powerful with multiple ports.",
     "features": [
