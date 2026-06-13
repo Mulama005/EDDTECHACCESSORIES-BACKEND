@@ -1,202 +1,202 @@
 [
   {
     "id": 1,
-    "name": "iPhone 15 Pro Max MagSafe Leather Case",
-    "price": "Ksh 3,500",
-    "tag": "Premium",
-    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/iPhone%2015%20Pro%20Max%20MagSafe%20Leather%20Case.webp",
+    "name": "iPhone Premium MagSafe Clear Case",
+    "price": "Ksh 1,000",
+    "tag": "Top",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/iPhone%20Premium%20MagSafe%20Clear%20Case.jpeg",
     "inStock": true,
-    "description": "Apple's official MagSafe leather case for iPhone 15 Pro Max. Premium leather construction with wireless charging compatibility through case.",
+    "description": "Crystal clear protective case with integrated high-grade magnets for seamless MagSafe charging and accessory compatibility.",
     "features": [
-      "MagSafe Compatible",
-      "Premium Leather",
-      "Wireless Charging",
-      "Slim Profile",
-      "Drop Protection"
+      "Built-in MagSafe Magnets",
+      "Anti-Yellowing TPU",
+      "Scratch-Resistant Back",
+      "Raised Camera Bezels"
     ],
-    "colorOptions": ["Black", "Brown", "Red"],
     "specs": {
-      "material": "Leather",
-      "compatibility": "iPhone 15 Pro Max",
-      "charging": "Wireless charging compatible",
-      "weight": "50g"
+      "category": "iPhone",
+      "type": "MagSafe Clear",
+      "material": "Polycarbonate & Flexible TPU",
+      "compatibility": "iPhone 12 through iPhone 15 Pro Max",
+      "safety": "1.5M Drop Tested Protection"
     },
+    "warning": "Peel off the interior and exterior protective films before snapping onto your phone.",
     "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 2,
-    "name": "Samsung Galaxy S25 Ultra Silicone Case",
-    "price": "Ksh 2,500",
-    "tag": "Top Seller",
-    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Samsung%20Galaxy%20S25%20Ultra%20Silicone%20Case.webp",
+    "name": "iPhone Liquid Silicone Case with Soft Microfiber Lining",
+    "price": "Ksh 700",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/iPhone%20Liquid%20Silicone%20Case%20with%20Soft%20Microfiber%20Lining.jpeg",
     "inStock": true,
-    "description": "Authentic Samsung silicone case for Galaxy S25 Ultra with Armor Aluminum frame. Provides excellent grip and drop protection.",
+    "description": "Silky, soft-touch liquid silicone exterior paired with an inner microfiber cloth lining to protect your iPhone from abrasions and lint.",
     "features": [
-      "Silicone Material",
-      "Armor Aluminum Frame",
-      "Great Grip",
-      "Drop Protection",
-      "Official Samsung"
+      "Silky Soft-Touch Finish",
+      "Internal Microfiber Lining",
+      "Shock-Absorbing Core",
+      "Easy to Clean Pack"
     ],
-    "colorOptions": ["Black", "Navy", "Beige"],
     "specs": {
-      "material": "Silicone + Aluminum",
-      "compatibility": "Samsung Galaxy S25 Ultra",
-      "impact protection": "Military-grade",
-      "weight": "65g"
+      "category": "iPhone",
+      "type": "Liquid Silicone",
+      "material": "Premium Liquid Silicone Rubber",
+      "compatibility": "iPhone 11 through iPhone 15 Series",
+      "safety": "Full 360 Cushion Protection"
     },
+    "warning": "Silicone material can attract pocket lint initially but wipes clean instantly with a damp cloth.",
     "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 3,
-    "name": "Universal Shockproof TPU Case",
-    "price": "Ksh 1,200",
-    "tag": "Budget",
-    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Universal%20Shockproof%20TPU%20Case.webp",
+    "name": "iPhone Magnetic Bubble Suction Silicone Case",
+    "price": "Ksh 500",
+    "tag": "Hot",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/iPhone%20Magnetic%20Bubble%20Suction%20Silicone%20Case.jpeg",
     "inStock": true,
-    "description": "Universal TPU shockproof case that fits most 6.5-inch phones. Clear design shows phone color while protecting from drops.",
+    "description": "A trendy, functional hybrid liquid silicone case featuring an integrated array of mini suction cups on the back, allowing you to temporarily mount your phone to smooth surfaces for hands-free content creation or viewing.",
     "features": [
-      "TPU Material",
-      "Shockproof",
-      "Clear Design",
-      "Universal Fit",
-      "Lightweight"
+      "Integrated Mini Suction Cup Matrix",
+      "Hands-Free Smooth Surface Mounting",
+      "Silky Soft-Touch Matte Finish",
+      "Impact-Absorbing Rubber Core"
     ],
-    "colorOptions": ["Clear", "Frosted", "Black"],
     "specs": {
-      "material": "TPU (Thermoplastic Polyurethane)",
-      "compatibility": "Most 6.5-inch phones",
-      "thickness": "2mm",
-      "weight": "45g"
+      "category": "iPhone",
+      "type": "Suction Cup Silicone",
+      "material": "Premium Liquid Silicone & Rubber Suction Array",
+      "compatibility": "iPhone 12 to iPhone 15 Pro Max",
+      "safety": "Impact Resistant Drop Protection"
     },
-    "rating": 4,
+    "warning": "Ensure the suction cups and target surface are clean and smooth before mounting. Do not leave unattended for extended periods.",
+    "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 4,
-    "name": "iPhone 15 Clear MagSafe Case",
-    "price": "Ksh 2,000",
-    "tag": "Clear Design",
-    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/iPhone%2015%20Clear%20MagSafe%20Case.webp",
+    "name": "iPhone Glitter Rhinestone MagSafe Luxury Case",
+    "price": "Ksh 1,000",
+    "tag": "Luxury",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/iPhone%20Glitter%20Rhinestone%20MagSafe%20Luxury%20Case.jpeg",
     "inStock": true,
-    "description": "Crystal clear acrylic MagSafe case for iPhone 15. Shows off phone design while providing protection.",
+    "description": "An elegant, eye-catching clear case featuring a luxury glitter-infused MagSafe ring and a sparkling rhinestone-embellished camera lens protective border.",
     "features": [
-      "MagSafe Compatible",
-      "Crystal Clear",
-      "Anti-Yellow Technology",
-      "Drop Protection",
-      "Slim Fit"
+      "Glitter Magnetic MagSafe Ring",
+      "Rhinestone Gem-Ecrusted Camera Trim",
+      "Crystal Clear Scratch-Resistant Backing",
+      "Electroplated Color Metallic Edges"
     ],
-    "colorOptions": ["Clear"],
     "specs": {
-      "material": "Acrylic",
-      "compatibility": "iPhone 15",
-      "charging": "MagSafe compatible",
-      "weight": "35g"
+      "category": "iPhone",
+      "type": "Luxury MagSafe Clear",
+      "material": "Hard Acrylic, TPU & Synthetic Crystals",
+      "compatibility": "iPhone 13 / 14 / 15 Series",
+      "safety": "Reinforced Edges & Camera Lens Guard"
     },
-    "rating": 4,
+    "warning": "Handle with care to protect the embedded rhinestones from abrasive rubbing against rough surfaces.",
+    "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 5,
-    "name": "Android Premium Hard Case",
-    "price": "Ksh 1,800",
-    "tag": "Protection",
-    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Android%20Premium%20Hard%20Case.webp",
+    "name": "Tribal Patterned Fashion Clear Bumper Case",
+    "price": "Ksh 1,000",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/Tribal%20Cases.jpeg",
     "inStock": true,
-    "description": "Premium hard polycarbonate case for Android phones with anti-slip grip and raised bezels for protection.",
+    "description": "Stylish clear protection featuring unique printed graphics like bows, leopard prints, and butterfly patterns, combined with a contrasting frosted white camera shield frame.",
     "features": [
-      "Polycarbonate Material",
-      "Anti-Slip Grip",
-      "Raised Bezels",
-      "Military Grade Protection",
-      "Durable"
+      "Vibrant Fashion Pattern Prints",
+      "Contrasting Frosted White Camera Frame",
+      "Flexible Shock-Absorbing Sides",
+      "Scratch-Resistant Clear Back"
     ],
-    "colorOptions": ["Black", "Blue", "Red"],
     "specs": {
-      "material": "Polycarbonate",
-      "compatibility": "Most Android phones 6-6.7 inches",
-      "impact rating": "Up to 15ft",
-      "weight": "55g"
+      "category": "Android",
+      "type": "Patterned Clear Case",
+      "material": "Flexible TPU & Polycarbonate Back",
+      "compatibility": "Samsung Galaxy A Series, Tecno Camon, Infinix Note, Spark Series",
+      "safety": "Scratch & Everyday Bump Deflector"
     },
+    "warning": "Ensure your specific Android model sub-variant (e.g., Spark Slim, Camon 40 Pro) matches for correct camera alignment.",
     "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 6,
-    "name": "iPhone 15 Pro Titanium Case",
-    "price": "Ksh 4,200",
-    "tag": "Premium",
-    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/iPhone%2015%20Pro%20Titanium%20Case.webp",
+    "name": "Android Crystal Clear MagSafe Bumper Case",
+    "price": "Ksh 1,000",
+    "tag": "Trending",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/Android%20Magnetic%20MagSafe-Compatible%20Clear%20Case.jfif",
     "inStock": true,
-    "description": "Aluminum titanium alloy case for iPhone 15 Pro with maximum durability and sleek design.",
+    "description": "Brings the power of MagSafe ecosystems to flat and folding Android devices. Features an embedded magnetic ring on a crystal clear, hard-shell back tailored for modern flagships.",
     "features": [
-      "Titanium Alloy",
-      "Military Grade Protection",
-      "Ultra-Thin Design",
-      "Heat Dissipation",
-      "Premium Build"
+      "MagSafe Ring Integration",
+      "Crystal Clear Clarity Backing",
+      "Shock-Absorbing TPU Bumper Frame",
+      "Folding Hinge Layout Compatibility"
     ],
-    "colorOptions": ["Silver", "Black", "Gold"],
     "specs": {
-      "material": "Titanium Alloy",
-      "compatibility": "iPhone 15 Pro",
-      "thickness": "1.2mm",
-      "weight": "70g"
+      "category": "Android",
+      "type": "MagSafe Compatible Clear",
+      "material": "Hard Acrylic Back & Flexible TPU Border",
+      "compatibility": "Samsung S23/S24 Ultra, Galaxy Fold/Flip Series, Premium Pixel and OnePlus Models",
+      "safety": "Corner Air-Pocket Anti-Shock Protection"
     },
+    "warning": "Only enables magnetic accessory retention; wireless charging functions require the device itself to support Qi charging.",
     "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 7,
-    "name": "Samsung Galaxy A55 Fabric Case",
-    "price": "Ksh 1,500",
-    "tag": "Stylish",
-    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Samsung%20Galaxy%20A55%20Fabric%20Case.webp",
+    "name": "Android Geometric Texture Designer Case",
+    "price": "Ksh 900",
+    "tag": "Designer",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/Android%20Magnetic%20MagSafe-Compatible%20Clear%20Case.jfif",
     "inStock": true,
-    "description": "Premium fabric case for Samsung Galaxy A55 with elegant design and comfortable grip.",
+    "description": "A premium designer case featuring unique back panel textures ranging from carbon fiber weaves, houndstooth fabrics, and pixelated reflective mesh dots with subtle holographic finishes.",
     "features": [
-      "Fabric Material",
-      "Elegant Design",
-      "Comfortable Grip",
-      "Camera Protection",
-      "Durable Stitching"
+      "Holographic & Matte Textured Backplates",
+      "Houndstooth, Carbon Fiber, and Pixel Art Finishes",
+      "Shockproof Electroplated Bumper Trim",
+      "Precise Laser-Cut Camera Openings"
     ],
-    "colorOptions": ["Gray", "Black", "Navy"],
     "specs": {
-      "material": "Fabric",
-      "compatibility": "Samsung Galaxy A55",
-      "texture": "Premium fabric weave",
-      "weight": "50g"
+      "category": "Android",
+      "type": "Textured Designer Shell",
+      "material": "Tough PC Shell & Composite Texture Overlay",
+      "compatibility": "Samsung A-Series, Infinix Hot, Tecno Spark, Redmi Series",
+      "safety": "Industrial Shock-Resistant Impact Armour"
     },
+    "warning": "Clean the textured back surface gently with a dry microfiber cloth to preserve the finish integrity.",
     "rating": 4,
     "whatsappNumber": "254758743522"
   },
   {
     "id": 8,
-    "name": "Android Matte Translucent Case",
-    "price": "Ksh 1,300",
-    "tag": "Stylish",
-    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/phone%20cases/Android%20Matte%20Translucent%20Case.webp",
+    "name": "Android Ultra-Slim Matte Translucent Case",
+    "price": "Ksh 1,000",
+    "tag": "Minimalist",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/Android%20Magnetic%20MagSafe-Compatible%20Clear%20Case.jfif",
     "inStock": true,
-    "description": "Matte translucent TPU case for Android phones combining elegance with protection. Shows off phone color with frosted finish.",
+    "description": "A gorgeous frosted translucent matte hard back case that keeps fingerprints away while preserving your phone's native branding silhouette.",
     "features": [
-      "Matte Finish",
-      "Translucent Design",
-      "TPU Material",
-      "Anti-Fingerprint",
-      "Drop Protection"
+      "Oleophobic Anti-Fingerprint Finish",
+      "Frosted Smoky Translucent Back",
+      "Colored Contrast Detachable Buttons",
+      "Ultra Slimline Construction"
     ],
-    "colorOptions": ["Black Matte", "Frosted", "Smoke"],
     "specs": {
-      "material": "Matte TPU",
-      "compatibility": "Most Android phones 6-6.8 inches",
-      "thickness": "1.5mm",
-      "weight": "48g"
+      "category": "Android",
+      "type": "Matte Translucent",
+      "material": "Semi-Flexible Polypropylene & TPU Edging",
+      "compatibility": "Universal compatibility cross cuts for major Android vendors in Nairobi",
+      "safety": "Basic Scratch Shield & Minor Drop Cushioning"
     },
-    "rating": 3,
+    "warning": "This focuses strictly on slim aesthetics and offers less protection against high-altitude drops.",
+    "rating": 4,
     "whatsappNumber": "254758743522"
   }
 ]
