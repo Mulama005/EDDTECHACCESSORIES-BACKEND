@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Sony WH-1000XM5",
-    "price": "Ksh 55,000",
+    "price": "Ksh 35,000",
     "tag": "Top",
-    "image": "https://i.postimg.cc/QCy3vJDp/yearone-opl-CWB9A0b-I-unsplash.jpg",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Sony%20WH-1000XM5.jpg",
     "inStock": true,
     "description": "Industry-leading noise cancelling headphones with exceptional sound quality and comfort.",
     "features": [
@@ -20,9 +20,9 @@
   {
     "id": 2,
     "name": "Oraimo BoomPro",
-    "price": "Ksh 6,500",
+    "price": "Ksh 5,500",
     "tag": "Best Value",
-    "image": "https://i.postimg.cc/Jz9bMfxB/Oraimo-Boom-Pro.avif",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Oraimo%20BoomPro.avif",
     "inStock": true,
     "description": "Affordable headphones with strong bass, long battery life, and comfortable design.",
     "features": [
@@ -38,9 +38,9 @@
   {
     "id": 3,
     "name": "JBL Tune 770NC",
-    "price": "Ksh 18,000",
+    "price": "Ksh 4,000",
     "tag": "Sale",
-    "image": "https://i.postimg.cc/VsGg2Hxg/tamas-pap-pq-MG6q-AEZY4-unsplash.jpg",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/JBL%20Tune%20770NC.webp",
     "inStock": true,
     "description": "Balanced headphones with adaptive noise cancelling and long battery life.",
     "features": [
@@ -56,9 +56,9 @@
   {
     "id": 4,
     "name": "Apple AirPods Max",
-    "price": "Ksh 85,000",
+    "price": "Ksh 6,000",
     "tag": "Premium",
-    "image": "https://i.postimg.cc/RV11QS7M/matt-birchler-Ia-Tuy-BQ4g-Tw-unsplash.jpg",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/matt-birchler-IaTuyBQ4gTw-unsplash%20(1).jpg",
     "inStock": true,
     "description": "Luxury headphones with spatial audio, premium build, and seamless Apple ecosystem integration.",
     "features": [
@@ -69,6 +69,265 @@
     ],
     "colorOptions": ["Silver", "Space Gray", "Blue", "Pink"],
     "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Havit Vintage 01H",
+    "price": "Ksh 3,500",
+    "tag": "Trending",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Havit%20Vintage%2001H.jfif",
+    "inStock": true,
+    "description": "Retro wireless headphones featuring a classic stylish design combined with modern audio performance.",
+    "features": [
+      "Powerful Stereo Sound",
+      "60 Hours Battery Life",
+      "Retro Design",
+      "Comfortable Ear Cups"
+    ],
+    "colorOptions": ["Silver/Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Oraimo BoomPop2S (OHP-610S)",
+    "price": "Ksh 4,500",
+    "tag": "New",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Oraimo%20BoomPop2S%20(OHP-610S).jfif",
+    "inStock": true,
+    "description": "Smart over-ear accessories featuring smart app control and signature HavyBass tuning.",
+    "features": [
+      "Gesture Control",
+      "Effortless Listening",
+      "50 Hours Long Playtime",
+      "Oraimo Sound App Control",
+      "HavyBass Technology"
+    ],
+    "colorOptions": ["Black/Green"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Soundcore Q11i by Anker",
+    "price": "Ksh 5,500",
+    "tag": "Top Rated",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Soundcore%20Q11i%20by%20Anker.jfif",
+    "inStock": true,
+    "description": "Hi-Res certified wireless over-ear headphones delivering deep bass with one-touch operation.",
+    "features": [
+      "Fast Charging (5 Mins = 4 Hrs)",
+      "Multipoint Connection",
+      "Detachable Ear Cushions",
+      "60H Playtime",
+      "Soundcore App Support",
+      "Hi-Res Audio & BassUp"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Havit Gamenote Fuxi-H3",
+    "price": "Ksh 6,500",
+    "tag": "Gaming",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Havit%20Gamenote%20Fuxi-H3.jfif",
+    "inStock": true,
+    "description": "Quad-mode wireless gaming headset tailored for the competitive arena with ultra-low latency.",
+    "features": [
+      "Quad-Mode Connectivity",
+      "40mm Dynamic Unit",
+      "26 Hours Battery Life",
+      "Low Latency",
+      "Detachable Microphone"
+    ],
+    "colorOptions": ["Grey/White"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Budi EP50B",
+    "price": "Ksh 4,500",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Budi%20EP50B.jfif",
+    "inStock": true,
+    "description": "Bluetooth wireless headphones built for mobile devices, offering punchy bass stereo performance.",
+    "features": [
+      "Bluetooth 5.0",
+      "Vivid Sound (40mm Drive Unit)",
+      "Swivel Folding Design",
+      "Bass Stereo Effect",
+      "Up to 15 Hours Playback"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 10,
+    "name": "Amaya AEB-H520F",
+    "price": "Ksh 2,000",
+    "tag": "Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Amaya%20AEB-H520F.jfif",
+    "inStock": true,
+    "description": "Premium wireless accessories built with durable hardware, solid environmental noise cancellation, and standalone FM capabilities.",
+    "features": [
+      "17H Music Time",
+      "Pure Bass Sound Tuning",
+      "ENC (Environmental Noise Cancellation)",
+      "Built-in FM Mode",
+      "Type-C Charging & Bluetooth 6.0"
+    ],
+    "colorOptions": ["Black/Orange"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 11,
+    "name": "Havit H628BT",
+    "price": "Ksh 2,500",
+    "tag": "Everyday",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Havit%20H628BT.jfif",
+    "inStock": true,
+    "description": "Super lightweight wireless foldable headphones with an adjustable headband for daily commuting.",
+    "features": [
+      "Comfortable & Super Light",
+      "Wide Compatibility",
+      "Hands-Free Calls Support",
+      "Foldable Earcups"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 12,
+    "name": "Havit H619BT",
+    "price": "Ksh 2,800",
+    "tag": "Everyday",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Havit%20H619BT.jfif",
+    "inStock": true,
+    "description": "Ergonomic wireless folding headphones fitted with premium 40mm dynamic drivers.",
+    "features": [
+      "Folding Ergonomic Design",
+      "20h Play Time",
+      "40mm Dynamic Units",
+      "Soft Cushioned Earcups"
+    ],
+    "colorOptions": ["White", "Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 13,
+    "name": "Oraimo Space One",
+    "price": "Ksh 6,000",
+    "tag": "Top Seller",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Oraimo%20Space%20One.jfif",
+    "inStock": true,
+    "description": "Premium active noise cancelling over-ear headphones featuring sleek ergonomics and high-fidelity sound.",
+    "features": [
+      "Active Noise Cancellation",
+      "Comfortable Ear Cushions",
+      "Long Battery Life",
+      "Sleek Over-Ear Design"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 14,
+    "name": "Havit Gamenote H2002d (Green Series)",
+    "price": "Ksh 5,500",
+    "tag": "Gaming",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Havit%20Gamenote%20H2002d%20(Green%20Series).jfif",
+    "inStock": true,
+    "description": "Pro-tier 3.5mm multi-platform gaming headset finished in a high-visibility green accent configuration.",
+    "features": [
+      "53mm Dynamic Unit",
+      "Surround Sound Studio",
+      "Omnidirectional Sound Pickup",
+      "Tailored for the Game"
+    ],
+    "colorOptions": ["Green/Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 15,
+    "name": "Havit H633BT",
+    "price": "Ksh 5,500",
+    "tag": "New",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Havit%20H633BT.jfif",
+    "inStock": true,
+    "description": "Foldable wireless over-ear headphones equipped with integrated EQ audio profiling modes.",
+    "features": [
+      "Foldable Design",
+      "EQ Mode Selection",
+      "20 Hours Playtime",
+      "Dual-device Connection"
+    ],
+    "colorOptions": ["Black", "Blue", "Pink", "White"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 16,
+    "name": "Havit H630BT Pro",
+    "price": "Ksh 5,500",
+    "tag": "Trending",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Havit%20H630BT%20Pro.jfif",
+    "inStock": true,
+    "description": "Advanced wireless ANC headphones engineered with versatile dual-device connectivity and extra long runtime.",
+    "features": [
+      "Active Noise Cancelling",
+      "50 Hours Playtime",
+      "Dual-device Connection",
+      "Focus on Audio Tuning"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 17,
+    "name": "Oraimo BoomPop Air (OHP-31A)",
+    "price": "Ksh 3,000",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Oraimo%20BoomPop%20Air%20(OHP-31A).jfif",
+    "inStock": true,
+    "description": "Ultra-lightweight wireless headphones engineered for a comfortable, pressure-free fit and booming bass performance.",
+    "features": [
+      "On-Ear Lightweight Design",
+      "10 Minutes Charging = 8 Hours Playtime",
+      "80-Hour Long Playtime",
+      "Dual Device Connection",
+      "HavyBass Technology"
+    ],
+    "colorOptions": ["Black", "Grey"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 18,
+    "name": "Havit Gamenote H2049d",
+    "price": "Ksh 3,500",
+    "tag": "Gaming",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/headphones/Havit%20Gamenote%20H2049d.jfif",
+    "inStock": true,
+    "description": "Dynamic 3.5mm over-ear gaming headset featuring high-magnetic audio drivers and vibrant integrated RGB lighting animation.",
+    "features": [
+      "Cool Shape RGB Lights",
+      "High Magnetic 50mm Speaker",
+      "Omnidirectional Sound Pickup",
+      "Tailored for the Game"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
     "whatsappNumber": "254758743522"
   }
 ]
