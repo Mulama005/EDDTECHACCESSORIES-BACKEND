@@ -212,7 +212,7 @@
   {
     "id": 12,
     "name": "Apple AirPods (3rd Generation)",
-    "price": "Ksh 24,500",
+    "price": "Ksh 4,500",
     "tag": "Premium",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/Apple%20AirPods%20(3rd%20Generation).avif",
     "inStock": true,
@@ -231,7 +231,7 @@
   {
     "id": 13,
     "name": "Apple AirPods Pro (2nd Generation)",
-    "price": "Ksh 34,000",
+    "price": "Ksh 4,000",
     "tag": "Pro Choice",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/Apple%20AirPods%20Pro%20(2nd%20Generation).avif",
     "inStock": true,
