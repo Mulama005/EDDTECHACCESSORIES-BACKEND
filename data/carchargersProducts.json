@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "Oraimo Bullet 36W Fast Car Charger",
+    "price": "Ksh 1,200",
+    "tag": "Top Seller",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Oraimo%20Bullet%2036W%20Fast%20Car%20Charger.webp",
+    "inStock": true,
+    "description": "Ultra-compact metal car charger with dual USB ports featuring AniFast technology for smart, lightning-fast device charging.",
+    "features": [
+      "36W Max Dual Output",
+      "AniFast Intelligent Charging",
+      "Scratch-Resistant Aluminum Alloy Body",
+      "Multi-Protection Safety System"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "Dual USB-A Fast Charger",
+      "material": "Aluminum Alloy & PC",
+      "compatibility": "Universal (iPhone, Samsung, Tecno, Infinix, Xiaomi)",
+      "safety": "Surge Protection & Temperature Control"
+    },
+    "warning": "Ensure the charger is firmly pushed into the cigarette lighter socket for uninterrupted power distribution.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "Anker PowerDrive PD+ 2 35W Car Charger",
+    "price": "Ksh 2,500",
+    "tag": "Premium Choice",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Anker%20PowerDrive%20PD+%202%2035W%20Car%20Charger.jfif",
+    "inStock": true,
+    "description": "High-end car charger equipped with a 20W Power Delivery USB-C port and a 15W PowerIQ USB-A port to charge two devices simultaneously at high speed.",
+    "features": [
+      "20W USB-C Power Delivery",
+      "15W USB-A with PowerIQ",
+      "Soft LED Glow Ring Indicator",
+      "Ultra-Compact Form Factor"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "USB-C PD & USB-A Hybrid",
+      "material": "Premium Matte Polycarbonate",
+      "compatibility": "Optimized for iPhone 12-15 Series, iPad Pro, and Premium Androids",
+      "safety": "Anker MultiProtect Safety Suite"
+    },
+    "warning": "Use an authentic USB-C to Lightning or USB-C to USB-C cable to unlock maximum Power Delivery speeds.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "Baseus Grain Pro Dual USB 4.8A Car Charger",
+    "price": "Ksh 1,000",
+    "tag": "Minimalist",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Baseus%20Grain%20Pro%20Dual%20USB%204.8A%20Car%20Charger.jfif",
+    "inStock": true,
+    "description": "An incredibly small mini car charger that sits completely flush with your dashboard cigarette lighter port, offering discrete yet powerful dual USB charging.",
+    "features": [
+      "Dual 4.8A High Current Output",
+      "Flush-Fit Tiny Architecture",
+      "Polished Sleek Exterior",
+      "Automatic Current Matching Mode"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "Mini Dual USB-A Charger",
+      "material": "Fireproof PC + ABS",
+      "compatibility": "Universal compatibility for smartphones, dashcams, and GPS units",
+      "safety": "Over-Current and Over-Voltage Deflector"
+    },
+    "warning": "Do not extract the charger forcefully; pull gently using the perimeter grooved grips.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "LDNIO DL-C29 Dual USB Car Charger with Cable",
+    "price": "Ksh 800",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/LDNIO%20DL-C29%20Dual%20USB%20Car%20Charger%20with%20Cable.jfif",
+    "inStock": true,
+    "description": "A highly popular budget-friendly package in Nairobi containing a durable dual-port USB car adapter alongside a complimentary heavy-duty data cable.",
+    "features": [
+      "Dual USB 3.4A Total Output",
+      "Complimentary Charging Cable Included",
+      "Sonic Speed Charging Optimization",
+      "Ergonomic Wide-Wing Spring Clips"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "USB Adapter Bundle",
+      "material": "High-Grade Shockproof Plastic",
+      "compatibility": "All Android Micro-USB/Type-C and iPhone entry options",
+      "safety": "Short-Circuit Insulation Layer"
+    },
+    "warning": "Check your selected package option to ensure the bundled cable matches your specific device port type.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Baseus T-Space Bluetooth FM Transmitter & Car Charger",
+    "price": "Ksh 2,200",
+    "tag": "Multifunctional",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Baseus%20T-Space%20Bluetooth%20FM%20Transmitter%20&%20Car%20Charger.jfif",
+    "inStock": true,
+    "description": "The ultimate upgrade for older car stereos. Streams clear music and hands-free calls from your phone via Bluetooth to your car radio frequency while fast-charging two devices.",
+    "features": [
+      "Bluetooth 5.0 Wireless Audio Streaming",
+      "Dual USB Charging Ports + USB Flash Drive Reader",
+      "Digital LED Voltage & Frequency Display",
+      "One-Touch Hands-Free Call Button"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "FM Transmitter / Multi-Port Adapter",
+      "material": "Polycarbonate & Metal Accents",
+      "compatibility": "Universal Bluetooth devices and all vehicles with FM radios",
+      "safety": "Smart Voltage Detection & Short-Circuit Proof"
+    },
+    "warning": "Tune your car radio to a completely empty FM frequency local station to avoid background static noise overlap.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Awei C-831 2.1A Dual Car Charger",
+    "price": "Ksh 600",
+    "tag": "Budget Pick",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Awei%20C-831%202.1A%20Dual%20Car%20Charger.jfif",
+    "inStock": true,
+    "description": "Affordable and highly resilient standard dual USB car adapter. Reliable power solution for daily matatu or personal commute tracking.",
+    "features": [
+      "Dual Port 2.1A Output Architecture",
+      "Compact Travel-Friendly Geometry",
+      "Subtle Power Indicator LED Light",
+      "Heat Dissipation Cooling Fins"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "Standard Dual USB Adapter",
+      "material": "Fire-Retardant ABS Polymer",
+      "compatibility": "Universal standard charging across all mobile platforms",
+      "safety": "Overcharge Protection Auto-Shutoff"
+    },
+    "warning": "This unit provides standard baseline speeds; it does not trigger Qualcomm QuickCharge indicators.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Samsung 45W Dual Fast Car Charger (PD + QC)",
+    "price": "Ksh 2,800",
+    "tag": "Super Fast Charging",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Samsung%2045W%20Dual%20Fast%20Car%20Charger%20(PD%20+%20QC).jfif",
+    "inStock": true,
+    "description": "Blazing fast original-spec dual car adapter combining a massive 45W USB-C Power Delivery port with a 15W USB-A port to effortlessly activate Samsung Super Fast Charging 2.0.",
+    "features": [
+      "45W Max USB-C Power Delivery Port",
+      "15W Max USB-A Secondary Port",
+      "Supports Super Fast Charging 2.0 Matrix",
+      "Premium Textured Grip Bezel"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "High-Output Dual USB-C/A Adapter",
+      "material": "Reinforced Matte Composite Plastic",
+      "compatibility": "Samsung S22/S23/S24 Ultra Series, Note series, and PD-enabled laptops",
+      "safety": "Intelligent Overcurrent & Short-Circuit Core Shielding"
+    },
+    "warning": "A 5A E-Marker USB-C to USB-C cable is strictly required to achieve full 45W power output.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Celebrat CC-08 Dual USB 2.4A Car Charger",
+    "price": "Ksh 700",
+    "tag": "Everyday Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Celebrat%20CC-08%20Dual%20USB%202.4A%20Car%20Charger.jfif",
+    "inStock": true,
+    "description": "A straightforward, reliable dual-port car charger featuring smart IC technology that dynamically splits power across two connected devices safely.",
+    "features": [
+      "Intelligent Balance 2.4A Split Power",
+      "Flame-Resistant Engineering Build",
+      "Secure Anti-Slip Snap Side Contacts",
+      "Ultra Lightweight Compact Frame"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "Standard Dual Port USB-A",
+      "material": "ABS + Fireproof PC",
+      "compatibility": "Universal capability for all basic smartphones and mobile accessories",
+      "safety": "Over-Temperature Regulation & Current Control"
+    },
+    "warning": "Avoid leaving the charger exposed to direct high-noon dashboard heat for extended durations when parked.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Baseus Golden Contactor Pro 40W Dual Quick Charger",
+    "price": "Ksh 1,800",
+    "tag": "Trending",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Baseus%20Golden%20Contactor%20Pro%2040W%20Dual%20Quick%20Charger.jfif",
+    "inStock": true,
+    "description": "Stunning premium metal car adapter featuring dual fast-charging ports (USB-C + USB-A) finished with elegant semi-transparent circular ambient LED ring routing.",
+    "features": [
+      "Dual-Port Independent 20W + 20W Output",
+      "Full Metal Body Heat-Dissipating Design",
+      "Ice Blue Circular Ambient Ring Lighting",
+      "Upgraded Anti-Skid Shrapnel Contact Clips"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "Dual Multi-Protocol Fast Charger",
+      "material": "Aluminum + Premium Polycarbonate",
+      "compatibility": "Supports Apple PD, Xiaomi QC, Huawei FCP, and Samsung AFC",
+      "safety": "Intelligent Step-Down Load Balancing Protection"
+    },
+    "warning": "The circular LED indicator remains lit while plugged in if your vehicle socket provides continuous battery hot-power when off.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 10,
+    "name": "Oraimo Highway 2 10.5W Dual Car Charger",
+    "price": "Ksh 950",
+    "tag": "Reliable Core",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/car%20charger/Oraimo%20Highway%202%2010.5W%20Dual%20Car%20Charger.jfif",
+    "inStock": true,
+    "description": "The perfect durable daily workhorse accessory. Delivers stable 10.5W dual charging performance packed into a highly durable scratchproof outer composite shell.",
+    "features": [
+      "Dual USB 10.5W Shared Output",
+      "Aesthetic Textured Pattern Grip Face",
+      "Multi-Layer Protection Smart Chip",
+      "Internal LED Hidden Power Beacon"
+    ],
+    "specs": {
+      "category": "Car Charger",
+      "type": "Standard Core Dual USB-A",
+      "material": "High Impact Polycarbonate Shell",
+      "compatibility": "Extensive model fitments across entry and mid-tier Androids and iPhones",
+      "safety": "Over-Voltage & Surge Suppression Shielding"
+    },
+    "warning": "Disconnect your device before starting heavy commercial trucks to shield from initial starter voltage fluctuations.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  }
+]

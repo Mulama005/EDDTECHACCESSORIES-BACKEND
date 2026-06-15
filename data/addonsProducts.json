@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Y2K Beaded Pastels Phone Charm",
+    "category": "Phone Charms",
+    "tag": "POPULAR",
+    "price": "Ksh 800",
+    "description": "Universal beaded wrist strap compatible with all phone cases.",
+    "compatibility": "Universal (All iPhone & Android cases)",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Addons/Y2K%20Beaded%20Pastels%20Phone%20Charm.jfif"
+  },
+  {
+    "id": "2",
+    "name": "Metallic Star Cross-Body Phone Chain",
+    "category": "Phone Charms",
+    "tag": "TRENDING",
+    "price": "Ksh 500",
+    "description": "Heavy-duty metallic chain with a universal insert tab that slides into any case.",
+    "compatibility": "Universal (All iPhone & Android cases)",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Addons/Metallic%20Star%20Cross-Body%20Phone%20Chain.jfif"
+  },
+  {
+    "id": "3",
+    "name": "Silicon Octobuddy Suction Mount - Black",
+    "category": "Octobuddies",
+    "tag": "TOP SELLER",
+    "price": "Ksh 500",
+    "description": "Hands-free silicone suction mat with strong adhesive backing that sticks directly to any smooth phone case.",
+    "compatibility": "Universal (Fits all flat-surface cases)",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Addons/Silicon%20Octobuddy%20Suction%20Mount%20-%20Black.jfif"
+  },
+  {
+    "id": "4",
+    "name": "Silicon Octobuddy Suction Mount - Pastel Pink",
+    "category": "Octobuddies",
+    "tag": "NEW",
+    "price": "Ksh 500",
+    "description": "Hands-free silicone suction mat for content creators. Perfect for mirrors, windows, and gym glass.",
+    "compatibility": "Universal (Fits all flat-surface cases)",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Addons/Silicon%20Octobuddy%20Suction%20Mount%20-%20Pastel%20Pink.jfif"
+  },
+  {
+    "id": "5",
+    "name": "Diamond Lens Protector",
+    "category": "Lens Protectors",
+    "tag": "TOP",
+    "price": "Ksh 800",
+    "description": "Individual alloy ring tempered glass protectors for maximum scratch resistance.",
+    "compatibility": "Androids and Iphones",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Addons/Diamond%20Lens%20Protector.jfif"
+  },
+  {
+    "id": "6",
+    "name": "Universal Camera Glass Protector (3-Pack)",
+    "category": "Lens Protectors",
+    "tag": "BEST VALUE",
+    "price": "Ksh 700",
+    "description": "Ultra-thin, high-definition tempered glass film cut for popular mid-range Android setups.",
+    "compatibility": "Universal ",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Addons/Universal%20Camera%20Glass%20Protector%20(3-Pack).jfif"
+  },
+  {
+    "id": "7",
+    "name": "iPhones Lens Protectors",
+    "category": "Lens Protectors",
+    "tag": "TOP",
+    "price": "Ksh 500",
+    "description": "Premium anti-reflective sapphire glass rings that preserve original photo quality.",
+    "compatibility": "iPhone 15 Pro & 15 Pro Max",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Addons/Lens%20Protector.jfif"
+  }
+]

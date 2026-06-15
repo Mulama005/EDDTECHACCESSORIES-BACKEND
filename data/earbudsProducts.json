@@ -4,148 +4,247 @@
     "name": "AMAYA FreeBuds Pro ATW-323",
     "price": "Ksh 1,200",
     "tag": "Top",
-    "image": "https://i.postimg.cc/2y1kjSzD/Air-Pods-Pro-(2nd-Gen-USB-C).jpg",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/AMAYA%20FreeBuds%20Pro%20ATW-323.webp",
     "inStock": true,
-    "description": "Apple’s most advanced earbuds featuring Active Noise Cancellation, Adaptive Audio, and seamless integration with iPhone. Offers excellent sound clarity, spatial audio, and improved battery life with USB-C charging.",
+    "description": "Premium wireless earbuds from AMAYA featuring Pure Bass sound technology, Bluetooth 6.0 connectivity, and up to 40 hours of total playtime. Designed for immersive sound quality and long-lasting daily use.",
     "features": [
-      "Active Noise Cancellation",
-      "Adaptive Audio",
-      "Spatial Audio",
-      "USB-C Charging",
-      "MagSafe Case"
+      "Pure Bass Technology",
+      "40 Hours Playtime",
+      "Bluetooth Version 6.0",
+      "Excellent Sound Quality",
+      "Touch Controls"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 2,
+    "name": "AMAYA Air Buds ATW-23",
+    "price": "Ksh 1,300",
+    "tag": "New",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/AMAYA%20Air%20Buds%20ATW-23.jfif",
+    "inStock": true,
+    "description": "Stylish and compact wireless earbuds with clear sound quality, Bluetooth 6.0 support, and up to 20 hours of playtime. Ideal for music, calls, and everyday listening.",
+    "features": [
+      "20 Hours Playtime",
+      "Bluetooth Version 6.0",
+      "Excellent Sound Quality",
+      "Lightweight Design",
+      "Portable Charging Case"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 3,
+    "name": "AMAYA Earbuds ATW-19",
+    "price": "Ksh 1,500",
+    "tag": "Budget",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/AMAYA%20Earbuds%20ATW-19..jfif",
+    "inStock": true,
+    "description": "Affordable AMAYA wireless earbuds with reliable Bluetooth 5.3 connectivity, quality sound output, and 24 hours of battery life. Suitable for casual music listening and calls.",
+    "features": [
+      "24 Hours Playtime",
+      "Bluetooth Version 5.3",
+      "Excellent Sound Quality",
+      "Compact Charging Case",
+      "Comfort Fit"
+    ],
+    "colorOptions": ["Black", "Green"],
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 4,
+    "name": "AMAYA ATW-33",
+    "price": "Ksh 1,600",
+    "tag": "Popular",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/AMAYA%20ATW-33.jfif",
+    "inStock": true,
+    "description": "Wireless earbuds built for comfort and strong bass performance with Bluetooth 5.4, HD call quality, and up to 40 hours of playback. Great for workouts and everyday entertainment.",
+    "features": [
+      "40 Hours Playtime",
+      "Bluetooth Version 5.4",
+      "HD Call Quality",
+      "250mAh Battery Case",
+      "12mm Speaker Drivers",
+      "10M Stable Connection"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 5,
+    "name": "Amaya ATW-37",
+    "price": "Ksh 1,800",
+    "tag": "Long Battery",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/Amaya%20ATW-37.jfif",
+    "inStock": true,
+    "description": "Premium accessories featuring an impressive 70-hour total playtime and an LED display screen for battery monitoring.",
+    "features": [
+      "70 Hours Long Playtime",
+      "Pure Bass Sound-tuning",
+      "Wireless Version 5.3",
+      "LED Display Screen",
+      "365 Days Warranty"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 6,
+    "name": "Amaya ATW-330",
+    "price": "Ksh 2,000",
+    "tag": "Stems",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/sign/product_pics/Earbuds/Amaya%20ATW-330.jfif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzc5NDlhNS0wODNkLTQ5ZGYtYWE3ZC1kODlhZDMwMDViZDMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0X3BpY3MvRWFyYnVkcy9BbWF5YSBBVFctMzMwLmpmaWYiLCJpYXQiOjE3Nzk2Mjg3MzIsImV4cCI6MTgxMTE2NDczMn0.eIYLaKgzWP91YyuAeTW3dg8Uaokk9f2F4WAKjZvwQtY",
+    "inStock": true,
+    "description": "Ergonomically designed stem-style earbuds built for 'Unstoppable Sound' with a reliable 40-hour battery life.",
+    "features": [
+      "40 Hours Long Playtime",
+      "Unstoppable Sound",
+      "Wireless Connectivity",
+      "Comfort Fit",
+      "365 Days Warranty"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 7,
+    "name": "Amaya FreeBuds TK-05",
+    "price": "Ksh 2,000",
+    "tag": "Compact",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/sign/product_pics/Earbuds/Amaya%20FreeBuds%20TK-05.jfif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzc5NDlhNS0wODNkLTQ5ZGYtYWE3ZC1kODlhZDMwMDViZDMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0X3BpY3MvRWFyYnVkcy9BbWF5YSBGcmVlQnVkcyBUSy0wNS5qZmlmIiwiaWF0IjoxNzc5NjI4NzUzLCJleHAiOjE4MTExNjQ3NTN9.WgPh6TF2DIQQ_O-4HxrZe-VAhcf-zUW5GbDRW3DOfXw",
+    "inStock": true,
+    "description": "Sleek FreeBuds offering excellent sound quality and the latest Wireless 5.4 technology for stable connections.",
+    "features": [
+      "22 Hours Long Playtime",
+      "Excellent Sound Quality",
+      "Wireless Version 5.4",
+      "Compact Charging Case",
+      "365 Days Warranty"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 8,
+    "name": "Amaya FreePods Lite ATW-330 Max",
+    "price": "Ksh 2,200",
+    "tag": "Max Battery",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/sign/product_pics/Earbuds/Amaya%20FreePods%20Lite%20ATW-330%20Max.jfif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzc5NDlhNS0wODNkLTQ5ZGYtYWE3ZC1kODlhZDMwMDViZDMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0X3BpY3MvRWFyYnVkcy9BbWF5YSBGcmVlUG9kcyBMaXRlIEFUVy0zMzAgTWF4LmpmaWYiLCJpYXQiOjE3Nzk2Mjg3ODEsImV4cCI6MTgxMTE2NDc4MX0.SnPXEJgu9xhaJnLy-ytc_ZvU9X0R9MwxvWrY80LZARY",
+    "inStock": true,
+    "description": "An upgraded Lite version featuring a textured case design and a massive 60-hour total playtime.",
+    "features": [
+      "60 Hours Long Playtime",
+      "Unstoppable Sound",
+      "Textured Case Design",
+      "Enhanced Wireless Stability",
+      "365 Days Warranty"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Amaya DeepSleep ATW-55S",
+    "price": "Ksh 2,300",
+    "tag": "Comfort",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/sign/product_pics/Earbuds/Amaya%20DeepSleep%20ATW-55S.jfif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzc5NDlhNS0wODNkLTQ5ZGYtYWE3ZC1kODlhZDMwMDViZDMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0X3BpY3MvRWFyYnVkcy9BbWF5YSBEZWVwU2xlZXAgQVRXLTU1Uy5qZmlmIiwiaWF0IjoxNzc5NjI4ODMyLCJleHAiOjE4MTExNjQ4MzJ9.kUNBjFBE9P42DPXonejvOmEwBpnqfouhyxraDCACzDQ",
+    "inStock": true,
+    "description": "Specialized DeepSleep earbuds designed for ultimate comfort and a low profile, featuring the latest Bluetooth 5.4.",
+    "features": [
+      "22 Hours Long Playtime",
+      "DeepSleep Comfort Design",
+      "Wireless Version 5.4",
+      "Excellent Sound Quality",
+      "365 Days Warranty"
+    ],
+    "colorOptions": ["Purple"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 10,
+    "name": "Amaya Wireless Sports TK-04",
+    "price": "Ksh 3,000",
+    "tag": "Sports",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/Amaya%20Wireless%20Sports%20TK-04.jfif",
+    "inStock": true,
+    "description": "Dedicated sports earbuds designed to stay secure during movement with balanced audio for workouts.",
+    "features": [
+      "20 Hours Play Time",
+      "Sports Secure Fit",
+      "Wireless Connectivity",
+      "Quick Touch Controls",
+      "365 Days Warranty"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 3,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 11,
+    "name": "Amaya NeZha (DS-R1)",
+    "price": "Ksh 4,000",
+    "tag": "AI Tech",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/sign/product_pics/Earbuds/Amaya%20NeZha%20(DS-R1).jfif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzc5NDlhNS0wODNkLTQ5ZGYtYWE3ZC1kODlhZDMwMDViZDMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0X3BpY3MvRWFyYnVkcy9BbWF5YSBOZVpoYSAoRFMtUjEpLmpmaWYiLCJpYXQiOjE3Nzk2Mjg4ODUsImV4cCI6MTgxMTE2NDg4NX0.NhuYtKONMluqGd8Wdok4H0qUvNPPnjUteCcefLTyRJo",
+    "inStock": true,
+    "description": "High-tech AI-integrated earbuds featuring simultaneous interpretation for multiple languages and AirAudio technology.",
+    "features": [
+      "Amaya AI Integration",
+      "Simultaneous Interpretation",
+      "AirAudio Technology",
+      "Multilanguage Support",
+      "Premium Futuristic Design"
+    ],
+    "colorOptions": ["Silver/Grey"],
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 12,
+    "name": "Apple AirPods (3rd Generation)",
+    "price": "Ksh 24,500",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/Apple%20AirPods%20(3rd%20Generation).avif",
+    "inStock": true,
+    "description": "Authentic Apple AirPods with Personalized Spatial Audio, adaptive EQ adjustments, and sweat-resistant architecture. Delivers up to 30 hours of high-fidelity auditory performance with the lightning charging case.",
+    "features": [
+      "Personalized Spatial Audio",
+      "Sweat and Water Resistant",
+      "30 Hours Battery Lifecycle",
+      "Adaptive EQ Balancing",
+      "MagSafe Case Compatible"
     ],
     "colorOptions": ["White"],
     "rating": 5,
     "whatsappNumber": "254758743522"
   },
   {
-    "id": 2,
-    "name": "Samsung Galaxy Buds 3 Pro",
-    "price": "Ksh 28,000",
-    "tag": "New",
-    "image": "https://i.postimg.cc/26Vyywwb/Samsung-Galaxy-Buds-3-Pro.webp",
+    "id": 13,
+    "name": "Apple AirPods Pro (2nd Generation)",
+    "price": "Ksh 34,000",
+    "tag": "Pro Choice",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Earbuds/Apple%20AirPods%20Pro%20(2nd%20Generation).avif",
     "inStock": true,
-    "description": "Samsung’s latest premium earbuds with powerful ANC, AI-powered sound optimization, and 360 Audio. Perfect for Galaxy users with seamless connectivity and high-quality calls.",
+    "description": "The ultimate listening architecture featuring standard-setting Active Noise Cancellation, Adaptive Audio algorithms, and touch-drag physical volume adjustments directly on the earbud stem.",
     "features": [
-      "ANC",
-      "360 Audio",
-      "AI Sound Optimization",
-      "Wireless Charging",
-      "IPX7 Water Resistance"
+      "2x Active Noise Cancellation",
+      "Adaptive Transparency Mode",
+      "Precision Case Tracking U1",
+      "Touch Stem Control Layout",
+      "Customizable Silicone Tips"
     ],
-    "colorOptions": ["Black", "White"],
-    "rating": 4,
-    "whatsappNumber": "254758743522"
-  },
-  {
-    "id": 3,
-    "name": "Sony WF-1000XM5",
-    "price": "Ksh 40,000",
-    "tag": "Premium",
-    "image": "https://i.postimg.cc/524xjg9Q/Sony-WF-1000XM5.jpg",
-    "inStock": true,
-    "description": "Top-tier Sony earbuds with industry-leading noise cancellation, rich sound quality, and compact design. Ideal for audiophiles looking for premium listening experience.",
-    "features": [
-      "Best ANC",
-      "Hi-Res Audio",
-      "8hr Battery",
-      "Wireless Charging",
-      "Multipoint"
-    ],
-    "colorOptions": ["Black", "Silver"],
+    "colorOptions": ["White"],
     "rating": 5,
-    "whatsappNumber": "254758743522"
-  },
-  {
-    "id": 4,
-    "name": "JBL Live Pro 2 TWS",
-    "price": "Ksh 22,000",
-    "tag": null,
-    "image": "https://i.postimg.cc/QNgG57yY/JBL-Live-Pro-2-TWS.webp",
-    "inStock": true,
-    "description": "Well-balanced earbuds with adaptive noise cancelling, strong bass, and long battery life. Great for everyday use with JBL signature sound.",
-    "features": [
-      "Adaptive ANC",
-      "40hr Battery",
-      "JBL Signature Sound",
-      "Dual Connect",
-      "Fast Pair"
-    ],
-    "colorOptions": ["Black", "Blue", "Silver"],
-    "rating": 4,
-    "whatsappNumber": "254758743522"
-  },
-  {
-    "id": 5,
-    "name": "Oraimo FreePods 4",
-    "price": "Ksh 6,500",
-    "tag": "Best Value",
-    "image": "https://i.postimg.cc/P59F0fR0/Oraimo-Free-Pods-4.avif",
-    "inStock": true,
-    "description": "Affordable true wireless earbuds with decent sound, good battery life, and stylish design. Ideal for budget-conscious users.",
-    "features": [
-      "Deep Bass",
-      "Bluetooth 5.3",
-      "Long Battery Life",
-      "Touch Controls"
-    ],
-    "colorOptions": ["Black", "White"],
-    "rating": 3,
-    "whatsappNumber": "254758743522"
-  },
-  {
-    "id": 6,
-    "name": "Anker Soundcore Liberty 4 NC",
-    "price": "Ksh 15,000",
-    "tag": "Top",
-    "image": "https://i.postimg.cc/7Lrng5cM/Anker-Soundcore-Liberty-4-NC.webp",
-    "inStock": true,
-    "description": "Feature-packed earbuds offering strong ANC, customizable EQ, and excellent battery life at a competitive price.",
-    "features": [
-      "Strong ANC",
-      "50hr Battery",
-      "Custom EQ",
-      "Wireless Charging",
-      "Multipoint"
-    ],
-    "colorOptions": ["Black", "White", "Blue"],
-    "rating": 4,
-    "whatsappNumber": "254758743522"
-  },
-  {
-    "id": 7,
-    "name": "Redmi Buds 5 Pro",
-    "price": "Ksh 12,000",
-    "tag": "New",
-    "image": "https://i.postimg.cc/dQhncc8Z/Redmi-Buds-5-Pro.webp",
-    "inStock": true,
-    "description": "Great mid-range earbuds with solid ANC, good sound performance, and modern design. Excellent value for money.",
-    "features": [
-      "ANC",
-      "Hi-Fi Sound",
-      "38hr Battery",
-      "Fast Charging"
-    ],
-    "colorOptions": ["Black", "White"],
-    "rating": 4,
-    "whatsappNumber": "254758743522"
-  },
-  {
-    "id": 8,
-    "name": "Tecno Sonic 2",
-    "price": "Ksh 5,000",
-    "tag": "Sale",
-    "image": "https://i.postimg.cc/Dw61bxr7/Tecno-Sonic-2.webp",
-    "inStock": true,
-    "description": "Entry-level earbuds with decent audio, lightweight build, and reliable connectivity for everyday use.",
-    "features": [
-      "True Wireless",
-      "Lightweight",
-      "Affordable",
-      "Touch Controls"
-    ],
-    "colorOptions": ["Black", "White"],
-    "rating": 3,
     "whatsappNumber": "254758743522"
   }
 ]

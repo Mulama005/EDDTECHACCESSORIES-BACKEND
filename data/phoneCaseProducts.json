@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -101,7 +102,7 @@
   },
   {
     "id": 5,
-    "name": "Tribal Patterned Fashion Clear Bumper Case",
+    "name": "Android Y2K Coquette & Leopard Print Case",
     "price": "Ksh 1,000",
     "tag": "Best Value",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/Tribal%20Cases.jpeg",
@@ -198,5 +199,31 @@
     "warning": "This focuses strictly on slim aesthetics and offers less protection against high-altitude drops.",
     "rating": 4,
     "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Android Fancy Fashion Case (Coquette Ribbons & Leopard Print)",
+    "price": "Ksh 1,000",
+    "tag": "New Arrival",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/fancy%20covers.jpeg",
+    "inStock": true,
+    "description": "A collection of ultra-trendy, high-demand clear and tinted protective covers featuring aesthetic coquette ribbon bows, floral graphics, and bold animal prints with a distinct contrasting camera shield.",
+    "features": [
+      "Trendy Coquette Bow & Cheetah Patterns",
+      "Frosted White Contrast Camera Frame Guard",
+      "Snug Fit with Tactile Side Grips",
+      "Lightweight, Flexible Anti-Scratch Material"
+    ],
+    "specs": {
+      "category": "Android",
+      "type": "Fashion Clear Case",
+      "material": "Flexible TPU Shockproof Composite",
+      "compatibility": "Tecno Camon 40 Pro, Spark Slim, Samsung A13/A17/A25/A35/A37",
+      "safety": "Everyday Scratch Guard & Camera Module Defense"
+    },
+    "warning": "Please double-check your precise phone model label sticker on the packaging to ensure exact cutouts for camera alignments.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
   }
 ]
+

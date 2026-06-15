@@ -198,5 +198,80 @@
     "warning": "This specific hybrid structure behaves with slightly more surface reflection than basic tempered glass variants.",
     "rating": 5,
     "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Universal OG Premium Tempered Glass",
+    "price": "Ksh 300",
+    "tag": "Budget Choice",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Universal%20OG%20Premium%20Tempered%20Glass.jfif",
+    "inStock": true,
+    "description": "The classic, reliable OG defensive armor screen protector offering excellent impact distribution and anti-scratch security at a pocket-friendly price.",
+    "features": [
+      "Classic Smooth Feel Texture",
+      "High Definition Clarity Screen",
+      "Electrostatic Automatic Bonding",
+      "Reinforced Structural Mineral Layer"
+    ],
+    "specs": {
+      "category": "Universal",
+      "type": "OG Tempered Glass",
+      "material": "High-Grade Tempered Mineral Glass",
+      "compatibility": "Universal sizes available for all major iPhone and Android flat display screens",
+      "safety": "Reliable Everyday Drop & Scratch Deflection"
+    },
+    "warning": "Ensure the device panel is 100% dry and dust-free before alignment to drop the glass layer smoothly.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 10,
+    "name": "Universal Anti-Spy Privacy Screen Guard",
+    "price": "Ksh 500",
+    "tag": "Privacy Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Android%20Privacy%20Anti-Spy%20Hydrogel%20Protector.jfif",
+    "inStock": true,
+    "description": "Essential micro-louver privacy protection filtering out visibility from peripheral side angles to protect your credentials on the go.",
+    "features": [
+      "Angular Dark Micro-Louver Tinting",
+      "Smooth Matte-Touch Oleophobic Surface",
+      "Resistant to High Abrasive Friction",
+      "Balanced Everyday Screen Visibility"
+    ],
+    "specs": {
+      "category": "Universal",
+      "type": "Privacy Screen Protector",
+      "material": "Polarized Toughened Polymer Film",
+      "compatibility": "Available cross-cut options for popular iPhone, Samsung, Tecno, and Infinix models",
+      "safety": "Confidentiality Shielding & Surface Protection"
+    },
+    "warning": "This privacy screen tint is optimized for vertical portrait layouts; side viewing in landscape may vary.",
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 11,
+    "name": "Universal Full Glue Curved Screen Protector",
+    "price": "Ksh 700",
+    "tag": "Curved Special",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Universal%20Full%20Glue%20Curved%20Screen%20Protector.jfif",
+    "inStock": true,
+    "description": "Specially formulated comprehensive edge-to-edge full adhesive layer designed to seamlessly mount onto flagship curved smartphone panels without lifting.",
+    "features": [
+      "Complete Uniform Adhesive Coverage",
+      "Curved Panel Contour Architecture",
+      "Air Bubble Self-Expulsion Formula",
+      "Maintains High Touch-Screen Sensitivity"
+    ],
+    "specs": {
+      "category": "Universal",
+      "type": "Full Glue Curved Protector",
+      "material": "Highly Elastic PMMA & Composite Resin Layer",
+      "compatibility": "Tailored for all edge-curved models from Samsung Ultra, Oppo, and OnePlus series",
+      "safety": "Seamless Perimeter Shock Isolation Shield"
+    },
+    "warning": "Apply firm even pressure along the curved borders during installation to guarantee a long-lasting secure bond.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
   }
 ]
