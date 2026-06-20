@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Classic Round Silver Wall Clock",
-    "price": "Ksh 800",
+    "price": "Ksh 1500",
     "tag": "Budget",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Classic%20Round%20Silver%20Wall%20Clock.jfif",
     "inStock": true,
@@ -22,7 +22,7 @@
   {
     "id": 2,
     "name": "Elegant Round Gold Wall Clock",
-    "price": "Ksh 800",
+    "price": "Ksh 1500",
     "tag": "Budget",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Elegant%20Round%20Gold%20Wall%20Clock.jfif",
     "inStock": true,
@@ -42,7 +42,7 @@
   {
     "id": 3,
     "name": "Modern Square Matte Black Wall Clock",
-    "price": "Ksh 1000",
+    "price": "Ksh 1500",
     "tag": "Best Value",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Modern%20Square%20Matte%20Black%20Wall%20Clock.jfif",
     "inStock": true,
@@ -62,7 +62,7 @@
   {
     "id": 4,
     "name": "Traditional Mahogany Round Wall Clock",
-    "price": "Ksh 800",
+    "price": "Ksh 1400",
     "tag": "Budget",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Traditional%20Mahogany%20Round%20Wall%20Clock.jfif",
     "inStock": true,
@@ -182,7 +182,7 @@
   {
     "id": 10,
     "name": "Chocolat Traditional Round Wall Clock",
-    "price": "Ksh 800",
+    "price": "Ksh 1500",
     "tag": "Budget",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/clocks/Chocolat%20Traditional%20Round%20Wall%20Clock.jfif",
     "inStock": true,

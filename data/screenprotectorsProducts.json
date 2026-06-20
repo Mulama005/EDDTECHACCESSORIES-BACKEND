@@ -27,7 +27,7 @@
   {
     "id": 2,
     "name": "iPhone Premium Anti-Spy Privacy Glass",
-    "price": "Ksh 1,200",
+    "price": "Ksh 800",
     "tag": "Hot",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/iPhone%20Premium%20Anti-Spy%20Privacy%20Glass.jfif",
     "inStock": true,
@@ -77,7 +77,7 @@
   {
     "id": 4,
     "name": "Android 5D UV Liquid Glue Tempered Glass",
-    "price": "Ksh 2,000",
+    "price": "Ksh 1,000",
     "tag": "Premium Android",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Android%205D%20UV%20Liquid%20Glue%20Tempered%20Glass.png",
     "inStock": true,
@@ -152,7 +152,7 @@
   {
     "id": 7,
     "name": "Android Privacy Anti-Spy Hydrogel Protector",
-    "price": "Ksh 1,300",
+    "price": "Ksh 1,000",
     "tag": "Privacy King",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Screen%20Protectors/Android%20Privacy%20Anti-Spy%20Hydrogel%20Protector.jfif",
     "inStock": true,
