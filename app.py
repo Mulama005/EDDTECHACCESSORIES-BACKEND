@@ -27,11 +27,18 @@ otp_store = {}
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app,
-     origins=[os.getenv("FRONTEND_URL", "http://localhost:5173", "https://eddtechaccessories.co.ke","https://www.eddtechaccessories.co.ke",)],
-     supports_credentials=True,
-     allow_headers=["Content-Type", "Authorization"],
-     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+allowed_origins = [
+    os.getenv("FRONTEND_URL", "http://localhost:5173"),
+    "https://eddtechaccessories.co.ke",
+    "https://www.eddtechaccessories.co.ke",
+]
+
+CORS(
+    app,
+    origins=allowed_origins,
+    supports_credentials=True,
+    allow_headers=["Content-Type", "Authorization"],
+    methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 )
 
 app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
