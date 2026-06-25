@@ -4,7 +4,7 @@
     "name": "Apple EarPods (USB-C / Lightning)",
     "price": "Ksh 1,200",
     "tag": "Top",
-    "image": "https://i.postimg.cc/8cV0C1Qw/Apple-Ear-Pods.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Apple%20EarPods.jfif",
     "inStock": true,
     "description": "Apple’s official wired earphones with a comfortable open-fit design. Offers clear vocals, balanced sound, and seamless compatibility with iPhones and USB-C devices. Includes in-line controls for calls and music.",
     "features": [
@@ -23,7 +23,7 @@
     "name": "Samsung AKG Type-C Earphones",
     "price": "Ksh 1,000",
     "tag": "Best Value",
-    "image": "https://i.postimg.cc/gkh3Dvhp/Samsung-AKG-Type-C-Earphones.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Samsung%20AKG%20Type-C%20Earphones.jfif",
     "inStock": true,
     "description": "AKG-tuned Samsung earphones delivering rich bass and clear highs. Designed for modern phones without headphone jacks, offering premium sound at an affordable price.",
     "features": [
@@ -42,7 +42,7 @@
     "name": "Sony MDR-EX15AP",
     "price": "Ksh 1,200",
     "tag": "Top",
-    "image": "https://i.postimg.cc/J40xwSmC/Sony-MDR-EX15AP.avif",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Sony%20MDR-EX15AP(1).webp",
     "inStock": true,
     "description": "Reliable Sony wired earphones with powerful bass and comfortable silicone tips. Ideal for everyday music listening with good sound isolation.",
     "features": [
@@ -61,7 +61,7 @@
     "name": "JBL Tune 110",
     "price": "Ksh 1,000",
     "tag": null,
-    "image": "https://i.postimg.cc/wMv0M349/JBL-Tune-110.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/JBL%20Tune%20110(1).jfif",
     "inStock": true,
     "description": "JBL wired earphones with signature Pure Bass sound. Durable flat cable design prevents tangling and ensures long-lasting use.",
     "features": [
@@ -80,7 +80,7 @@
     "name": "Oraimo Type-C Wired Earphones",
     "price": "Ksh 600",
     "tag": "Budget",
-    "image": "https://i.postimg.cc/D0BHptHz/Oraimo-Type-C-Wired-Earphones.png",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Oraimo%20Type-C%20Wired%20Earphones(1).jfif",
     "inStock": true,
     "description": "Affordable wired earphones popular in Kenya, offering strong bass and reliable performance for everyday use.",
     "features": [
@@ -99,7 +99,7 @@
     "name": "Infinix XE10 Wired Earphones",
     "price": "Ksh 500",
     "tag": "Sale",
-    "image": "https://i.postimg.cc/CL0x3DtC/Infinix-XE10-Wired-Earphones.jpg",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Infinix%20XE10%20Wired%20Earphones.jfif",
     "inStock": true,
     "description": "Entry-level wired earphones with decent sound quality and a comfortable fit. Ideal for calls, classes, and casual listening.",
     "features": [
@@ -117,7 +117,7 @@
     "name": "Xiaomi Mi In-Ear Basic",
     "price": "Ksh 800",
     "tag": "Popular",
-    "image": "https://i.postimg.cc/SKxXw8nZ/Xiaomi-Mi-In-Ear-Basic.webp",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Xiaomi%20Mi%20In-Ear%20Basic.png",
     "inStock": true,
     "description": "Minimalist earphones with aluminum build and clean sound profile. Offers good durability and balanced audio for the price.",
     "features": [
@@ -135,7 +135,7 @@
     "name": "Huawei CM33 USB-C Earphones",
     "price": "Ksh 1,200",
     "tag": "New",
-    "image": "https://i.postimg.cc/s24BLmff/Huawei-CM33-USB-C-Earphones.jpg",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Huawei%20CM33%20USB-C%20Earphones.png",
     "inStock": true,
     "description": "USB-C digital earphones with clear sound output and stable connectivity. Ideal for newer Android phones without headphone jacks.",
     "features": [
@@ -145,6 +145,139 @@
       "Comfort Fit"
     ],
     "colorOptions": ["White"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 9,
+    "name": "Vision Plus Moove Pro (VPNB1)",
+    "price": "Ksh 1,300",
+    "tag": "Trending",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Vision%20Plus%20Moove%20Pro%20(VPNB1).png",
+    "inStock": true,
+    "description": "Wireless touch control neckband featuring environmental noise cancellation and extra heavy bass tuning.",
+    "features": [
+      "Up to 30 Hours Playtime",
+      "10-Minute Charge = 10 Hours Playtime",
+      "ENC (Environmental Noise Cancellation)",
+      "Powerful Bass & HD Audio",
+      "Type-C Port"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 10,
+    "name": "Oraimo Necklace Lite (OH-N53)",
+    "price": "Ksh 2,000",
+    "tag": "Top Seller",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Oraimo%20Necklace%20Lite%20(OH-N53).png",
+    "inStock": true,
+    "description": "Sleek and lightweight wireless neckband featuring call vibration alerts and customized signature HavyBass output.",
+    "features": [
+      "30 Hours Long Playtime",
+      "HavyBass Technology",
+      "Call Vibration Alert",
+      "Dual Device Connection",
+      "Noise Reduction in Calls"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 11,
+    "name": "Oraimo Necklace 5 (OEB-E11D)",
+    "price": "Ksh 2,500",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Oraimo%20Necklace%205%20(OEB-E11D).png",
+    "inStock": true,
+    "description": "Advanced noise-cancelling neckband providing active hybrid silencing features and multi-directional localized soundstage emulation.",
+    "features": [
+      "ANC (Active Noise Cancellation)",
+      "40-Hour Long Playtime",
+      "10-Minute Charge = 12 Hours Playtime",
+      "Sound360 Spatial Audio",
+      "Personalized Vibration Alerts"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 12,
+    "name": "Amaya AM-04",
+    "price": "Ksh 3,800",
+    "tag": "Sports",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Amaya%20AM-04.jfif",
+    "inStock": true,
+    "description": "Sweatproof sports gear engineered with dedicated line controls and premium stereo acoustics built for intensive activities.",
+    "features": [
+      "Sweatproof Sports Build",
+      "120 Decibel High Sensitivity",
+      "Dedicated Line Controls",
+      "Stereo Sound Acoustics",
+      "Multi-Language Support"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 13,
+    "name": "Aldeepo AD-BS02",
+    "price": "Ksh 1,000",
+    "tag": "Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Aldeepo%20AD-BS02.jfif",
+    "inStock": true,
+    "description": "Ergonomic magnetic sport wireless neckband crafted for security and continuous balanced audio playtime.",
+    "features": [
+      "Magnetic Earbuds Design",
+      "Extra Bass Tuning",
+      "TF Card Supported Slot",
+      "Premium HD Wireless Sound",
+      "Balanced Comfortable Wearing"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 14,
+    "name": "Aldeepo AD-BS13",
+    "price": "Ksh 1,200",
+    "tag": "Everyday",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Aldeepo%20AD-BS13.jfif",
+    "inStock": true,
+    "description": "Thumping extra bass wireless neckband setup completed with comfortable magnetic enclosures and stable internal microphone hardware.",
+    "features": [
+      "Magnetic Earbuds Design",
+      "Extra Bass Delivery",
+      "TF Card Input Slot",
+      "HiFi Sound Quality Profile",
+      "HD Microphone Integrated"
+    ],
+    "colorOptions": ["Black"],
+    "rating": 4,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 15,
+    "name": "Aldeepo AD-BS15",
+    "price": "Ksh 3,800",
+    "tag": "Premium Bass",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/earphones/Aldeepo%20AD-BS15.jfif",
+    "inStock": true,
+    "description": "High-fidelity sports wireless neckband prioritizing deep theater bass parameters alongside integrated storage hardware support.",
+    "features": [
+      "Magnetic Storage Layout",
+      "Ultra-Thumping Extra Bass",
+      "TF Card Playback Compatibility",
+      "HiFi Premium Sound Parameters",
+      "HD Built-in Comm Mic"
+    ],
+    "colorOptions": ["Black"],
     "rating": 4,
     "whatsappNumber": "254758743522"
   }
