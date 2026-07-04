@@ -224,6 +224,31 @@
     "warning": "Please double-check your precise phone model label sticker on the packaging to ensure exact cutouts for camera alignments.",
     "rating": 5,
     "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 10,
+    "name": "iPhone Creative Matte Magnetic Protective Case",
+    "price": "Ksh 700",
+    "tag": "New Arrival",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20Cases/iPhone%20Matte%20Magnetic%20Protective%20Case.jpeg",
+    "inStock": true,
+    "description": "A sleek, premium matte-finish protective case featuring an integrated magnetic ring for seamless MagSafe accessory compatibility and a stylish, contrasting raised camera defense border.",
+    "features": [
+      "Built-in MagSafe Compatible Ring",
+      "Premium Anti-Fingerprint Matte Finish",
+      "Contrasting Accent Camera Lens Guard",
+      "Impact-Absorbing Slim Profile"
+    ],
+    "specs": {
+      "category": "iPhone",
+      "type": "Matte Magnetic",
+      "material": "Polycarbonate Back & Shock-Absorbing TPU Frame",
+      "compatibility": "iPhone 16, iPhone 16 Pro Max, iPhone 17 Air / 17 series",
+      "safety": "Reinforced Raised Camera & Edge Deflector"
+    },
+    "warning": "Ensure your specific model (e.g., 16 Pro Max vs 17 Air) matches for exact precision layouts.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
   }
 ]
 
