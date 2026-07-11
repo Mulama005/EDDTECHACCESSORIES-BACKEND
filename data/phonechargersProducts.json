@@ -584,7 +584,7 @@
   {
     "id": 30,
     "name": "Samsung 65W Complete Charger",
-    "price": "Ksh 5,500",
+    "price": "Ksh 3,000",
     "tag": "Premium",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20chargers/Samsung%2065W%20Trio%20Power%20Adapter.webp",
     "inStock": true,
@@ -604,7 +604,7 @@
   {
     "id": 31,
     "name": "Anker 735 Nano II 65W Fast Charger",
-    "price": "Ksh 6,200",
+    "price": "Ksh 3,150",
     "tag": "Premium",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20chargers/Anker%20735%20Nano%20II%2065W%20Fast%20Charger.webp",
     "inStock": true,
@@ -624,7 +624,7 @@
   {
     "id": 32,
     "name": "Baseus GaN5 Pro 65W Fast Wall Charger",
-    "price": "Ksh 4,800",
+    "price": "Ksh 3,000",
     "tag": "Best Value",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20chargers/Baseus%20GaN5%20Pro%2065W%20Fast%20Wall%20Charger.jfif",
     "inStock": true,
