@@ -241,7 +241,7 @@
   },
   {
     "id": 13,
-    "name": "Amaya Premium Braided 60W USB-C Charger Cable",
+    "name": "Amaya Premium Braided 60W C-C Charger Cable",
     "price": "Ksh 450",
     "tag": "Premium",
     "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20chargers/Amaya%20Premium%20Braided%2060W%20USB-C%20Charger%20Cable.png",
@@ -578,5 +578,69 @@
     "warning": "Always break connectivity at the structural plug wall plate when system assets sit unoccupied.",
     "rating": 4,
     "whatsappNumber": "254758743522"
+  },
+
+  
+  {
+    "id": 30,
+    "name": "Samsung 65W Trio Power Adapter",
+    "price": "Ksh 5,500",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20chargers/Samsung%2065W%20Trio%20Power%20Adapter.webp",
+    "inStock": true,
+    "description": "Super fast charging power adapter packing 65W of multi-device juice across three versatile high-speed ports.",
+    "features": ["65W Trio Fast Charge", "Triple Port Expansion", "Official Samsung Protocol Support"],
+    "specs": {
+      "power": "65W Max Allocation",
+      "port": "Dual USB-C + Single USB-A",
+      "compatibility": "Galaxy Devices, Laptops, Universal USB Accessories",
+      "safety": "Over-current and Short Circuit Protection",
+      "cable": "Requires External Pairing Cord"
+    },
+    "warning": "65W performance is exclusive to the primary USB-C slot when used standalone.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 31,
+    "name": "Anker 735 Nano II 65W Fast Charger",
+    "price": "Ksh 6,200",
+    "tag": "Premium",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20chargers/Anker%20735%20Nano%20II%2065W%20Fast%20Charger.webp",
+    "inStock": true,
+    "description": "Ultra-compact Gallium Nitride (GaN II) multi-port desktop wall plug engineered to dynamically scale power distribution across three targets.",
+    "features": ["GaN II Technology", "Dynamic Power Allocation", "Ultra-Compact Footprint"],
+    "specs": {
+      "power": "65W Max Output",
+      "port": "Dual USB-C + Single USB-A",
+      "compatibility": "MacBooks, iPads, iPhones, Android Flagships",
+      "safety": "ActiveShield Intelligent Temperature Monitoring",
+      "cable": "Requires External Pairing Cord"
+    },
+    "warning": "Ensure your connected devices match Power Delivery (PD) protocols for full speed profiles.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
+  },
+  {
+    "id": 32,
+    "name": "Baseus GaN5 Pro 65W Fast Wall Charger",
+    "price": "Ksh 4,800",
+    "tag": "Best Value",
+    "image": "https://qalskxdcfldadmvedjak.supabase.co/storage/v1/object/public/product_pics/Phone%20chargers/Baseus%20GaN5%20Pro%2065W%20Fast%20Wall%20Charger.jfif",
+    "inStock": true,
+    "description": "Advanced fifth-generation GaN power converter delivering optimal charging configurations across two high-density USB-C pipelines and a classic USB-A rail.",
+    "features": ["GaN5 Technology Core", "BPS II Smart Power Splitting", "Low Thermal Footprint"],
+    "specs": {
+      "power": "65W Peak Output",
+      "port": "Dual USB-C + Single USB-A",
+      "compatibility": "Universal Notebooks, Tablets, and Smartphones",
+      "safety": "Over-voltage and Surge Protection Circuits",
+      "cable": "Requires External Pairing Cord"
+    },
+    "warning": "Total available wattage drops across individual lanes when all three ports are deployed simultaneously.",
+    "rating": 5,
+    "whatsappNumber": "254758743522"
   }
+  
+
 ]
